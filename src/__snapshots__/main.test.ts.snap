@@ -1,0 +1,229 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Main test > Full scale test 1`] = `
+"{
+    string: string;
+    number: number;
+    boolean: boolean;
+    bigint: bigint;
+    symbol: symbol;
+    null: null;
+    undefined: undefined;
+    void: void;
+    never: never;
+    any: any;
+    unknown: unknown;
+    int: number;
+    templateLiteral: \${string}\${number}literal\${null};
+    date: Date;
+    file: File;
+    nan: number;
+    object: {
+        string: string;
+        number: number;
+        boolean: boolean;
+        bigint: bigint;
+        symbol: symbol;
+        null: null;
+        undefined: undefined;
+        void: void;
+        never: never;
+        any: any;
+        unknown: unknown;
+        int: number;
+        templateLiteral: \${string}\${number}literal\${null};
+        date: Date;
+        file: File;
+        nan: number;
+        object: {
+            object: {
+                object: {
+                    object: {
+                    
+                    };
+                    notEmpty: {
+                        string: string;
+                    };
+                };
+            };
+        };
+    };
+    array: {
+        string: Array<string>;
+        number: Array<number>;
+        boolean: Array<boolean>;
+        bigint: Array<bigint>;
+        symbol: Array<symbol>;
+        null: Array<null>;
+        undefined: Array<undefined>;
+        void: Array<void>;
+        never: Array<never>;
+        any: Array<any>;
+        unknown: Array<unknown>;
+        int: Array<number>;
+        templateLiteral: Array<\${string}\${number}literal\${null}>;
+        date: Array<Date>;
+        file: Array<File>;
+        nan: Array<number>;
+    };
+    nullable: {
+        string: string | null;
+        number: number | null;
+        boolean: boolean | null;
+        bigint: bigint | null;
+        symbol: symbol | null;
+        null: null | null;
+        undefined: undefined | null;
+        void: void | null;
+        never: never | null;
+        any: any | null;
+        unknown: unknown | null;
+        int: number | null;
+        templateLiteral: \${string}\${number}literal\${null} | null;
+        date: Date | null;
+        file: File | null;
+        nan: number | null;
+    };
+    optional: {
+        string: string | undefined;
+        number: number | undefined;
+        boolean: boolean | undefined;
+        bigint: bigint | undefined;
+        symbol: symbol | undefined;
+        null: null | undefined;
+        undefined: undefined | undefined;
+        void: void | undefined;
+        never: never | undefined;
+        any: any | undefined;
+        unknown: unknown | undefined;
+        int: number | undefined;
+        templateLiteral: \${string}\${number}literal\${null} | undefined;
+        date: Date | undefined;
+        file: File | undefined;
+        nan: number | undefined;
+    };
+    catch: {
+        string: string | undefined;
+        number: number | undefined;
+        boolean: boolean | undefined;
+        bigint: bigint | undefined;
+        symbol: symbol | undefined;
+        null: null | undefined;
+        undefined: undefined | undefined;
+        void: void | undefined;
+        never: never | undefined;
+        any: any | undefined;
+        unknown: unknown | undefined;
+        int: number | undefined;
+        templateLiteral: \${string}\${number}literal\${null} | undefined;
+        date: Date | undefined;
+        file: File | undefined;
+        nan: number | undefined;
+    };
+    prefault: {
+        string: string | undefined;
+        number: number | undefined;
+        boolean: boolean | undefined;
+        bigint: bigint | undefined;
+        symbol: symbol | undefined;
+        null: null | undefined;
+        undefined: undefined | undefined;
+        void: void | undefined;
+        never: never | undefined;
+        any: any | undefined;
+        unknown: unknown | undefined;
+        int: number | undefined;
+        templateLiteral: \${string}\${number}literal\${null} | undefined;
+        date: Date | undefined;
+        file: File | undefined;
+        nan: number | undefined;
+    };
+    readonly: {
+        string: string;
+        number: number;
+        boolean: boolean;
+        bigint: bigint;
+        symbol: symbol;
+        null: null;
+        undefined: undefined;
+        void: void;
+        never: never;
+        any: any;
+        unknown: unknown;
+        int: number;
+        templateLiteral: \${string}\${number}literal\${null};
+        date: Date;
+        file: File;
+        nan: number;
+    };
+    nonoptional: {
+        string: string;
+        number: number;
+        boolean: boolean;
+        bigint: bigint;
+        symbol: symbol;
+        null: null;
+        undefined: undefined;
+        void: void;
+        never: never;
+        any: any;
+        unknown: unknown;
+        int: number;
+        templateLiteral: \${string}\${number}literal\${null};
+        date: Date;
+        file: File;
+        nan: number;
+    };
+    success: {
+        string: string;
+        number: number;
+        boolean: boolean;
+        bigint: bigint;
+        symbol: symbol;
+        null: null;
+        undefined: undefined;
+        void: void;
+        never: never;
+        any: any;
+        unknown: unknown;
+        int: number;
+        templateLiteral: \${string}\${number}literal\${null};
+        date: Date;
+        file: File;
+        nan: number;
+    };
+    lazy: {
+        string: string;
+        number: number;
+        boolean: boolean;
+        bigint: bigint;
+        symbol: symbol;
+        null: null;
+        undefined: undefined;
+        void: void;
+        never: never;
+        any: any;
+        unknown: unknown;
+        int: number;
+        templateLiteral: \${string}\${number}literal\${null};
+        date: Date;
+        file: File;
+        nan: number;
+    };
+    tuple: [string, number, ...any[]];
+    union: string | number;
+    enum: 'a' | 'b' | 'c';
+    literal: 'hello world!';
+    intersection: string & number;
+    discriminatedUnion: {
+        type: 'A';
+        a: string;
+    } | {
+        type: 'B';
+        b: number;
+    };
+    record: Record<string, number>;
+    map: Map<string, number>;
+    set: Set<number>;
+}"
+`;

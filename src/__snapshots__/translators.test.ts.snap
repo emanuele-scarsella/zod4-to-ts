@@ -1,0 +1,8091 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Translators > any 1`] = `"any"`;
+
+exports[`Translators > array 1`] = `"Array<string>"`;
+
+exports[`Translators > array 2`] = `"Array<number>"`;
+
+exports[`Translators > array 3`] = `"Array<boolean>"`;
+
+exports[`Translators > array 4`] = `"Array<bigint>"`;
+
+exports[`Translators > array 5`] = `"Array<symbol>"`;
+
+exports[`Translators > array 6`] = `"Array<null>"`;
+
+exports[`Translators > array 7`] = `"Array<undefined>"`;
+
+exports[`Translators > array 8`] = `"Array<void>"`;
+
+exports[`Translators > array 9`] = `"Array<never>"`;
+
+exports[`Translators > array 10`] = `"Array<any>"`;
+
+exports[`Translators > array 11`] = `"Array<unknown>"`;
+
+exports[`Translators > array 12`] = `"Array<number>"`;
+
+exports[`Translators > array 13`] = `"Array<\${string}0literalnull>"`;
+
+exports[`Translators > array 14`] = `"Array<Date>"`;
+
+exports[`Translators > array 15`] = `"Array<File>"`;
+
+exports[`Translators > array 16`] = `"Array<number>"`;
+
+exports[`Translators > bigint 1`] = `"bigint"`;
+
+exports[`Translators > boolean 1`] = `"boolean"`;
+
+exports[`Translators > catch 1`] = `"string | undefined"`;
+
+exports[`Translators > catch 2`] = `"number | undefined"`;
+
+exports[`Translators > catch 3`] = `"boolean | undefined"`;
+
+exports[`Translators > catch 4`] = `"bigint | undefined"`;
+
+exports[`Translators > catch 5`] = `"symbol | undefined"`;
+
+exports[`Translators > catch 6`] = `"null | undefined"`;
+
+exports[`Translators > catch 7`] = `"undefined | undefined"`;
+
+exports[`Translators > catch 8`] = `"void | undefined"`;
+
+exports[`Translators > catch 9`] = `"never | undefined"`;
+
+exports[`Translators > catch 10`] = `"any | undefined"`;
+
+exports[`Translators > catch 11`] = `"unknown | undefined"`;
+
+exports[`Translators > catch 12`] = `"number | undefined"`;
+
+exports[`Translators > catch 13`] = `"\${string}0literalnull | undefined"`;
+
+exports[`Translators > catch 14`] = `"Date | undefined"`;
+
+exports[`Translators > catch 15`] = `"File | undefined"`;
+
+exports[`Translators > catch 16`] = `"number | undefined"`;
+
+exports[`Translators > date 1`] = `"Date"`;
+
+exports[`Translators > default 1`] = `"string | undefined"`;
+
+exports[`Translators > default 2`] = `"number | undefined"`;
+
+exports[`Translators > default 3`] = `"boolean | undefined"`;
+
+exports[`Translators > default 4`] = `"bigint | undefined"`;
+
+exports[`Translators > default 5`] = `"symbol | undefined"`;
+
+exports[`Translators > default 6`] = `"null | undefined"`;
+
+exports[`Translators > default 7`] = `"undefined | undefined"`;
+
+exports[`Translators > default 8`] = `"void | undefined"`;
+
+exports[`Translators > default 9`] = `"never | undefined"`;
+
+exports[`Translators > default 10`] = `"any | undefined"`;
+
+exports[`Translators > default 11`] = `"unknown | undefined"`;
+
+exports[`Translators > default 12`] = `"number | undefined"`;
+
+exports[`Translators > default 13`] = `"\${string}0literalnull | undefined"`;
+
+exports[`Translators > default 14`] = `"Date | undefined"`;
+
+exports[`Translators > default 15`] = `"File | undefined"`;
+
+exports[`Translators > default 16`] = `"number | undefined"`;
+
+exports[`Translators > enum 1`] = `"'a' | 'b' | 'c'"`;
+
+exports[`Translators > enum 2`] = `"'a'"`;
+
+exports[`Translators > enum 3`] = `""`;
+
+exports[`Translators > file 1`] = `"File"`;
+
+exports[`Translators > int 1`] = `"number"`;
+
+exports[`Translators > intersection 1`] = `"string & string"`;
+
+exports[`Translators > intersection 2`] = `
+"{
+    a: string;
+} & string"
+`;
+
+exports[`Translators > intersection 3`] = `
+"string & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 4`] = `
+"{
+    a: string;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 5`] = `"string & number"`;
+
+exports[`Translators > intersection 6`] = `
+"{
+    a: string;
+} & number"
+`;
+
+exports[`Translators > intersection 7`] = `
+"string & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 8`] = `
+"{
+    a: string;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 9`] = `"string & boolean"`;
+
+exports[`Translators > intersection 10`] = `
+"{
+    a: string;
+} & boolean"
+`;
+
+exports[`Translators > intersection 11`] = `
+"string & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 12`] = `
+"{
+    a: string;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 13`] = `"string & bigint"`;
+
+exports[`Translators > intersection 14`] = `
+"{
+    a: string;
+} & bigint"
+`;
+
+exports[`Translators > intersection 15`] = `
+"string & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 16`] = `
+"{
+    a: string;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 17`] = `"string & symbol"`;
+
+exports[`Translators > intersection 18`] = `
+"{
+    a: string;
+} & symbol"
+`;
+
+exports[`Translators > intersection 19`] = `
+"string & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 20`] = `
+"{
+    a: string;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 21`] = `"string & null"`;
+
+exports[`Translators > intersection 22`] = `
+"{
+    a: string;
+} & null"
+`;
+
+exports[`Translators > intersection 23`] = `
+"string & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 24`] = `
+"{
+    a: string;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 25`] = `"string & undefined"`;
+
+exports[`Translators > intersection 26`] = `
+"{
+    a: string;
+} & undefined"
+`;
+
+exports[`Translators > intersection 27`] = `
+"string & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 28`] = `
+"{
+    a: string;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 29`] = `"string & void"`;
+
+exports[`Translators > intersection 30`] = `
+"{
+    a: string;
+} & void"
+`;
+
+exports[`Translators > intersection 31`] = `
+"string & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 32`] = `
+"{
+    a: string;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 33`] = `"string & never"`;
+
+exports[`Translators > intersection 34`] = `
+"{
+    a: string;
+} & never"
+`;
+
+exports[`Translators > intersection 35`] = `
+"string & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 36`] = `
+"{
+    a: string;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 37`] = `"string & any"`;
+
+exports[`Translators > intersection 38`] = `
+"{
+    a: string;
+} & any"
+`;
+
+exports[`Translators > intersection 39`] = `
+"string & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 40`] = `
+"{
+    a: string;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 41`] = `"string & unknown"`;
+
+exports[`Translators > intersection 42`] = `
+"{
+    a: string;
+} & unknown"
+`;
+
+exports[`Translators > intersection 43`] = `
+"string & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 44`] = `
+"{
+    a: string;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 45`] = `"string & number"`;
+
+exports[`Translators > intersection 46`] = `
+"{
+    a: string;
+} & number"
+`;
+
+exports[`Translators > intersection 47`] = `
+"string & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 48`] = `
+"{
+    a: string;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 49`] = `"string & \${string}0literalnull"`;
+
+exports[`Translators > intersection 50`] = `
+"{
+    a: string;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 51`] = `
+"string & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 52`] = `
+"{
+    a: string;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 53`] = `"string & Date"`;
+
+exports[`Translators > intersection 54`] = `
+"{
+    a: string;
+} & Date"
+`;
+
+exports[`Translators > intersection 55`] = `
+"string & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 56`] = `
+"{
+    a: string;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 57`] = `"string & File"`;
+
+exports[`Translators > intersection 58`] = `
+"{
+    a: string;
+} & File"
+`;
+
+exports[`Translators > intersection 59`] = `
+"string & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 60`] = `
+"{
+    a: string;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 61`] = `"string & number"`;
+
+exports[`Translators > intersection 62`] = `
+"{
+    a: string;
+} & number"
+`;
+
+exports[`Translators > intersection 63`] = `
+"string & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 64`] = `
+"{
+    a: string;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 65`] = `"number & string"`;
+
+exports[`Translators > intersection 66`] = `
+"{
+    a: number;
+} & string"
+`;
+
+exports[`Translators > intersection 67`] = `
+"number & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 68`] = `
+"{
+    a: number;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 69`] = `"number & number"`;
+
+exports[`Translators > intersection 70`] = `
+"{
+    a: number;
+} & number"
+`;
+
+exports[`Translators > intersection 71`] = `
+"number & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 72`] = `
+"{
+    a: number;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 73`] = `"number & boolean"`;
+
+exports[`Translators > intersection 74`] = `
+"{
+    a: number;
+} & boolean"
+`;
+
+exports[`Translators > intersection 75`] = `
+"number & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 76`] = `
+"{
+    a: number;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 77`] = `"number & bigint"`;
+
+exports[`Translators > intersection 78`] = `
+"{
+    a: number;
+} & bigint"
+`;
+
+exports[`Translators > intersection 79`] = `
+"number & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 80`] = `
+"{
+    a: number;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 81`] = `"number & symbol"`;
+
+exports[`Translators > intersection 82`] = `
+"{
+    a: number;
+} & symbol"
+`;
+
+exports[`Translators > intersection 83`] = `
+"number & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 84`] = `
+"{
+    a: number;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 85`] = `"number & null"`;
+
+exports[`Translators > intersection 86`] = `
+"{
+    a: number;
+} & null"
+`;
+
+exports[`Translators > intersection 87`] = `
+"number & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 88`] = `
+"{
+    a: number;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 89`] = `"number & undefined"`;
+
+exports[`Translators > intersection 90`] = `
+"{
+    a: number;
+} & undefined"
+`;
+
+exports[`Translators > intersection 91`] = `
+"number & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 92`] = `
+"{
+    a: number;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 93`] = `"number & void"`;
+
+exports[`Translators > intersection 94`] = `
+"{
+    a: number;
+} & void"
+`;
+
+exports[`Translators > intersection 95`] = `
+"number & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 96`] = `
+"{
+    a: number;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 97`] = `"number & never"`;
+
+exports[`Translators > intersection 98`] = `
+"{
+    a: number;
+} & never"
+`;
+
+exports[`Translators > intersection 99`] = `
+"number & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 100`] = `
+"{
+    a: number;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 101`] = `"number & any"`;
+
+exports[`Translators > intersection 102`] = `
+"{
+    a: number;
+} & any"
+`;
+
+exports[`Translators > intersection 103`] = `
+"number & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 104`] = `
+"{
+    a: number;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 105`] = `"number & unknown"`;
+
+exports[`Translators > intersection 106`] = `
+"{
+    a: number;
+} & unknown"
+`;
+
+exports[`Translators > intersection 107`] = `
+"number & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 108`] = `
+"{
+    a: number;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 109`] = `"number & number"`;
+
+exports[`Translators > intersection 110`] = `
+"{
+    a: number;
+} & number"
+`;
+
+exports[`Translators > intersection 111`] = `
+"number & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 112`] = `
+"{
+    a: number;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 113`] = `"number & \${string}0literalnull"`;
+
+exports[`Translators > intersection 114`] = `
+"{
+    a: number;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 115`] = `
+"number & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 116`] = `
+"{
+    a: number;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 117`] = `"number & Date"`;
+
+exports[`Translators > intersection 118`] = `
+"{
+    a: number;
+} & Date"
+`;
+
+exports[`Translators > intersection 119`] = `
+"number & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 120`] = `
+"{
+    a: number;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 121`] = `"number & File"`;
+
+exports[`Translators > intersection 122`] = `
+"{
+    a: number;
+} & File"
+`;
+
+exports[`Translators > intersection 123`] = `
+"number & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 124`] = `
+"{
+    a: number;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 125`] = `"number & number"`;
+
+exports[`Translators > intersection 126`] = `
+"{
+    a: number;
+} & number"
+`;
+
+exports[`Translators > intersection 127`] = `
+"number & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 128`] = `
+"{
+    a: number;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 129`] = `"boolean & string"`;
+
+exports[`Translators > intersection 130`] = `
+"{
+    a: boolean;
+} & string"
+`;
+
+exports[`Translators > intersection 131`] = `
+"boolean & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 132`] = `
+"{
+    a: boolean;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 133`] = `"boolean & number"`;
+
+exports[`Translators > intersection 134`] = `
+"{
+    a: boolean;
+} & number"
+`;
+
+exports[`Translators > intersection 135`] = `
+"boolean & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 136`] = `
+"{
+    a: boolean;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 137`] = `"boolean & boolean"`;
+
+exports[`Translators > intersection 138`] = `
+"{
+    a: boolean;
+} & boolean"
+`;
+
+exports[`Translators > intersection 139`] = `
+"boolean & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 140`] = `
+"{
+    a: boolean;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 141`] = `"boolean & bigint"`;
+
+exports[`Translators > intersection 142`] = `
+"{
+    a: boolean;
+} & bigint"
+`;
+
+exports[`Translators > intersection 143`] = `
+"boolean & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 144`] = `
+"{
+    a: boolean;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 145`] = `"boolean & symbol"`;
+
+exports[`Translators > intersection 146`] = `
+"{
+    a: boolean;
+} & symbol"
+`;
+
+exports[`Translators > intersection 147`] = `
+"boolean & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 148`] = `
+"{
+    a: boolean;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 149`] = `"boolean & null"`;
+
+exports[`Translators > intersection 150`] = `
+"{
+    a: boolean;
+} & null"
+`;
+
+exports[`Translators > intersection 151`] = `
+"boolean & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 152`] = `
+"{
+    a: boolean;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 153`] = `"boolean & undefined"`;
+
+exports[`Translators > intersection 154`] = `
+"{
+    a: boolean;
+} & undefined"
+`;
+
+exports[`Translators > intersection 155`] = `
+"boolean & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 156`] = `
+"{
+    a: boolean;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 157`] = `"boolean & void"`;
+
+exports[`Translators > intersection 158`] = `
+"{
+    a: boolean;
+} & void"
+`;
+
+exports[`Translators > intersection 159`] = `
+"boolean & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 160`] = `
+"{
+    a: boolean;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 161`] = `"boolean & never"`;
+
+exports[`Translators > intersection 162`] = `
+"{
+    a: boolean;
+} & never"
+`;
+
+exports[`Translators > intersection 163`] = `
+"boolean & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 164`] = `
+"{
+    a: boolean;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 165`] = `"boolean & any"`;
+
+exports[`Translators > intersection 166`] = `
+"{
+    a: boolean;
+} & any"
+`;
+
+exports[`Translators > intersection 167`] = `
+"boolean & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 168`] = `
+"{
+    a: boolean;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 169`] = `"boolean & unknown"`;
+
+exports[`Translators > intersection 170`] = `
+"{
+    a: boolean;
+} & unknown"
+`;
+
+exports[`Translators > intersection 171`] = `
+"boolean & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 172`] = `
+"{
+    a: boolean;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 173`] = `"boolean & number"`;
+
+exports[`Translators > intersection 174`] = `
+"{
+    a: boolean;
+} & number"
+`;
+
+exports[`Translators > intersection 175`] = `
+"boolean & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 176`] = `
+"{
+    a: boolean;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 177`] = `"boolean & \${string}0literalnull"`;
+
+exports[`Translators > intersection 178`] = `
+"{
+    a: boolean;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 179`] = `
+"boolean & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 180`] = `
+"{
+    a: boolean;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 181`] = `"boolean & Date"`;
+
+exports[`Translators > intersection 182`] = `
+"{
+    a: boolean;
+} & Date"
+`;
+
+exports[`Translators > intersection 183`] = `
+"boolean & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 184`] = `
+"{
+    a: boolean;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 185`] = `"boolean & File"`;
+
+exports[`Translators > intersection 186`] = `
+"{
+    a: boolean;
+} & File"
+`;
+
+exports[`Translators > intersection 187`] = `
+"boolean & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 188`] = `
+"{
+    a: boolean;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 189`] = `"boolean & number"`;
+
+exports[`Translators > intersection 190`] = `
+"{
+    a: boolean;
+} & number"
+`;
+
+exports[`Translators > intersection 191`] = `
+"boolean & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 192`] = `
+"{
+    a: boolean;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 193`] = `"bigint & string"`;
+
+exports[`Translators > intersection 194`] = `
+"{
+    a: bigint;
+} & string"
+`;
+
+exports[`Translators > intersection 195`] = `
+"bigint & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 196`] = `
+"{
+    a: bigint;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 197`] = `"bigint & number"`;
+
+exports[`Translators > intersection 198`] = `
+"{
+    a: bigint;
+} & number"
+`;
+
+exports[`Translators > intersection 199`] = `
+"bigint & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 200`] = `
+"{
+    a: bigint;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 201`] = `"bigint & boolean"`;
+
+exports[`Translators > intersection 202`] = `
+"{
+    a: bigint;
+} & boolean"
+`;
+
+exports[`Translators > intersection 203`] = `
+"bigint & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 204`] = `
+"{
+    a: bigint;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 205`] = `"bigint & bigint"`;
+
+exports[`Translators > intersection 206`] = `
+"{
+    a: bigint;
+} & bigint"
+`;
+
+exports[`Translators > intersection 207`] = `
+"bigint & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 208`] = `
+"{
+    a: bigint;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 209`] = `"bigint & symbol"`;
+
+exports[`Translators > intersection 210`] = `
+"{
+    a: bigint;
+} & symbol"
+`;
+
+exports[`Translators > intersection 211`] = `
+"bigint & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 212`] = `
+"{
+    a: bigint;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 213`] = `"bigint & null"`;
+
+exports[`Translators > intersection 214`] = `
+"{
+    a: bigint;
+} & null"
+`;
+
+exports[`Translators > intersection 215`] = `
+"bigint & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 216`] = `
+"{
+    a: bigint;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 217`] = `"bigint & undefined"`;
+
+exports[`Translators > intersection 218`] = `
+"{
+    a: bigint;
+} & undefined"
+`;
+
+exports[`Translators > intersection 219`] = `
+"bigint & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 220`] = `
+"{
+    a: bigint;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 221`] = `"bigint & void"`;
+
+exports[`Translators > intersection 222`] = `
+"{
+    a: bigint;
+} & void"
+`;
+
+exports[`Translators > intersection 223`] = `
+"bigint & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 224`] = `
+"{
+    a: bigint;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 225`] = `"bigint & never"`;
+
+exports[`Translators > intersection 226`] = `
+"{
+    a: bigint;
+} & never"
+`;
+
+exports[`Translators > intersection 227`] = `
+"bigint & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 228`] = `
+"{
+    a: bigint;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 229`] = `"bigint & any"`;
+
+exports[`Translators > intersection 230`] = `
+"{
+    a: bigint;
+} & any"
+`;
+
+exports[`Translators > intersection 231`] = `
+"bigint & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 232`] = `
+"{
+    a: bigint;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 233`] = `"bigint & unknown"`;
+
+exports[`Translators > intersection 234`] = `
+"{
+    a: bigint;
+} & unknown"
+`;
+
+exports[`Translators > intersection 235`] = `
+"bigint & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 236`] = `
+"{
+    a: bigint;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 237`] = `"bigint & number"`;
+
+exports[`Translators > intersection 238`] = `
+"{
+    a: bigint;
+} & number"
+`;
+
+exports[`Translators > intersection 239`] = `
+"bigint & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 240`] = `
+"{
+    a: bigint;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 241`] = `"bigint & \${string}0literalnull"`;
+
+exports[`Translators > intersection 242`] = `
+"{
+    a: bigint;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 243`] = `
+"bigint & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 244`] = `
+"{
+    a: bigint;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 245`] = `"bigint & Date"`;
+
+exports[`Translators > intersection 246`] = `
+"{
+    a: bigint;
+} & Date"
+`;
+
+exports[`Translators > intersection 247`] = `
+"bigint & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 248`] = `
+"{
+    a: bigint;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 249`] = `"bigint & File"`;
+
+exports[`Translators > intersection 250`] = `
+"{
+    a: bigint;
+} & File"
+`;
+
+exports[`Translators > intersection 251`] = `
+"bigint & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 252`] = `
+"{
+    a: bigint;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 253`] = `"bigint & number"`;
+
+exports[`Translators > intersection 254`] = `
+"{
+    a: bigint;
+} & number"
+`;
+
+exports[`Translators > intersection 255`] = `
+"bigint & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 256`] = `
+"{
+    a: bigint;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 257`] = `"symbol & string"`;
+
+exports[`Translators > intersection 258`] = `
+"{
+    a: symbol;
+} & string"
+`;
+
+exports[`Translators > intersection 259`] = `
+"symbol & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 260`] = `
+"{
+    a: symbol;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 261`] = `"symbol & number"`;
+
+exports[`Translators > intersection 262`] = `
+"{
+    a: symbol;
+} & number"
+`;
+
+exports[`Translators > intersection 263`] = `
+"symbol & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 264`] = `
+"{
+    a: symbol;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 265`] = `"symbol & boolean"`;
+
+exports[`Translators > intersection 266`] = `
+"{
+    a: symbol;
+} & boolean"
+`;
+
+exports[`Translators > intersection 267`] = `
+"symbol & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 268`] = `
+"{
+    a: symbol;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 269`] = `"symbol & bigint"`;
+
+exports[`Translators > intersection 270`] = `
+"{
+    a: symbol;
+} & bigint"
+`;
+
+exports[`Translators > intersection 271`] = `
+"symbol & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 272`] = `
+"{
+    a: symbol;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 273`] = `"symbol & symbol"`;
+
+exports[`Translators > intersection 274`] = `
+"{
+    a: symbol;
+} & symbol"
+`;
+
+exports[`Translators > intersection 275`] = `
+"symbol & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 276`] = `
+"{
+    a: symbol;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 277`] = `"symbol & null"`;
+
+exports[`Translators > intersection 278`] = `
+"{
+    a: symbol;
+} & null"
+`;
+
+exports[`Translators > intersection 279`] = `
+"symbol & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 280`] = `
+"{
+    a: symbol;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 281`] = `"symbol & undefined"`;
+
+exports[`Translators > intersection 282`] = `
+"{
+    a: symbol;
+} & undefined"
+`;
+
+exports[`Translators > intersection 283`] = `
+"symbol & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 284`] = `
+"{
+    a: symbol;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 285`] = `"symbol & void"`;
+
+exports[`Translators > intersection 286`] = `
+"{
+    a: symbol;
+} & void"
+`;
+
+exports[`Translators > intersection 287`] = `
+"symbol & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 288`] = `
+"{
+    a: symbol;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 289`] = `"symbol & never"`;
+
+exports[`Translators > intersection 290`] = `
+"{
+    a: symbol;
+} & never"
+`;
+
+exports[`Translators > intersection 291`] = `
+"symbol & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 292`] = `
+"{
+    a: symbol;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 293`] = `"symbol & any"`;
+
+exports[`Translators > intersection 294`] = `
+"{
+    a: symbol;
+} & any"
+`;
+
+exports[`Translators > intersection 295`] = `
+"symbol & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 296`] = `
+"{
+    a: symbol;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 297`] = `"symbol & unknown"`;
+
+exports[`Translators > intersection 298`] = `
+"{
+    a: symbol;
+} & unknown"
+`;
+
+exports[`Translators > intersection 299`] = `
+"symbol & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 300`] = `
+"{
+    a: symbol;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 301`] = `"symbol & number"`;
+
+exports[`Translators > intersection 302`] = `
+"{
+    a: symbol;
+} & number"
+`;
+
+exports[`Translators > intersection 303`] = `
+"symbol & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 304`] = `
+"{
+    a: symbol;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 305`] = `"symbol & \${string}0literalnull"`;
+
+exports[`Translators > intersection 306`] = `
+"{
+    a: symbol;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 307`] = `
+"symbol & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 308`] = `
+"{
+    a: symbol;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 309`] = `"symbol & Date"`;
+
+exports[`Translators > intersection 310`] = `
+"{
+    a: symbol;
+} & Date"
+`;
+
+exports[`Translators > intersection 311`] = `
+"symbol & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 312`] = `
+"{
+    a: symbol;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 313`] = `"symbol & File"`;
+
+exports[`Translators > intersection 314`] = `
+"{
+    a: symbol;
+} & File"
+`;
+
+exports[`Translators > intersection 315`] = `
+"symbol & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 316`] = `
+"{
+    a: symbol;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 317`] = `"symbol & number"`;
+
+exports[`Translators > intersection 318`] = `
+"{
+    a: symbol;
+} & number"
+`;
+
+exports[`Translators > intersection 319`] = `
+"symbol & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 320`] = `
+"{
+    a: symbol;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 321`] = `"null & string"`;
+
+exports[`Translators > intersection 322`] = `
+"{
+    a: null;
+} & string"
+`;
+
+exports[`Translators > intersection 323`] = `
+"null & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 324`] = `
+"{
+    a: null;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 325`] = `"null & number"`;
+
+exports[`Translators > intersection 326`] = `
+"{
+    a: null;
+} & number"
+`;
+
+exports[`Translators > intersection 327`] = `
+"null & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 328`] = `
+"{
+    a: null;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 329`] = `"null & boolean"`;
+
+exports[`Translators > intersection 330`] = `
+"{
+    a: null;
+} & boolean"
+`;
+
+exports[`Translators > intersection 331`] = `
+"null & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 332`] = `
+"{
+    a: null;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 333`] = `"null & bigint"`;
+
+exports[`Translators > intersection 334`] = `
+"{
+    a: null;
+} & bigint"
+`;
+
+exports[`Translators > intersection 335`] = `
+"null & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 336`] = `
+"{
+    a: null;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 337`] = `"null & symbol"`;
+
+exports[`Translators > intersection 338`] = `
+"{
+    a: null;
+} & symbol"
+`;
+
+exports[`Translators > intersection 339`] = `
+"null & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 340`] = `
+"{
+    a: null;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 341`] = `"null & null"`;
+
+exports[`Translators > intersection 342`] = `
+"{
+    a: null;
+} & null"
+`;
+
+exports[`Translators > intersection 343`] = `
+"null & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 344`] = `
+"{
+    a: null;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 345`] = `"null & undefined"`;
+
+exports[`Translators > intersection 346`] = `
+"{
+    a: null;
+} & undefined"
+`;
+
+exports[`Translators > intersection 347`] = `
+"null & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 348`] = `
+"{
+    a: null;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 349`] = `"null & void"`;
+
+exports[`Translators > intersection 350`] = `
+"{
+    a: null;
+} & void"
+`;
+
+exports[`Translators > intersection 351`] = `
+"null & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 352`] = `
+"{
+    a: null;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 353`] = `"null & never"`;
+
+exports[`Translators > intersection 354`] = `
+"{
+    a: null;
+} & never"
+`;
+
+exports[`Translators > intersection 355`] = `
+"null & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 356`] = `
+"{
+    a: null;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 357`] = `"null & any"`;
+
+exports[`Translators > intersection 358`] = `
+"{
+    a: null;
+} & any"
+`;
+
+exports[`Translators > intersection 359`] = `
+"null & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 360`] = `
+"{
+    a: null;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 361`] = `"null & unknown"`;
+
+exports[`Translators > intersection 362`] = `
+"{
+    a: null;
+} & unknown"
+`;
+
+exports[`Translators > intersection 363`] = `
+"null & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 364`] = `
+"{
+    a: null;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 365`] = `"null & number"`;
+
+exports[`Translators > intersection 366`] = `
+"{
+    a: null;
+} & number"
+`;
+
+exports[`Translators > intersection 367`] = `
+"null & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 368`] = `
+"{
+    a: null;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 369`] = `"null & \${string}0literalnull"`;
+
+exports[`Translators > intersection 370`] = `
+"{
+    a: null;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 371`] = `
+"null & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 372`] = `
+"{
+    a: null;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 373`] = `"null & Date"`;
+
+exports[`Translators > intersection 374`] = `
+"{
+    a: null;
+} & Date"
+`;
+
+exports[`Translators > intersection 375`] = `
+"null & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 376`] = `
+"{
+    a: null;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 377`] = `"null & File"`;
+
+exports[`Translators > intersection 378`] = `
+"{
+    a: null;
+} & File"
+`;
+
+exports[`Translators > intersection 379`] = `
+"null & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 380`] = `
+"{
+    a: null;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 381`] = `"null & number"`;
+
+exports[`Translators > intersection 382`] = `
+"{
+    a: null;
+} & number"
+`;
+
+exports[`Translators > intersection 383`] = `
+"null & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 384`] = `
+"{
+    a: null;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 385`] = `"undefined & string"`;
+
+exports[`Translators > intersection 386`] = `
+"{
+    a: undefined;
+} & string"
+`;
+
+exports[`Translators > intersection 387`] = `
+"undefined & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 388`] = `
+"{
+    a: undefined;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 389`] = `"undefined & number"`;
+
+exports[`Translators > intersection 390`] = `
+"{
+    a: undefined;
+} & number"
+`;
+
+exports[`Translators > intersection 391`] = `
+"undefined & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 392`] = `
+"{
+    a: undefined;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 393`] = `"undefined & boolean"`;
+
+exports[`Translators > intersection 394`] = `
+"{
+    a: undefined;
+} & boolean"
+`;
+
+exports[`Translators > intersection 395`] = `
+"undefined & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 396`] = `
+"{
+    a: undefined;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 397`] = `"undefined & bigint"`;
+
+exports[`Translators > intersection 398`] = `
+"{
+    a: undefined;
+} & bigint"
+`;
+
+exports[`Translators > intersection 399`] = `
+"undefined & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 400`] = `
+"{
+    a: undefined;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 401`] = `"undefined & symbol"`;
+
+exports[`Translators > intersection 402`] = `
+"{
+    a: undefined;
+} & symbol"
+`;
+
+exports[`Translators > intersection 403`] = `
+"undefined & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 404`] = `
+"{
+    a: undefined;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 405`] = `"undefined & null"`;
+
+exports[`Translators > intersection 406`] = `
+"{
+    a: undefined;
+} & null"
+`;
+
+exports[`Translators > intersection 407`] = `
+"undefined & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 408`] = `
+"{
+    a: undefined;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 409`] = `"undefined & undefined"`;
+
+exports[`Translators > intersection 410`] = `
+"{
+    a: undefined;
+} & undefined"
+`;
+
+exports[`Translators > intersection 411`] = `
+"undefined & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 412`] = `
+"{
+    a: undefined;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 413`] = `"undefined & void"`;
+
+exports[`Translators > intersection 414`] = `
+"{
+    a: undefined;
+} & void"
+`;
+
+exports[`Translators > intersection 415`] = `
+"undefined & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 416`] = `
+"{
+    a: undefined;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 417`] = `"undefined & never"`;
+
+exports[`Translators > intersection 418`] = `
+"{
+    a: undefined;
+} & never"
+`;
+
+exports[`Translators > intersection 419`] = `
+"undefined & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 420`] = `
+"{
+    a: undefined;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 421`] = `"undefined & any"`;
+
+exports[`Translators > intersection 422`] = `
+"{
+    a: undefined;
+} & any"
+`;
+
+exports[`Translators > intersection 423`] = `
+"undefined & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 424`] = `
+"{
+    a: undefined;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 425`] = `"undefined & unknown"`;
+
+exports[`Translators > intersection 426`] = `
+"{
+    a: undefined;
+} & unknown"
+`;
+
+exports[`Translators > intersection 427`] = `
+"undefined & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 428`] = `
+"{
+    a: undefined;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 429`] = `"undefined & number"`;
+
+exports[`Translators > intersection 430`] = `
+"{
+    a: undefined;
+} & number"
+`;
+
+exports[`Translators > intersection 431`] = `
+"undefined & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 432`] = `
+"{
+    a: undefined;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 433`] = `"undefined & \${string}0literalnull"`;
+
+exports[`Translators > intersection 434`] = `
+"{
+    a: undefined;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 435`] = `
+"undefined & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 436`] = `
+"{
+    a: undefined;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 437`] = `"undefined & Date"`;
+
+exports[`Translators > intersection 438`] = `
+"{
+    a: undefined;
+} & Date"
+`;
+
+exports[`Translators > intersection 439`] = `
+"undefined & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 440`] = `
+"{
+    a: undefined;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 441`] = `"undefined & File"`;
+
+exports[`Translators > intersection 442`] = `
+"{
+    a: undefined;
+} & File"
+`;
+
+exports[`Translators > intersection 443`] = `
+"undefined & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 444`] = `
+"{
+    a: undefined;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 445`] = `"undefined & number"`;
+
+exports[`Translators > intersection 446`] = `
+"{
+    a: undefined;
+} & number"
+`;
+
+exports[`Translators > intersection 447`] = `
+"undefined & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 448`] = `
+"{
+    a: undefined;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 449`] = `"void & string"`;
+
+exports[`Translators > intersection 450`] = `
+"{
+    a: void;
+} & string"
+`;
+
+exports[`Translators > intersection 451`] = `
+"void & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 452`] = `
+"{
+    a: void;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 453`] = `"void & number"`;
+
+exports[`Translators > intersection 454`] = `
+"{
+    a: void;
+} & number"
+`;
+
+exports[`Translators > intersection 455`] = `
+"void & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 456`] = `
+"{
+    a: void;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 457`] = `"void & boolean"`;
+
+exports[`Translators > intersection 458`] = `
+"{
+    a: void;
+} & boolean"
+`;
+
+exports[`Translators > intersection 459`] = `
+"void & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 460`] = `
+"{
+    a: void;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 461`] = `"void & bigint"`;
+
+exports[`Translators > intersection 462`] = `
+"{
+    a: void;
+} & bigint"
+`;
+
+exports[`Translators > intersection 463`] = `
+"void & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 464`] = `
+"{
+    a: void;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 465`] = `"void & symbol"`;
+
+exports[`Translators > intersection 466`] = `
+"{
+    a: void;
+} & symbol"
+`;
+
+exports[`Translators > intersection 467`] = `
+"void & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 468`] = `
+"{
+    a: void;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 469`] = `"void & null"`;
+
+exports[`Translators > intersection 470`] = `
+"{
+    a: void;
+} & null"
+`;
+
+exports[`Translators > intersection 471`] = `
+"void & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 472`] = `
+"{
+    a: void;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 473`] = `"void & undefined"`;
+
+exports[`Translators > intersection 474`] = `
+"{
+    a: void;
+} & undefined"
+`;
+
+exports[`Translators > intersection 475`] = `
+"void & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 476`] = `
+"{
+    a: void;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 477`] = `"void & void"`;
+
+exports[`Translators > intersection 478`] = `
+"{
+    a: void;
+} & void"
+`;
+
+exports[`Translators > intersection 479`] = `
+"void & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 480`] = `
+"{
+    a: void;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 481`] = `"void & never"`;
+
+exports[`Translators > intersection 482`] = `
+"{
+    a: void;
+} & never"
+`;
+
+exports[`Translators > intersection 483`] = `
+"void & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 484`] = `
+"{
+    a: void;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 485`] = `"void & any"`;
+
+exports[`Translators > intersection 486`] = `
+"{
+    a: void;
+} & any"
+`;
+
+exports[`Translators > intersection 487`] = `
+"void & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 488`] = `
+"{
+    a: void;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 489`] = `"void & unknown"`;
+
+exports[`Translators > intersection 490`] = `
+"{
+    a: void;
+} & unknown"
+`;
+
+exports[`Translators > intersection 491`] = `
+"void & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 492`] = `
+"{
+    a: void;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 493`] = `"void & number"`;
+
+exports[`Translators > intersection 494`] = `
+"{
+    a: void;
+} & number"
+`;
+
+exports[`Translators > intersection 495`] = `
+"void & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 496`] = `
+"{
+    a: void;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 497`] = `"void & \${string}0literalnull"`;
+
+exports[`Translators > intersection 498`] = `
+"{
+    a: void;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 499`] = `
+"void & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 500`] = `
+"{
+    a: void;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 501`] = `"void & Date"`;
+
+exports[`Translators > intersection 502`] = `
+"{
+    a: void;
+} & Date"
+`;
+
+exports[`Translators > intersection 503`] = `
+"void & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 504`] = `
+"{
+    a: void;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 505`] = `"void & File"`;
+
+exports[`Translators > intersection 506`] = `
+"{
+    a: void;
+} & File"
+`;
+
+exports[`Translators > intersection 507`] = `
+"void & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 508`] = `
+"{
+    a: void;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 509`] = `"void & number"`;
+
+exports[`Translators > intersection 510`] = `
+"{
+    a: void;
+} & number"
+`;
+
+exports[`Translators > intersection 511`] = `
+"void & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 512`] = `
+"{
+    a: void;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 513`] = `"never & string"`;
+
+exports[`Translators > intersection 514`] = `
+"{
+    a: never;
+} & string"
+`;
+
+exports[`Translators > intersection 515`] = `
+"never & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 516`] = `
+"{
+    a: never;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 517`] = `"never & number"`;
+
+exports[`Translators > intersection 518`] = `
+"{
+    a: never;
+} & number"
+`;
+
+exports[`Translators > intersection 519`] = `
+"never & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 520`] = `
+"{
+    a: never;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 521`] = `"never & boolean"`;
+
+exports[`Translators > intersection 522`] = `
+"{
+    a: never;
+} & boolean"
+`;
+
+exports[`Translators > intersection 523`] = `
+"never & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 524`] = `
+"{
+    a: never;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 525`] = `"never & bigint"`;
+
+exports[`Translators > intersection 526`] = `
+"{
+    a: never;
+} & bigint"
+`;
+
+exports[`Translators > intersection 527`] = `
+"never & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 528`] = `
+"{
+    a: never;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 529`] = `"never & symbol"`;
+
+exports[`Translators > intersection 530`] = `
+"{
+    a: never;
+} & symbol"
+`;
+
+exports[`Translators > intersection 531`] = `
+"never & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 532`] = `
+"{
+    a: never;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 533`] = `"never & null"`;
+
+exports[`Translators > intersection 534`] = `
+"{
+    a: never;
+} & null"
+`;
+
+exports[`Translators > intersection 535`] = `
+"never & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 536`] = `
+"{
+    a: never;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 537`] = `"never & undefined"`;
+
+exports[`Translators > intersection 538`] = `
+"{
+    a: never;
+} & undefined"
+`;
+
+exports[`Translators > intersection 539`] = `
+"never & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 540`] = `
+"{
+    a: never;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 541`] = `"never & void"`;
+
+exports[`Translators > intersection 542`] = `
+"{
+    a: never;
+} & void"
+`;
+
+exports[`Translators > intersection 543`] = `
+"never & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 544`] = `
+"{
+    a: never;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 545`] = `"never & never"`;
+
+exports[`Translators > intersection 546`] = `
+"{
+    a: never;
+} & never"
+`;
+
+exports[`Translators > intersection 547`] = `
+"never & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 548`] = `
+"{
+    a: never;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 549`] = `"never & any"`;
+
+exports[`Translators > intersection 550`] = `
+"{
+    a: never;
+} & any"
+`;
+
+exports[`Translators > intersection 551`] = `
+"never & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 552`] = `
+"{
+    a: never;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 553`] = `"never & unknown"`;
+
+exports[`Translators > intersection 554`] = `
+"{
+    a: never;
+} & unknown"
+`;
+
+exports[`Translators > intersection 555`] = `
+"never & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 556`] = `
+"{
+    a: never;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 557`] = `"never & number"`;
+
+exports[`Translators > intersection 558`] = `
+"{
+    a: never;
+} & number"
+`;
+
+exports[`Translators > intersection 559`] = `
+"never & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 560`] = `
+"{
+    a: never;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 561`] = `"never & \${string}0literalnull"`;
+
+exports[`Translators > intersection 562`] = `
+"{
+    a: never;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 563`] = `
+"never & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 564`] = `
+"{
+    a: never;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 565`] = `"never & Date"`;
+
+exports[`Translators > intersection 566`] = `
+"{
+    a: never;
+} & Date"
+`;
+
+exports[`Translators > intersection 567`] = `
+"never & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 568`] = `
+"{
+    a: never;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 569`] = `"never & File"`;
+
+exports[`Translators > intersection 570`] = `
+"{
+    a: never;
+} & File"
+`;
+
+exports[`Translators > intersection 571`] = `
+"never & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 572`] = `
+"{
+    a: never;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 573`] = `"never & number"`;
+
+exports[`Translators > intersection 574`] = `
+"{
+    a: never;
+} & number"
+`;
+
+exports[`Translators > intersection 575`] = `
+"never & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 576`] = `
+"{
+    a: never;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 577`] = `"any & string"`;
+
+exports[`Translators > intersection 578`] = `
+"{
+    a: any;
+} & string"
+`;
+
+exports[`Translators > intersection 579`] = `
+"any & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 580`] = `
+"{
+    a: any;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 581`] = `"any & number"`;
+
+exports[`Translators > intersection 582`] = `
+"{
+    a: any;
+} & number"
+`;
+
+exports[`Translators > intersection 583`] = `
+"any & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 584`] = `
+"{
+    a: any;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 585`] = `"any & boolean"`;
+
+exports[`Translators > intersection 586`] = `
+"{
+    a: any;
+} & boolean"
+`;
+
+exports[`Translators > intersection 587`] = `
+"any & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 588`] = `
+"{
+    a: any;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 589`] = `"any & bigint"`;
+
+exports[`Translators > intersection 590`] = `
+"{
+    a: any;
+} & bigint"
+`;
+
+exports[`Translators > intersection 591`] = `
+"any & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 592`] = `
+"{
+    a: any;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 593`] = `"any & symbol"`;
+
+exports[`Translators > intersection 594`] = `
+"{
+    a: any;
+} & symbol"
+`;
+
+exports[`Translators > intersection 595`] = `
+"any & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 596`] = `
+"{
+    a: any;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 597`] = `"any & null"`;
+
+exports[`Translators > intersection 598`] = `
+"{
+    a: any;
+} & null"
+`;
+
+exports[`Translators > intersection 599`] = `
+"any & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 600`] = `
+"{
+    a: any;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 601`] = `"any & undefined"`;
+
+exports[`Translators > intersection 602`] = `
+"{
+    a: any;
+} & undefined"
+`;
+
+exports[`Translators > intersection 603`] = `
+"any & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 604`] = `
+"{
+    a: any;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 605`] = `"any & void"`;
+
+exports[`Translators > intersection 606`] = `
+"{
+    a: any;
+} & void"
+`;
+
+exports[`Translators > intersection 607`] = `
+"any & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 608`] = `
+"{
+    a: any;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 609`] = `"any & never"`;
+
+exports[`Translators > intersection 610`] = `
+"{
+    a: any;
+} & never"
+`;
+
+exports[`Translators > intersection 611`] = `
+"any & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 612`] = `
+"{
+    a: any;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 613`] = `"any & any"`;
+
+exports[`Translators > intersection 614`] = `
+"{
+    a: any;
+} & any"
+`;
+
+exports[`Translators > intersection 615`] = `
+"any & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 616`] = `
+"{
+    a: any;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 617`] = `"any & unknown"`;
+
+exports[`Translators > intersection 618`] = `
+"{
+    a: any;
+} & unknown"
+`;
+
+exports[`Translators > intersection 619`] = `
+"any & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 620`] = `
+"{
+    a: any;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 621`] = `"any & number"`;
+
+exports[`Translators > intersection 622`] = `
+"{
+    a: any;
+} & number"
+`;
+
+exports[`Translators > intersection 623`] = `
+"any & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 624`] = `
+"{
+    a: any;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 625`] = `"any & \${string}0literalnull"`;
+
+exports[`Translators > intersection 626`] = `
+"{
+    a: any;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 627`] = `
+"any & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 628`] = `
+"{
+    a: any;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 629`] = `"any & Date"`;
+
+exports[`Translators > intersection 630`] = `
+"{
+    a: any;
+} & Date"
+`;
+
+exports[`Translators > intersection 631`] = `
+"any & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 632`] = `
+"{
+    a: any;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 633`] = `"any & File"`;
+
+exports[`Translators > intersection 634`] = `
+"{
+    a: any;
+} & File"
+`;
+
+exports[`Translators > intersection 635`] = `
+"any & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 636`] = `
+"{
+    a: any;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 637`] = `"any & number"`;
+
+exports[`Translators > intersection 638`] = `
+"{
+    a: any;
+} & number"
+`;
+
+exports[`Translators > intersection 639`] = `
+"any & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 640`] = `
+"{
+    a: any;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 641`] = `"unknown & string"`;
+
+exports[`Translators > intersection 642`] = `
+"{
+    a: unknown;
+} & string"
+`;
+
+exports[`Translators > intersection 643`] = `
+"unknown & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 644`] = `
+"{
+    a: unknown;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 645`] = `"unknown & number"`;
+
+exports[`Translators > intersection 646`] = `
+"{
+    a: unknown;
+} & number"
+`;
+
+exports[`Translators > intersection 647`] = `
+"unknown & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 648`] = `
+"{
+    a: unknown;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 649`] = `"unknown & boolean"`;
+
+exports[`Translators > intersection 650`] = `
+"{
+    a: unknown;
+} & boolean"
+`;
+
+exports[`Translators > intersection 651`] = `
+"unknown & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 652`] = `
+"{
+    a: unknown;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 653`] = `"unknown & bigint"`;
+
+exports[`Translators > intersection 654`] = `
+"{
+    a: unknown;
+} & bigint"
+`;
+
+exports[`Translators > intersection 655`] = `
+"unknown & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 656`] = `
+"{
+    a: unknown;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 657`] = `"unknown & symbol"`;
+
+exports[`Translators > intersection 658`] = `
+"{
+    a: unknown;
+} & symbol"
+`;
+
+exports[`Translators > intersection 659`] = `
+"unknown & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 660`] = `
+"{
+    a: unknown;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 661`] = `"unknown & null"`;
+
+exports[`Translators > intersection 662`] = `
+"{
+    a: unknown;
+} & null"
+`;
+
+exports[`Translators > intersection 663`] = `
+"unknown & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 664`] = `
+"{
+    a: unknown;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 665`] = `"unknown & undefined"`;
+
+exports[`Translators > intersection 666`] = `
+"{
+    a: unknown;
+} & undefined"
+`;
+
+exports[`Translators > intersection 667`] = `
+"unknown & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 668`] = `
+"{
+    a: unknown;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 669`] = `"unknown & void"`;
+
+exports[`Translators > intersection 670`] = `
+"{
+    a: unknown;
+} & void"
+`;
+
+exports[`Translators > intersection 671`] = `
+"unknown & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 672`] = `
+"{
+    a: unknown;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 673`] = `"unknown & never"`;
+
+exports[`Translators > intersection 674`] = `
+"{
+    a: unknown;
+} & never"
+`;
+
+exports[`Translators > intersection 675`] = `
+"unknown & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 676`] = `
+"{
+    a: unknown;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 677`] = `"unknown & any"`;
+
+exports[`Translators > intersection 678`] = `
+"{
+    a: unknown;
+} & any"
+`;
+
+exports[`Translators > intersection 679`] = `
+"unknown & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 680`] = `
+"{
+    a: unknown;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 681`] = `"unknown & unknown"`;
+
+exports[`Translators > intersection 682`] = `
+"{
+    a: unknown;
+} & unknown"
+`;
+
+exports[`Translators > intersection 683`] = `
+"unknown & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 684`] = `
+"{
+    a: unknown;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 685`] = `"unknown & number"`;
+
+exports[`Translators > intersection 686`] = `
+"{
+    a: unknown;
+} & number"
+`;
+
+exports[`Translators > intersection 687`] = `
+"unknown & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 688`] = `
+"{
+    a: unknown;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 689`] = `"unknown & \${string}0literalnull"`;
+
+exports[`Translators > intersection 690`] = `
+"{
+    a: unknown;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 691`] = `
+"unknown & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 692`] = `
+"{
+    a: unknown;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 693`] = `"unknown & Date"`;
+
+exports[`Translators > intersection 694`] = `
+"{
+    a: unknown;
+} & Date"
+`;
+
+exports[`Translators > intersection 695`] = `
+"unknown & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 696`] = `
+"{
+    a: unknown;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 697`] = `"unknown & File"`;
+
+exports[`Translators > intersection 698`] = `
+"{
+    a: unknown;
+} & File"
+`;
+
+exports[`Translators > intersection 699`] = `
+"unknown & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 700`] = `
+"{
+    a: unknown;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 701`] = `"unknown & number"`;
+
+exports[`Translators > intersection 702`] = `
+"{
+    a: unknown;
+} & number"
+`;
+
+exports[`Translators > intersection 703`] = `
+"unknown & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 704`] = `
+"{
+    a: unknown;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 705`] = `"number & string"`;
+
+exports[`Translators > intersection 706`] = `
+"{
+    a: number;
+} & string"
+`;
+
+exports[`Translators > intersection 707`] = `
+"number & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 708`] = `
+"{
+    a: number;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 709`] = `"number & number"`;
+
+exports[`Translators > intersection 710`] = `
+"{
+    a: number;
+} & number"
+`;
+
+exports[`Translators > intersection 711`] = `
+"number & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 712`] = `
+"{
+    a: number;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 713`] = `"number & boolean"`;
+
+exports[`Translators > intersection 714`] = `
+"{
+    a: number;
+} & boolean"
+`;
+
+exports[`Translators > intersection 715`] = `
+"number & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 716`] = `
+"{
+    a: number;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 717`] = `"number & bigint"`;
+
+exports[`Translators > intersection 718`] = `
+"{
+    a: number;
+} & bigint"
+`;
+
+exports[`Translators > intersection 719`] = `
+"number & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 720`] = `
+"{
+    a: number;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 721`] = `"number & symbol"`;
+
+exports[`Translators > intersection 722`] = `
+"{
+    a: number;
+} & symbol"
+`;
+
+exports[`Translators > intersection 723`] = `
+"number & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 724`] = `
+"{
+    a: number;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 725`] = `"number & null"`;
+
+exports[`Translators > intersection 726`] = `
+"{
+    a: number;
+} & null"
+`;
+
+exports[`Translators > intersection 727`] = `
+"number & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 728`] = `
+"{
+    a: number;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 729`] = `"number & undefined"`;
+
+exports[`Translators > intersection 730`] = `
+"{
+    a: number;
+} & undefined"
+`;
+
+exports[`Translators > intersection 731`] = `
+"number & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 732`] = `
+"{
+    a: number;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 733`] = `"number & void"`;
+
+exports[`Translators > intersection 734`] = `
+"{
+    a: number;
+} & void"
+`;
+
+exports[`Translators > intersection 735`] = `
+"number & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 736`] = `
+"{
+    a: number;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 737`] = `"number & never"`;
+
+exports[`Translators > intersection 738`] = `
+"{
+    a: number;
+} & never"
+`;
+
+exports[`Translators > intersection 739`] = `
+"number & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 740`] = `
+"{
+    a: number;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 741`] = `"number & any"`;
+
+exports[`Translators > intersection 742`] = `
+"{
+    a: number;
+} & any"
+`;
+
+exports[`Translators > intersection 743`] = `
+"number & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 744`] = `
+"{
+    a: number;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 745`] = `"number & unknown"`;
+
+exports[`Translators > intersection 746`] = `
+"{
+    a: number;
+} & unknown"
+`;
+
+exports[`Translators > intersection 747`] = `
+"number & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 748`] = `
+"{
+    a: number;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 749`] = `"number & number"`;
+
+exports[`Translators > intersection 750`] = `
+"{
+    a: number;
+} & number"
+`;
+
+exports[`Translators > intersection 751`] = `
+"number & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 752`] = `
+"{
+    a: number;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 753`] = `"number & \${string}0literalnull"`;
+
+exports[`Translators > intersection 754`] = `
+"{
+    a: number;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 755`] = `
+"number & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 756`] = `
+"{
+    a: number;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 757`] = `"number & Date"`;
+
+exports[`Translators > intersection 758`] = `
+"{
+    a: number;
+} & Date"
+`;
+
+exports[`Translators > intersection 759`] = `
+"number & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 760`] = `
+"{
+    a: number;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 761`] = `"number & File"`;
+
+exports[`Translators > intersection 762`] = `
+"{
+    a: number;
+} & File"
+`;
+
+exports[`Translators > intersection 763`] = `
+"number & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 764`] = `
+"{
+    a: number;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 765`] = `"number & number"`;
+
+exports[`Translators > intersection 766`] = `
+"{
+    a: number;
+} & number"
+`;
+
+exports[`Translators > intersection 767`] = `
+"number & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 768`] = `
+"{
+    a: number;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 769`] = `"\${string}0literalnull & string"`;
+
+exports[`Translators > intersection 770`] = `
+"{
+    a: \${string}0literalnull;
+} & string"
+`;
+
+exports[`Translators > intersection 771`] = `
+"\${string}0literalnull & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 772`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 773`] = `"\${string}0literalnull & number"`;
+
+exports[`Translators > intersection 774`] = `
+"{
+    a: \${string}0literalnull;
+} & number"
+`;
+
+exports[`Translators > intersection 775`] = `
+"\${string}0literalnull & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 776`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 777`] = `"\${string}0literalnull & boolean"`;
+
+exports[`Translators > intersection 778`] = `
+"{
+    a: \${string}0literalnull;
+} & boolean"
+`;
+
+exports[`Translators > intersection 779`] = `
+"\${string}0literalnull & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 780`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 781`] = `"\${string}0literalnull & bigint"`;
+
+exports[`Translators > intersection 782`] = `
+"{
+    a: \${string}0literalnull;
+} & bigint"
+`;
+
+exports[`Translators > intersection 783`] = `
+"\${string}0literalnull & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 784`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 785`] = `"\${string}0literalnull & symbol"`;
+
+exports[`Translators > intersection 786`] = `
+"{
+    a: \${string}0literalnull;
+} & symbol"
+`;
+
+exports[`Translators > intersection 787`] = `
+"\${string}0literalnull & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 788`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 789`] = `"\${string}0literalnull & null"`;
+
+exports[`Translators > intersection 790`] = `
+"{
+    a: \${string}0literalnull;
+} & null"
+`;
+
+exports[`Translators > intersection 791`] = `
+"\${string}0literalnull & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 792`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 793`] = `"\${string}0literalnull & undefined"`;
+
+exports[`Translators > intersection 794`] = `
+"{
+    a: \${string}0literalnull;
+} & undefined"
+`;
+
+exports[`Translators > intersection 795`] = `
+"\${string}0literalnull & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 796`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 797`] = `"\${string}0literalnull & void"`;
+
+exports[`Translators > intersection 798`] = `
+"{
+    a: \${string}0literalnull;
+} & void"
+`;
+
+exports[`Translators > intersection 799`] = `
+"\${string}0literalnull & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 800`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 801`] = `"\${string}0literalnull & never"`;
+
+exports[`Translators > intersection 802`] = `
+"{
+    a: \${string}0literalnull;
+} & never"
+`;
+
+exports[`Translators > intersection 803`] = `
+"\${string}0literalnull & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 804`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 805`] = `"\${string}0literalnull & any"`;
+
+exports[`Translators > intersection 806`] = `
+"{
+    a: \${string}0literalnull;
+} & any"
+`;
+
+exports[`Translators > intersection 807`] = `
+"\${string}0literalnull & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 808`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 809`] = `"\${string}0literalnull & unknown"`;
+
+exports[`Translators > intersection 810`] = `
+"{
+    a: \${string}0literalnull;
+} & unknown"
+`;
+
+exports[`Translators > intersection 811`] = `
+"\${string}0literalnull & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 812`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 813`] = `"\${string}0literalnull & number"`;
+
+exports[`Translators > intersection 814`] = `
+"{
+    a: \${string}0literalnull;
+} & number"
+`;
+
+exports[`Translators > intersection 815`] = `
+"\${string}0literalnull & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 816`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 817`] = `"\${string}0literalnull & \${string}0literalnull"`;
+
+exports[`Translators > intersection 818`] = `
+"{
+    a: \${string}0literalnull;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 819`] = `
+"\${string}0literalnull & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 820`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 821`] = `"\${string}0literalnull & Date"`;
+
+exports[`Translators > intersection 822`] = `
+"{
+    a: \${string}0literalnull;
+} & Date"
+`;
+
+exports[`Translators > intersection 823`] = `
+"\${string}0literalnull & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 824`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 825`] = `"\${string}0literalnull & File"`;
+
+exports[`Translators > intersection 826`] = `
+"{
+    a: \${string}0literalnull;
+} & File"
+`;
+
+exports[`Translators > intersection 827`] = `
+"\${string}0literalnull & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 828`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 829`] = `"\${string}0literalnull & number"`;
+
+exports[`Translators > intersection 830`] = `
+"{
+    a: \${string}0literalnull;
+} & number"
+`;
+
+exports[`Translators > intersection 831`] = `
+"\${string}0literalnull & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 832`] = `
+"{
+    a: \${string}0literalnull;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 833`] = `"Date & string"`;
+
+exports[`Translators > intersection 834`] = `
+"{
+    a: Date;
+} & string"
+`;
+
+exports[`Translators > intersection 835`] = `
+"Date & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 836`] = `
+"{
+    a: Date;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 837`] = `"Date & number"`;
+
+exports[`Translators > intersection 838`] = `
+"{
+    a: Date;
+} & number"
+`;
+
+exports[`Translators > intersection 839`] = `
+"Date & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 840`] = `
+"{
+    a: Date;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 841`] = `"Date & boolean"`;
+
+exports[`Translators > intersection 842`] = `
+"{
+    a: Date;
+} & boolean"
+`;
+
+exports[`Translators > intersection 843`] = `
+"Date & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 844`] = `
+"{
+    a: Date;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 845`] = `"Date & bigint"`;
+
+exports[`Translators > intersection 846`] = `
+"{
+    a: Date;
+} & bigint"
+`;
+
+exports[`Translators > intersection 847`] = `
+"Date & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 848`] = `
+"{
+    a: Date;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 849`] = `"Date & symbol"`;
+
+exports[`Translators > intersection 850`] = `
+"{
+    a: Date;
+} & symbol"
+`;
+
+exports[`Translators > intersection 851`] = `
+"Date & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 852`] = `
+"{
+    a: Date;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 853`] = `"Date & null"`;
+
+exports[`Translators > intersection 854`] = `
+"{
+    a: Date;
+} & null"
+`;
+
+exports[`Translators > intersection 855`] = `
+"Date & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 856`] = `
+"{
+    a: Date;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 857`] = `"Date & undefined"`;
+
+exports[`Translators > intersection 858`] = `
+"{
+    a: Date;
+} & undefined"
+`;
+
+exports[`Translators > intersection 859`] = `
+"Date & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 860`] = `
+"{
+    a: Date;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 861`] = `"Date & void"`;
+
+exports[`Translators > intersection 862`] = `
+"{
+    a: Date;
+} & void"
+`;
+
+exports[`Translators > intersection 863`] = `
+"Date & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 864`] = `
+"{
+    a: Date;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 865`] = `"Date & never"`;
+
+exports[`Translators > intersection 866`] = `
+"{
+    a: Date;
+} & never"
+`;
+
+exports[`Translators > intersection 867`] = `
+"Date & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 868`] = `
+"{
+    a: Date;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 869`] = `"Date & any"`;
+
+exports[`Translators > intersection 870`] = `
+"{
+    a: Date;
+} & any"
+`;
+
+exports[`Translators > intersection 871`] = `
+"Date & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 872`] = `
+"{
+    a: Date;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 873`] = `"Date & unknown"`;
+
+exports[`Translators > intersection 874`] = `
+"{
+    a: Date;
+} & unknown"
+`;
+
+exports[`Translators > intersection 875`] = `
+"Date & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 876`] = `
+"{
+    a: Date;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 877`] = `"Date & number"`;
+
+exports[`Translators > intersection 878`] = `
+"{
+    a: Date;
+} & number"
+`;
+
+exports[`Translators > intersection 879`] = `
+"Date & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 880`] = `
+"{
+    a: Date;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 881`] = `"Date & \${string}0literalnull"`;
+
+exports[`Translators > intersection 882`] = `
+"{
+    a: Date;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 883`] = `
+"Date & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 884`] = `
+"{
+    a: Date;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 885`] = `"Date & Date"`;
+
+exports[`Translators > intersection 886`] = `
+"{
+    a: Date;
+} & Date"
+`;
+
+exports[`Translators > intersection 887`] = `
+"Date & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 888`] = `
+"{
+    a: Date;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 889`] = `"Date & File"`;
+
+exports[`Translators > intersection 890`] = `
+"{
+    a: Date;
+} & File"
+`;
+
+exports[`Translators > intersection 891`] = `
+"Date & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 892`] = `
+"{
+    a: Date;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 893`] = `"Date & number"`;
+
+exports[`Translators > intersection 894`] = `
+"{
+    a: Date;
+} & number"
+`;
+
+exports[`Translators > intersection 895`] = `
+"Date & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 896`] = `
+"{
+    a: Date;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 897`] = `"File & string"`;
+
+exports[`Translators > intersection 898`] = `
+"{
+    a: File;
+} & string"
+`;
+
+exports[`Translators > intersection 899`] = `
+"File & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 900`] = `
+"{
+    a: File;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 901`] = `"File & number"`;
+
+exports[`Translators > intersection 902`] = `
+"{
+    a: File;
+} & number"
+`;
+
+exports[`Translators > intersection 903`] = `
+"File & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 904`] = `
+"{
+    a: File;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 905`] = `"File & boolean"`;
+
+exports[`Translators > intersection 906`] = `
+"{
+    a: File;
+} & boolean"
+`;
+
+exports[`Translators > intersection 907`] = `
+"File & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 908`] = `
+"{
+    a: File;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 909`] = `"File & bigint"`;
+
+exports[`Translators > intersection 910`] = `
+"{
+    a: File;
+} & bigint"
+`;
+
+exports[`Translators > intersection 911`] = `
+"File & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 912`] = `
+"{
+    a: File;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 913`] = `"File & symbol"`;
+
+exports[`Translators > intersection 914`] = `
+"{
+    a: File;
+} & symbol"
+`;
+
+exports[`Translators > intersection 915`] = `
+"File & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 916`] = `
+"{
+    a: File;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 917`] = `"File & null"`;
+
+exports[`Translators > intersection 918`] = `
+"{
+    a: File;
+} & null"
+`;
+
+exports[`Translators > intersection 919`] = `
+"File & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 920`] = `
+"{
+    a: File;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 921`] = `"File & undefined"`;
+
+exports[`Translators > intersection 922`] = `
+"{
+    a: File;
+} & undefined"
+`;
+
+exports[`Translators > intersection 923`] = `
+"File & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 924`] = `
+"{
+    a: File;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 925`] = `"File & void"`;
+
+exports[`Translators > intersection 926`] = `
+"{
+    a: File;
+} & void"
+`;
+
+exports[`Translators > intersection 927`] = `
+"File & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 928`] = `
+"{
+    a: File;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 929`] = `"File & never"`;
+
+exports[`Translators > intersection 930`] = `
+"{
+    a: File;
+} & never"
+`;
+
+exports[`Translators > intersection 931`] = `
+"File & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 932`] = `
+"{
+    a: File;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 933`] = `"File & any"`;
+
+exports[`Translators > intersection 934`] = `
+"{
+    a: File;
+} & any"
+`;
+
+exports[`Translators > intersection 935`] = `
+"File & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 936`] = `
+"{
+    a: File;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 937`] = `"File & unknown"`;
+
+exports[`Translators > intersection 938`] = `
+"{
+    a: File;
+} & unknown"
+`;
+
+exports[`Translators > intersection 939`] = `
+"File & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 940`] = `
+"{
+    a: File;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 941`] = `"File & number"`;
+
+exports[`Translators > intersection 942`] = `
+"{
+    a: File;
+} & number"
+`;
+
+exports[`Translators > intersection 943`] = `
+"File & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 944`] = `
+"{
+    a: File;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 945`] = `"File & \${string}0literalnull"`;
+
+exports[`Translators > intersection 946`] = `
+"{
+    a: File;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 947`] = `
+"File & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 948`] = `
+"{
+    a: File;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 949`] = `"File & Date"`;
+
+exports[`Translators > intersection 950`] = `
+"{
+    a: File;
+} & Date"
+`;
+
+exports[`Translators > intersection 951`] = `
+"File & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 952`] = `
+"{
+    a: File;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 953`] = `"File & File"`;
+
+exports[`Translators > intersection 954`] = `
+"{
+    a: File;
+} & File"
+`;
+
+exports[`Translators > intersection 955`] = `
+"File & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 956`] = `
+"{
+    a: File;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 957`] = `"File & number"`;
+
+exports[`Translators > intersection 958`] = `
+"{
+    a: File;
+} & number"
+`;
+
+exports[`Translators > intersection 959`] = `
+"File & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 960`] = `
+"{
+    a: File;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 961`] = `"number & string"`;
+
+exports[`Translators > intersection 962`] = `
+"{
+    a: number;
+} & string"
+`;
+
+exports[`Translators > intersection 963`] = `
+"number & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 964`] = `
+"{
+    a: number;
+} & {
+    b: string;
+}"
+`;
+
+exports[`Translators > intersection 965`] = `"number & number"`;
+
+exports[`Translators > intersection 966`] = `
+"{
+    a: number;
+} & number"
+`;
+
+exports[`Translators > intersection 967`] = `
+"number & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 968`] = `
+"{
+    a: number;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 969`] = `"number & boolean"`;
+
+exports[`Translators > intersection 970`] = `
+"{
+    a: number;
+} & boolean"
+`;
+
+exports[`Translators > intersection 971`] = `
+"number & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 972`] = `
+"{
+    a: number;
+} & {
+    b: boolean;
+}"
+`;
+
+exports[`Translators > intersection 973`] = `"number & bigint"`;
+
+exports[`Translators > intersection 974`] = `
+"{
+    a: number;
+} & bigint"
+`;
+
+exports[`Translators > intersection 975`] = `
+"number & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 976`] = `
+"{
+    a: number;
+} & {
+    b: bigint;
+}"
+`;
+
+exports[`Translators > intersection 977`] = `"number & symbol"`;
+
+exports[`Translators > intersection 978`] = `
+"{
+    a: number;
+} & symbol"
+`;
+
+exports[`Translators > intersection 979`] = `
+"number & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 980`] = `
+"{
+    a: number;
+} & {
+    b: symbol;
+}"
+`;
+
+exports[`Translators > intersection 981`] = `"number & null"`;
+
+exports[`Translators > intersection 982`] = `
+"{
+    a: number;
+} & null"
+`;
+
+exports[`Translators > intersection 983`] = `
+"number & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 984`] = `
+"{
+    a: number;
+} & {
+    b: null;
+}"
+`;
+
+exports[`Translators > intersection 985`] = `"number & undefined"`;
+
+exports[`Translators > intersection 986`] = `
+"{
+    a: number;
+} & undefined"
+`;
+
+exports[`Translators > intersection 987`] = `
+"number & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 988`] = `
+"{
+    a: number;
+} & {
+    b: undefined;
+}"
+`;
+
+exports[`Translators > intersection 989`] = `"number & void"`;
+
+exports[`Translators > intersection 990`] = `
+"{
+    a: number;
+} & void"
+`;
+
+exports[`Translators > intersection 991`] = `
+"number & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 992`] = `
+"{
+    a: number;
+} & {
+    b: void;
+}"
+`;
+
+exports[`Translators > intersection 993`] = `"number & never"`;
+
+exports[`Translators > intersection 994`] = `
+"{
+    a: number;
+} & never"
+`;
+
+exports[`Translators > intersection 995`] = `
+"number & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 996`] = `
+"{
+    a: number;
+} & {
+    b: never;
+}"
+`;
+
+exports[`Translators > intersection 997`] = `"number & any"`;
+
+exports[`Translators > intersection 998`] = `
+"{
+    a: number;
+} & any"
+`;
+
+exports[`Translators > intersection 999`] = `
+"number & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 1000`] = `
+"{
+    a: number;
+} & {
+    b: any;
+}"
+`;
+
+exports[`Translators > intersection 1001`] = `"number & unknown"`;
+
+exports[`Translators > intersection 1002`] = `
+"{
+    a: number;
+} & unknown"
+`;
+
+exports[`Translators > intersection 1003`] = `
+"number & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 1004`] = `
+"{
+    a: number;
+} & {
+    b: unknown;
+}"
+`;
+
+exports[`Translators > intersection 1005`] = `"number & number"`;
+
+exports[`Translators > intersection 1006`] = `
+"{
+    a: number;
+} & number"
+`;
+
+exports[`Translators > intersection 1007`] = `
+"number & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 1008`] = `
+"{
+    a: number;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 1009`] = `"number & \${string}0literalnull"`;
+
+exports[`Translators > intersection 1010`] = `
+"{
+    a: number;
+} & \${string}0literalnull"
+`;
+
+exports[`Translators > intersection 1011`] = `
+"number & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 1012`] = `
+"{
+    a: number;
+} & {
+    b: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > intersection 1013`] = `"number & Date"`;
+
+exports[`Translators > intersection 1014`] = `
+"{
+    a: number;
+} & Date"
+`;
+
+exports[`Translators > intersection 1015`] = `
+"number & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 1016`] = `
+"{
+    a: number;
+} & {
+    b: Date;
+}"
+`;
+
+exports[`Translators > intersection 1017`] = `"number & File"`;
+
+exports[`Translators > intersection 1018`] = `
+"{
+    a: number;
+} & File"
+`;
+
+exports[`Translators > intersection 1019`] = `
+"number & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 1020`] = `
+"{
+    a: number;
+} & {
+    b: File;
+}"
+`;
+
+exports[`Translators > intersection 1021`] = `"number & number"`;
+
+exports[`Translators > intersection 1022`] = `
+"{
+    a: number;
+} & number"
+`;
+
+exports[`Translators > intersection 1023`] = `
+"number & {
+    b: number;
+}"
+`;
+
+exports[`Translators > intersection 1024`] = `
+"{
+    a: number;
+} & {
+    b: number;
+}"
+`;
+
+exports[`Translators > lazy 1`] = `"string"`;
+
+exports[`Translators > lazy 2`] = `"number"`;
+
+exports[`Translators > lazy 3`] = `"boolean"`;
+
+exports[`Translators > lazy 4`] = `"bigint"`;
+
+exports[`Translators > lazy 5`] = `"symbol"`;
+
+exports[`Translators > lazy 6`] = `"null"`;
+
+exports[`Translators > lazy 7`] = `"undefined"`;
+
+exports[`Translators > lazy 8`] = `"void"`;
+
+exports[`Translators > lazy 9`] = `"never"`;
+
+exports[`Translators > lazy 10`] = `"any"`;
+
+exports[`Translators > lazy 11`] = `"unknown"`;
+
+exports[`Translators > lazy 12`] = `"number"`;
+
+exports[`Translators > lazy 13`] = `"\${string}0literalnull"`;
+
+exports[`Translators > lazy 14`] = `"Date"`;
+
+exports[`Translators > lazy 15`] = `"File"`;
+
+exports[`Translators > lazy 16`] = `"number"`;
+
+exports[`Translators > map 1`] = `"Map<string, string>"`;
+
+exports[`Translators > map 2`] = `"Map<number, string>"`;
+
+exports[`Translators > map 3`] = `"Map<number, string>"`;
+
+exports[`Translators > map 4`] = `"Map<string, number>"`;
+
+exports[`Translators > map 5`] = `"Map<number, number>"`;
+
+exports[`Translators > map 6`] = `"Map<number, number>"`;
+
+exports[`Translators > map 7`] = `"Map<string, boolean>"`;
+
+exports[`Translators > map 8`] = `"Map<number, boolean>"`;
+
+exports[`Translators > map 9`] = `"Map<number, boolean>"`;
+
+exports[`Translators > map 10`] = `"Map<string, bigint>"`;
+
+exports[`Translators > map 11`] = `"Map<number, bigint>"`;
+
+exports[`Translators > map 12`] = `"Map<number, bigint>"`;
+
+exports[`Translators > map 13`] = `"Map<string, symbol>"`;
+
+exports[`Translators > map 14`] = `"Map<number, symbol>"`;
+
+exports[`Translators > map 15`] = `"Map<number, symbol>"`;
+
+exports[`Translators > map 16`] = `"Map<string, null>"`;
+
+exports[`Translators > map 17`] = `"Map<number, null>"`;
+
+exports[`Translators > map 18`] = `"Map<number, null>"`;
+
+exports[`Translators > map 19`] = `"Map<string, undefined>"`;
+
+exports[`Translators > map 20`] = `"Map<number, undefined>"`;
+
+exports[`Translators > map 21`] = `"Map<number, undefined>"`;
+
+exports[`Translators > map 22`] = `"Map<string, void>"`;
+
+exports[`Translators > map 23`] = `"Map<number, void>"`;
+
+exports[`Translators > map 24`] = `"Map<number, void>"`;
+
+exports[`Translators > map 25`] = `"Map<string, never>"`;
+
+exports[`Translators > map 26`] = `"Map<number, never>"`;
+
+exports[`Translators > map 27`] = `"Map<number, never>"`;
+
+exports[`Translators > map 28`] = `"Map<string, any>"`;
+
+exports[`Translators > map 29`] = `"Map<number, any>"`;
+
+exports[`Translators > map 30`] = `"Map<number, any>"`;
+
+exports[`Translators > map 31`] = `"Map<string, unknown>"`;
+
+exports[`Translators > map 32`] = `"Map<number, unknown>"`;
+
+exports[`Translators > map 33`] = `"Map<number, unknown>"`;
+
+exports[`Translators > map 34`] = `"Map<string, number>"`;
+
+exports[`Translators > map 35`] = `"Map<number, number>"`;
+
+exports[`Translators > map 36`] = `"Map<number, number>"`;
+
+exports[`Translators > map 37`] = `"Map<string, \${string}0literalnull>"`;
+
+exports[`Translators > map 38`] = `"Map<number, \${string}0literalnull>"`;
+
+exports[`Translators > map 39`] = `"Map<number, \${string}0literalnull>"`;
+
+exports[`Translators > map 40`] = `"Map<string, Date>"`;
+
+exports[`Translators > map 41`] = `"Map<number, Date>"`;
+
+exports[`Translators > map 42`] = `"Map<number, Date>"`;
+
+exports[`Translators > map 43`] = `"Map<string, File>"`;
+
+exports[`Translators > map 44`] = `"Map<number, File>"`;
+
+exports[`Translators > map 45`] = `"Map<number, File>"`;
+
+exports[`Translators > map 46`] = `"Map<string, number>"`;
+
+exports[`Translators > map 47`] = `"Map<number, number>"`;
+
+exports[`Translators > map 48`] = `"Map<number, number>"`;
+
+exports[`Translators > nan 1`] = `"number"`;
+
+exports[`Translators > never 1`] = `"never"`;
+
+exports[`Translators > nonoptional 1`] = `"string"`;
+
+exports[`Translators > nonoptional 2`] = `"number"`;
+
+exports[`Translators > nonoptional 3`] = `"boolean"`;
+
+exports[`Translators > nonoptional 4`] = `"bigint"`;
+
+exports[`Translators > nonoptional 5`] = `"symbol"`;
+
+exports[`Translators > nonoptional 6`] = `"null"`;
+
+exports[`Translators > nonoptional 7`] = `"undefined"`;
+
+exports[`Translators > nonoptional 8`] = `"void"`;
+
+exports[`Translators > nonoptional 9`] = `"never"`;
+
+exports[`Translators > nonoptional 10`] = `"any"`;
+
+exports[`Translators > nonoptional 11`] = `"unknown"`;
+
+exports[`Translators > nonoptional 12`] = `"number"`;
+
+exports[`Translators > nonoptional 13`] = `"\${string}0literalnull"`;
+
+exports[`Translators > nonoptional 14`] = `"Date"`;
+
+exports[`Translators > nonoptional 15`] = `"File"`;
+
+exports[`Translators > nonoptional 16`] = `"number"`;
+
+exports[`Translators > null 1`] = `"null"`;
+
+exports[`Translators > nullable 1`] = `"string | null"`;
+
+exports[`Translators > nullable 2`] = `"number | null"`;
+
+exports[`Translators > nullable 3`] = `"boolean | null"`;
+
+exports[`Translators > nullable 4`] = `"bigint | null"`;
+
+exports[`Translators > nullable 5`] = `"symbol | null"`;
+
+exports[`Translators > nullable 6`] = `"null | null"`;
+
+exports[`Translators > nullable 7`] = `"undefined | null"`;
+
+exports[`Translators > nullable 8`] = `"void | null"`;
+
+exports[`Translators > nullable 9`] = `"never | null"`;
+
+exports[`Translators > nullable 10`] = `"any | null"`;
+
+exports[`Translators > nullable 11`] = `"unknown | null"`;
+
+exports[`Translators > nullable 12`] = `"number | null"`;
+
+exports[`Translators > nullable 13`] = `"\${string}0literalnull | null"`;
+
+exports[`Translators > nullable 14`] = `"Date | null"`;
+
+exports[`Translators > nullable 15`] = `"File | null"`;
+
+exports[`Translators > nullable 16`] = `"number | null"`;
+
+exports[`Translators > number 1`] = `"number"`;
+
+exports[`Translators > object 1`] = `
+"{
+    test1: string;
+}"
+`;
+
+exports[`Translators > object 2`] = `
+"{
+    test1: string;
+    test2: {
+        'test-quoted-key': string;
+    };
+} & { [key: string]: string }"
+`;
+
+exports[`Translators > object 3`] = `
+"{
+    test1: number;
+}"
+`;
+
+exports[`Translators > object 4`] = `
+"{
+    test1: number;
+    test2: {
+        'test-quoted-key': number;
+    };
+} & { [key: string]: number }"
+`;
+
+exports[`Translators > object 5`] = `
+"{
+    test1: boolean;
+}"
+`;
+
+exports[`Translators > object 6`] = `
+"{
+    test1: boolean;
+    test2: {
+        'test-quoted-key': boolean;
+    };
+} & { [key: string]: boolean }"
+`;
+
+exports[`Translators > object 7`] = `
+"{
+    test1: bigint;
+}"
+`;
+
+exports[`Translators > object 8`] = `
+"{
+    test1: bigint;
+    test2: {
+        'test-quoted-key': bigint;
+    };
+} & { [key: string]: bigint }"
+`;
+
+exports[`Translators > object 9`] = `
+"{
+    test1: symbol;
+}"
+`;
+
+exports[`Translators > object 10`] = `
+"{
+    test1: symbol;
+    test2: {
+        'test-quoted-key': symbol;
+    };
+} & { [key: string]: symbol }"
+`;
+
+exports[`Translators > object 11`] = `
+"{
+    test1: null;
+}"
+`;
+
+exports[`Translators > object 12`] = `
+"{
+    test1: null;
+    test2: {
+        'test-quoted-key': null;
+    };
+} & { [key: string]: null }"
+`;
+
+exports[`Translators > object 13`] = `
+"{
+    test1: undefined;
+}"
+`;
+
+exports[`Translators > object 14`] = `
+"{
+    test1: undefined;
+    test2: {
+        'test-quoted-key': undefined;
+    };
+} & { [key: string]: undefined }"
+`;
+
+exports[`Translators > object 15`] = `
+"{
+    test1: void;
+}"
+`;
+
+exports[`Translators > object 16`] = `
+"{
+    test1: void;
+    test2: {
+        'test-quoted-key': void;
+    };
+} & { [key: string]: void }"
+`;
+
+exports[`Translators > object 17`] = `
+"{
+    test1: never;
+}"
+`;
+
+exports[`Translators > object 18`] = `
+"{
+    test1: never;
+    test2: {
+        'test-quoted-key': never;
+    };
+} & { [key: string]: never }"
+`;
+
+exports[`Translators > object 19`] = `
+"{
+    test1: any;
+}"
+`;
+
+exports[`Translators > object 20`] = `
+"{
+    test1: any;
+    test2: {
+        'test-quoted-key': any;
+    };
+} & { [key: string]: any }"
+`;
+
+exports[`Translators > object 21`] = `
+"{
+    test1: unknown;
+}"
+`;
+
+exports[`Translators > object 22`] = `
+"{
+    test1: unknown;
+    test2: {
+        'test-quoted-key': unknown;
+    };
+} & { [key: string]: unknown }"
+`;
+
+exports[`Translators > object 23`] = `
+"{
+    test1: number;
+}"
+`;
+
+exports[`Translators > object 24`] = `
+"{
+    test1: number;
+    test2: {
+        'test-quoted-key': number;
+    };
+} & { [key: string]: number }"
+`;
+
+exports[`Translators > object 25`] = `
+"{
+    test1: \${string}0literalnull;
+}"
+`;
+
+exports[`Translators > object 26`] = `
+"{
+    test1: \${string}0literalnull;
+    test2: {
+        'test-quoted-key': \${string}0literalnull;
+    };
+} & { [key: string]: \${string}0literalnull }"
+`;
+
+exports[`Translators > object 27`] = `
+"{
+    test1: Date;
+}"
+`;
+
+exports[`Translators > object 28`] = `
+"{
+    test1: Date;
+    test2: {
+        'test-quoted-key': Date;
+    };
+} & { [key: string]: Date }"
+`;
+
+exports[`Translators > object 29`] = `
+"{
+    test1: File;
+}"
+`;
+
+exports[`Translators > object 30`] = `
+"{
+    test1: File;
+    test2: {
+        'test-quoted-key': File;
+    };
+} & { [key: string]: File }"
+`;
+
+exports[`Translators > object 31`] = `
+"{
+    test1: number;
+}"
+`;
+
+exports[`Translators > object 32`] = `
+"{
+    test1: number;
+    test2: {
+        'test-quoted-key': number;
+    };
+} & { [key: string]: number }"
+`;
+
+exports[`Translators > optional 1`] = `"string | undefined"`;
+
+exports[`Translators > optional 2`] = `"number | undefined"`;
+
+exports[`Translators > optional 3`] = `"boolean | undefined"`;
+
+exports[`Translators > optional 4`] = `"bigint | undefined"`;
+
+exports[`Translators > optional 5`] = `"symbol | undefined"`;
+
+exports[`Translators > optional 6`] = `"null | undefined"`;
+
+exports[`Translators > optional 7`] = `"undefined | undefined"`;
+
+exports[`Translators > optional 8`] = `"void | undefined"`;
+
+exports[`Translators > optional 9`] = `"never | undefined"`;
+
+exports[`Translators > optional 10`] = `"any | undefined"`;
+
+exports[`Translators > optional 11`] = `"unknown | undefined"`;
+
+exports[`Translators > optional 12`] = `"number | undefined"`;
+
+exports[`Translators > optional 13`] = `"\${string}0literalnull | undefined"`;
+
+exports[`Translators > optional 14`] = `"Date | undefined"`;
+
+exports[`Translators > optional 15`] = `"File | undefined"`;
+
+exports[`Translators > optional 16`] = `"number | undefined"`;
+
+exports[`Translators > prefault 1`] = `"string | undefined"`;
+
+exports[`Translators > prefault 2`] = `"number | undefined"`;
+
+exports[`Translators > prefault 3`] = `"boolean | undefined"`;
+
+exports[`Translators > prefault 4`] = `"bigint | undefined"`;
+
+exports[`Translators > prefault 5`] = `"symbol | undefined"`;
+
+exports[`Translators > prefault 6`] = `"null | undefined"`;
+
+exports[`Translators > prefault 7`] = `"undefined | undefined"`;
+
+exports[`Translators > prefault 8`] = `"void | undefined"`;
+
+exports[`Translators > prefault 9`] = `"never | undefined"`;
+
+exports[`Translators > prefault 10`] = `"any | undefined"`;
+
+exports[`Translators > prefault 11`] = `"unknown | undefined"`;
+
+exports[`Translators > prefault 12`] = `"number | undefined"`;
+
+exports[`Translators > prefault 13`] = `"\${string}0literalnull | undefined"`;
+
+exports[`Translators > prefault 14`] = `"Date | undefined"`;
+
+exports[`Translators > prefault 15`] = `"File | undefined"`;
+
+exports[`Translators > prefault 16`] = `"number | undefined"`;
+
+exports[`Translators > promise 1`] = `"Promise<string>"`;
+
+exports[`Translators > promise 2`] = `"Promise<number>"`;
+
+exports[`Translators > promise 3`] = `"Promise<boolean>"`;
+
+exports[`Translators > promise 4`] = `"Promise<bigint>"`;
+
+exports[`Translators > promise 5`] = `"Promise<symbol>"`;
+
+exports[`Translators > promise 6`] = `"Promise<null>"`;
+
+exports[`Translators > promise 7`] = `"Promise<undefined>"`;
+
+exports[`Translators > promise 8`] = `"Promise<void>"`;
+
+exports[`Translators > promise 9`] = `"Promise<never>"`;
+
+exports[`Translators > promise 10`] = `"Promise<any>"`;
+
+exports[`Translators > promise 11`] = `"Promise<unknown>"`;
+
+exports[`Translators > promise 12`] = `"Promise<number>"`;
+
+exports[`Translators > promise 13`] = `"Promise<\${string}0literalnull>"`;
+
+exports[`Translators > promise 14`] = `"Promise<Date>"`;
+
+exports[`Translators > promise 15`] = `"Promise<File>"`;
+
+exports[`Translators > promise 16`] = `"Promise<number>"`;
+
+exports[`Translators > readonly 1`] = `"string"`;
+
+exports[`Translators > readonly 2`] = `"number"`;
+
+exports[`Translators > readonly 3`] = `"boolean"`;
+
+exports[`Translators > readonly 4`] = `"bigint"`;
+
+exports[`Translators > readonly 5`] = `"symbol"`;
+
+exports[`Translators > readonly 6`] = `"null"`;
+
+exports[`Translators > readonly 7`] = `"undefined"`;
+
+exports[`Translators > readonly 8`] = `"void"`;
+
+exports[`Translators > readonly 9`] = `"never"`;
+
+exports[`Translators > readonly 10`] = `"any"`;
+
+exports[`Translators > readonly 11`] = `"unknown"`;
+
+exports[`Translators > readonly 12`] = `"number"`;
+
+exports[`Translators > readonly 13`] = `"\${string}0literalnull"`;
+
+exports[`Translators > readonly 14`] = `"Date"`;
+
+exports[`Translators > readonly 15`] = `"File"`;
+
+exports[`Translators > readonly 16`] = `"number"`;
+
+exports[`Translators > record 1`] = `"Record<string, string>"`;
+
+exports[`Translators > record 2`] = `"Record<number, string>"`;
+
+exports[`Translators > record 3`] = `"Record<number, string>"`;
+
+exports[`Translators > record 4`] = `"Record<string, number>"`;
+
+exports[`Translators > record 5`] = `"Record<number, number>"`;
+
+exports[`Translators > record 6`] = `"Record<number, number>"`;
+
+exports[`Translators > record 7`] = `"Record<string, boolean>"`;
+
+exports[`Translators > record 8`] = `"Record<number, boolean>"`;
+
+exports[`Translators > record 9`] = `"Record<number, boolean>"`;
+
+exports[`Translators > record 10`] = `"Record<string, bigint>"`;
+
+exports[`Translators > record 11`] = `"Record<number, bigint>"`;
+
+exports[`Translators > record 12`] = `"Record<number, bigint>"`;
+
+exports[`Translators > record 13`] = `"Record<string, symbol>"`;
+
+exports[`Translators > record 14`] = `"Record<number, symbol>"`;
+
+exports[`Translators > record 15`] = `"Record<number, symbol>"`;
+
+exports[`Translators > record 16`] = `"Record<string, null>"`;
+
+exports[`Translators > record 17`] = `"Record<number, null>"`;
+
+exports[`Translators > record 18`] = `"Record<number, null>"`;
+
+exports[`Translators > record 19`] = `"Record<string, undefined>"`;
+
+exports[`Translators > record 20`] = `"Record<number, undefined>"`;
+
+exports[`Translators > record 21`] = `"Record<number, undefined>"`;
+
+exports[`Translators > record 22`] = `"Record<string, void>"`;
+
+exports[`Translators > record 23`] = `"Record<number, void>"`;
+
+exports[`Translators > record 24`] = `"Record<number, void>"`;
+
+exports[`Translators > record 25`] = `"Record<string, never>"`;
+
+exports[`Translators > record 26`] = `"Record<number, never>"`;
+
+exports[`Translators > record 27`] = `"Record<number, never>"`;
+
+exports[`Translators > record 28`] = `"Record<string, any>"`;
+
+exports[`Translators > record 29`] = `"Record<number, any>"`;
+
+exports[`Translators > record 30`] = `"Record<number, any>"`;
+
+exports[`Translators > record 31`] = `"Record<string, unknown>"`;
+
+exports[`Translators > record 32`] = `"Record<number, unknown>"`;
+
+exports[`Translators > record 33`] = `"Record<number, unknown>"`;
+
+exports[`Translators > record 34`] = `"Record<string, number>"`;
+
+exports[`Translators > record 35`] = `"Record<number, number>"`;
+
+exports[`Translators > record 36`] = `"Record<number, number>"`;
+
+exports[`Translators > record 37`] = `"Record<string, \${string}0literalnull>"`;
+
+exports[`Translators > record 38`] = `"Record<number, \${string}0literalnull>"`;
+
+exports[`Translators > record 39`] = `"Record<number, \${string}0literalnull>"`;
+
+exports[`Translators > record 40`] = `"Record<string, Date>"`;
+
+exports[`Translators > record 41`] = `"Record<number, Date>"`;
+
+exports[`Translators > record 42`] = `"Record<number, Date>"`;
+
+exports[`Translators > record 43`] = `"Record<string, File>"`;
+
+exports[`Translators > record 44`] = `"Record<number, File>"`;
+
+exports[`Translators > record 45`] = `"Record<number, File>"`;
+
+exports[`Translators > record 46`] = `"Record<string, number>"`;
+
+exports[`Translators > record 47`] = `"Record<number, number>"`;
+
+exports[`Translators > record 48`] = `"Record<number, number>"`;
+
+exports[`Translators > set 1`] = `"Set<string>"`;
+
+exports[`Translators > set 2`] = `"Set<number>"`;
+
+exports[`Translators > set 3`] = `"Set<boolean>"`;
+
+exports[`Translators > set 4`] = `"Set<bigint>"`;
+
+exports[`Translators > set 5`] = `"Set<symbol>"`;
+
+exports[`Translators > set 6`] = `"Set<null>"`;
+
+exports[`Translators > set 7`] = `"Set<undefined>"`;
+
+exports[`Translators > set 8`] = `"Set<void>"`;
+
+exports[`Translators > set 9`] = `"Set<never>"`;
+
+exports[`Translators > set 10`] = `"Set<any>"`;
+
+exports[`Translators > set 11`] = `"Set<unknown>"`;
+
+exports[`Translators > set 12`] = `"Set<number>"`;
+
+exports[`Translators > set 13`] = `"Set<\${string}0literalnull>"`;
+
+exports[`Translators > set 14`] = `"Set<Date>"`;
+
+exports[`Translators > set 15`] = `"Set<File>"`;
+
+exports[`Translators > set 16`] = `"Set<number>"`;
+
+exports[`Translators > string 1`] = `"string"`;
+
+exports[`Translators > success 1`] = `"string"`;
+
+exports[`Translators > success 2`] = `"number"`;
+
+exports[`Translators > success 3`] = `"boolean"`;
+
+exports[`Translators > success 4`] = `"bigint"`;
+
+exports[`Translators > success 5`] = `"symbol"`;
+
+exports[`Translators > success 6`] = `"null"`;
+
+exports[`Translators > success 7`] = `"undefined"`;
+
+exports[`Translators > success 8`] = `"void"`;
+
+exports[`Translators > success 9`] = `"never"`;
+
+exports[`Translators > success 10`] = `"any"`;
+
+exports[`Translators > success 11`] = `"unknown"`;
+
+exports[`Translators > success 12`] = `"number"`;
+
+exports[`Translators > success 13`] = `"\${string}0literalnull"`;
+
+exports[`Translators > success 14`] = `"Date"`;
+
+exports[`Translators > success 15`] = `"File"`;
+
+exports[`Translators > success 16`] = `"number"`;
+
+exports[`Translators > symbol 1`] = `"symbol"`;
+
+exports[`Translators > template_literal 1`] = `"\${string}\${number}literal\${null}"`;
+
+exports[`Translators > tuple 1`] = `"[string, string, ...string[]]"`;
+
+exports[`Translators > tuple 2`] = `"[string, ...string[]]"`;
+
+exports[`Translators > tuple 3`] = `"[string, number, ...string[]]"`;
+
+exports[`Translators > tuple 4`] = `"[number, ...string[]]"`;
+
+exports[`Translators > tuple 5`] = `"[string, boolean, ...string[]]"`;
+
+exports[`Translators > tuple 6`] = `"[boolean, ...string[]]"`;
+
+exports[`Translators > tuple 7`] = `"[string, bigint, ...string[]]"`;
+
+exports[`Translators > tuple 8`] = `"[bigint, ...string[]]"`;
+
+exports[`Translators > tuple 9`] = `"[string, symbol, ...string[]]"`;
+
+exports[`Translators > tuple 10`] = `"[symbol, ...string[]]"`;
+
+exports[`Translators > tuple 11`] = `"[string, null, ...string[]]"`;
+
+exports[`Translators > tuple 12`] = `"[null, ...string[]]"`;
+
+exports[`Translators > tuple 13`] = `"[string, undefined, ...string[]]"`;
+
+exports[`Translators > tuple 14`] = `"[undefined, ...string[]]"`;
+
+exports[`Translators > tuple 15`] = `"[string, void, ...string[]]"`;
+
+exports[`Translators > tuple 16`] = `"[void, ...string[]]"`;
+
+exports[`Translators > tuple 17`] = `"[string, never, ...string[]]"`;
+
+exports[`Translators > tuple 18`] = `"[never, ...string[]]"`;
+
+exports[`Translators > tuple 19`] = `"[string, any, ...string[]]"`;
+
+exports[`Translators > tuple 20`] = `"[any, ...string[]]"`;
+
+exports[`Translators > tuple 21`] = `"[string, unknown, ...string[]]"`;
+
+exports[`Translators > tuple 22`] = `"[unknown, ...string[]]"`;
+
+exports[`Translators > tuple 23`] = `"[string, number, ...string[]]"`;
+
+exports[`Translators > tuple 24`] = `"[number, ...string[]]"`;
+
+exports[`Translators > tuple 25`] = `"[string, \${string}0literalnull, ...string[]]"`;
+
+exports[`Translators > tuple 26`] = `"[\${string}0literalnull, ...string[]]"`;
+
+exports[`Translators > tuple 27`] = `"[string, Date, ...string[]]"`;
+
+exports[`Translators > tuple 28`] = `"[Date, ...string[]]"`;
+
+exports[`Translators > tuple 29`] = `"[string, File, ...string[]]"`;
+
+exports[`Translators > tuple 30`] = `"[File, ...string[]]"`;
+
+exports[`Translators > tuple 31`] = `"[string, number, ...string[]]"`;
+
+exports[`Translators > tuple 32`] = `"[number, ...string[]]"`;
+
+exports[`Translators > tuple 33`] = `"[string]"`;
+
+exports[`Translators > tuple 34`] = `"[number, string, ...number[]]"`;
+
+exports[`Translators > tuple 35`] = `"[string, ...number[]]"`;
+
+exports[`Translators > tuple 36`] = `"[number, number, ...number[]]"`;
+
+exports[`Translators > tuple 37`] = `"[number, ...number[]]"`;
+
+exports[`Translators > tuple 38`] = `"[number, boolean, ...number[]]"`;
+
+exports[`Translators > tuple 39`] = `"[boolean, ...number[]]"`;
+
+exports[`Translators > tuple 40`] = `"[number, bigint, ...number[]]"`;
+
+exports[`Translators > tuple 41`] = `"[bigint, ...number[]]"`;
+
+exports[`Translators > tuple 42`] = `"[number, symbol, ...number[]]"`;
+
+exports[`Translators > tuple 43`] = `"[symbol, ...number[]]"`;
+
+exports[`Translators > tuple 44`] = `"[number, null, ...number[]]"`;
+
+exports[`Translators > tuple 45`] = `"[null, ...number[]]"`;
+
+exports[`Translators > tuple 46`] = `"[number, undefined, ...number[]]"`;
+
+exports[`Translators > tuple 47`] = `"[undefined, ...number[]]"`;
+
+exports[`Translators > tuple 48`] = `"[number, void, ...number[]]"`;
+
+exports[`Translators > tuple 49`] = `"[void, ...number[]]"`;
+
+exports[`Translators > tuple 50`] = `"[number, never, ...number[]]"`;
+
+exports[`Translators > tuple 51`] = `"[never, ...number[]]"`;
+
+exports[`Translators > tuple 52`] = `"[number, any, ...number[]]"`;
+
+exports[`Translators > tuple 53`] = `"[any, ...number[]]"`;
+
+exports[`Translators > tuple 54`] = `"[number, unknown, ...number[]]"`;
+
+exports[`Translators > tuple 55`] = `"[unknown, ...number[]]"`;
+
+exports[`Translators > tuple 56`] = `"[number, number, ...number[]]"`;
+
+exports[`Translators > tuple 57`] = `"[number, ...number[]]"`;
+
+exports[`Translators > tuple 58`] = `"[number, \${string}0literalnull, ...number[]]"`;
+
+exports[`Translators > tuple 59`] = `"[\${string}0literalnull, ...number[]]"`;
+
+exports[`Translators > tuple 60`] = `"[number, Date, ...number[]]"`;
+
+exports[`Translators > tuple 61`] = `"[Date, ...number[]]"`;
+
+exports[`Translators > tuple 62`] = `"[number, File, ...number[]]"`;
+
+exports[`Translators > tuple 63`] = `"[File, ...number[]]"`;
+
+exports[`Translators > tuple 64`] = `"[number, number, ...number[]]"`;
+
+exports[`Translators > tuple 65`] = `"[number, ...number[]]"`;
+
+exports[`Translators > tuple 66`] = `"[number]"`;
+
+exports[`Translators > tuple 67`] = `"[boolean, string, ...boolean[]]"`;
+
+exports[`Translators > tuple 68`] = `"[string, ...boolean[]]"`;
+
+exports[`Translators > tuple 69`] = `"[boolean, number, ...boolean[]]"`;
+
+exports[`Translators > tuple 70`] = `"[number, ...boolean[]]"`;
+
+exports[`Translators > tuple 71`] = `"[boolean, boolean, ...boolean[]]"`;
+
+exports[`Translators > tuple 72`] = `"[boolean, ...boolean[]]"`;
+
+exports[`Translators > tuple 73`] = `"[boolean, bigint, ...boolean[]]"`;
+
+exports[`Translators > tuple 74`] = `"[bigint, ...boolean[]]"`;
+
+exports[`Translators > tuple 75`] = `"[boolean, symbol, ...boolean[]]"`;
+
+exports[`Translators > tuple 76`] = `"[symbol, ...boolean[]]"`;
+
+exports[`Translators > tuple 77`] = `"[boolean, null, ...boolean[]]"`;
+
+exports[`Translators > tuple 78`] = `"[null, ...boolean[]]"`;
+
+exports[`Translators > tuple 79`] = `"[boolean, undefined, ...boolean[]]"`;
+
+exports[`Translators > tuple 80`] = `"[undefined, ...boolean[]]"`;
+
+exports[`Translators > tuple 81`] = `"[boolean, void, ...boolean[]]"`;
+
+exports[`Translators > tuple 82`] = `"[void, ...boolean[]]"`;
+
+exports[`Translators > tuple 83`] = `"[boolean, never, ...boolean[]]"`;
+
+exports[`Translators > tuple 84`] = `"[never, ...boolean[]]"`;
+
+exports[`Translators > tuple 85`] = `"[boolean, any, ...boolean[]]"`;
+
+exports[`Translators > tuple 86`] = `"[any, ...boolean[]]"`;
+
+exports[`Translators > tuple 87`] = `"[boolean, unknown, ...boolean[]]"`;
+
+exports[`Translators > tuple 88`] = `"[unknown, ...boolean[]]"`;
+
+exports[`Translators > tuple 89`] = `"[boolean, number, ...boolean[]]"`;
+
+exports[`Translators > tuple 90`] = `"[number, ...boolean[]]"`;
+
+exports[`Translators > tuple 91`] = `"[boolean, \${string}0literalnull, ...boolean[]]"`;
+
+exports[`Translators > tuple 92`] = `"[\${string}0literalnull, ...boolean[]]"`;
+
+exports[`Translators > tuple 93`] = `"[boolean, Date, ...boolean[]]"`;
+
+exports[`Translators > tuple 94`] = `"[Date, ...boolean[]]"`;
+
+exports[`Translators > tuple 95`] = `"[boolean, File, ...boolean[]]"`;
+
+exports[`Translators > tuple 96`] = `"[File, ...boolean[]]"`;
+
+exports[`Translators > tuple 97`] = `"[boolean, number, ...boolean[]]"`;
+
+exports[`Translators > tuple 98`] = `"[number, ...boolean[]]"`;
+
+exports[`Translators > tuple 99`] = `"[boolean]"`;
+
+exports[`Translators > tuple 100`] = `"[bigint, string, ...bigint[]]"`;
+
+exports[`Translators > tuple 101`] = `"[string, ...bigint[]]"`;
+
+exports[`Translators > tuple 102`] = `"[bigint, number, ...bigint[]]"`;
+
+exports[`Translators > tuple 103`] = `"[number, ...bigint[]]"`;
+
+exports[`Translators > tuple 104`] = `"[bigint, boolean, ...bigint[]]"`;
+
+exports[`Translators > tuple 105`] = `"[boolean, ...bigint[]]"`;
+
+exports[`Translators > tuple 106`] = `"[bigint, bigint, ...bigint[]]"`;
+
+exports[`Translators > tuple 107`] = `"[bigint, ...bigint[]]"`;
+
+exports[`Translators > tuple 108`] = `"[bigint, symbol, ...bigint[]]"`;
+
+exports[`Translators > tuple 109`] = `"[symbol, ...bigint[]]"`;
+
+exports[`Translators > tuple 110`] = `"[bigint, null, ...bigint[]]"`;
+
+exports[`Translators > tuple 111`] = `"[null, ...bigint[]]"`;
+
+exports[`Translators > tuple 112`] = `"[bigint, undefined, ...bigint[]]"`;
+
+exports[`Translators > tuple 113`] = `"[undefined, ...bigint[]]"`;
+
+exports[`Translators > tuple 114`] = `"[bigint, void, ...bigint[]]"`;
+
+exports[`Translators > tuple 115`] = `"[void, ...bigint[]]"`;
+
+exports[`Translators > tuple 116`] = `"[bigint, never, ...bigint[]]"`;
+
+exports[`Translators > tuple 117`] = `"[never, ...bigint[]]"`;
+
+exports[`Translators > tuple 118`] = `"[bigint, any, ...bigint[]]"`;
+
+exports[`Translators > tuple 119`] = `"[any, ...bigint[]]"`;
+
+exports[`Translators > tuple 120`] = `"[bigint, unknown, ...bigint[]]"`;
+
+exports[`Translators > tuple 121`] = `"[unknown, ...bigint[]]"`;
+
+exports[`Translators > tuple 122`] = `"[bigint, number, ...bigint[]]"`;
+
+exports[`Translators > tuple 123`] = `"[number, ...bigint[]]"`;
+
+exports[`Translators > tuple 124`] = `"[bigint, \${string}0literalnull, ...bigint[]]"`;
+
+exports[`Translators > tuple 125`] = `"[\${string}0literalnull, ...bigint[]]"`;
+
+exports[`Translators > tuple 126`] = `"[bigint, Date, ...bigint[]]"`;
+
+exports[`Translators > tuple 127`] = `"[Date, ...bigint[]]"`;
+
+exports[`Translators > tuple 128`] = `"[bigint, File, ...bigint[]]"`;
+
+exports[`Translators > tuple 129`] = `"[File, ...bigint[]]"`;
+
+exports[`Translators > tuple 130`] = `"[bigint, number, ...bigint[]]"`;
+
+exports[`Translators > tuple 131`] = `"[number, ...bigint[]]"`;
+
+exports[`Translators > tuple 132`] = `"[bigint]"`;
+
+exports[`Translators > tuple 133`] = `"[symbol, string, ...symbol[]]"`;
+
+exports[`Translators > tuple 134`] = `"[string, ...symbol[]]"`;
+
+exports[`Translators > tuple 135`] = `"[symbol, number, ...symbol[]]"`;
+
+exports[`Translators > tuple 136`] = `"[number, ...symbol[]]"`;
+
+exports[`Translators > tuple 137`] = `"[symbol, boolean, ...symbol[]]"`;
+
+exports[`Translators > tuple 138`] = `"[boolean, ...symbol[]]"`;
+
+exports[`Translators > tuple 139`] = `"[symbol, bigint, ...symbol[]]"`;
+
+exports[`Translators > tuple 140`] = `"[bigint, ...symbol[]]"`;
+
+exports[`Translators > tuple 141`] = `"[symbol, symbol, ...symbol[]]"`;
+
+exports[`Translators > tuple 142`] = `"[symbol, ...symbol[]]"`;
+
+exports[`Translators > tuple 143`] = `"[symbol, null, ...symbol[]]"`;
+
+exports[`Translators > tuple 144`] = `"[null, ...symbol[]]"`;
+
+exports[`Translators > tuple 145`] = `"[symbol, undefined, ...symbol[]]"`;
+
+exports[`Translators > tuple 146`] = `"[undefined, ...symbol[]]"`;
+
+exports[`Translators > tuple 147`] = `"[symbol, void, ...symbol[]]"`;
+
+exports[`Translators > tuple 148`] = `"[void, ...symbol[]]"`;
+
+exports[`Translators > tuple 149`] = `"[symbol, never, ...symbol[]]"`;
+
+exports[`Translators > tuple 150`] = `"[never, ...symbol[]]"`;
+
+exports[`Translators > tuple 151`] = `"[symbol, any, ...symbol[]]"`;
+
+exports[`Translators > tuple 152`] = `"[any, ...symbol[]]"`;
+
+exports[`Translators > tuple 153`] = `"[symbol, unknown, ...symbol[]]"`;
+
+exports[`Translators > tuple 154`] = `"[unknown, ...symbol[]]"`;
+
+exports[`Translators > tuple 155`] = `"[symbol, number, ...symbol[]]"`;
+
+exports[`Translators > tuple 156`] = `"[number, ...symbol[]]"`;
+
+exports[`Translators > tuple 157`] = `"[symbol, \${string}0literalnull, ...symbol[]]"`;
+
+exports[`Translators > tuple 158`] = `"[\${string}0literalnull, ...symbol[]]"`;
+
+exports[`Translators > tuple 159`] = `"[symbol, Date, ...symbol[]]"`;
+
+exports[`Translators > tuple 160`] = `"[Date, ...symbol[]]"`;
+
+exports[`Translators > tuple 161`] = `"[symbol, File, ...symbol[]]"`;
+
+exports[`Translators > tuple 162`] = `"[File, ...symbol[]]"`;
+
+exports[`Translators > tuple 163`] = `"[symbol, number, ...symbol[]]"`;
+
+exports[`Translators > tuple 164`] = `"[number, ...symbol[]]"`;
+
+exports[`Translators > tuple 165`] = `"[symbol]"`;
+
+exports[`Translators > tuple 166`] = `"[null, string, ...null[]]"`;
+
+exports[`Translators > tuple 167`] = `"[string, ...null[]]"`;
+
+exports[`Translators > tuple 168`] = `"[null, number, ...null[]]"`;
+
+exports[`Translators > tuple 169`] = `"[number, ...null[]]"`;
+
+exports[`Translators > tuple 170`] = `"[null, boolean, ...null[]]"`;
+
+exports[`Translators > tuple 171`] = `"[boolean, ...null[]]"`;
+
+exports[`Translators > tuple 172`] = `"[null, bigint, ...null[]]"`;
+
+exports[`Translators > tuple 173`] = `"[bigint, ...null[]]"`;
+
+exports[`Translators > tuple 174`] = `"[null, symbol, ...null[]]"`;
+
+exports[`Translators > tuple 175`] = `"[symbol, ...null[]]"`;
+
+exports[`Translators > tuple 176`] = `"[null, null, ...null[]]"`;
+
+exports[`Translators > tuple 177`] = `"[null, ...null[]]"`;
+
+exports[`Translators > tuple 178`] = `"[null, undefined, ...null[]]"`;
+
+exports[`Translators > tuple 179`] = `"[undefined, ...null[]]"`;
+
+exports[`Translators > tuple 180`] = `"[null, void, ...null[]]"`;
+
+exports[`Translators > tuple 181`] = `"[void, ...null[]]"`;
+
+exports[`Translators > tuple 182`] = `"[null, never, ...null[]]"`;
+
+exports[`Translators > tuple 183`] = `"[never, ...null[]]"`;
+
+exports[`Translators > tuple 184`] = `"[null, any, ...null[]]"`;
+
+exports[`Translators > tuple 185`] = `"[any, ...null[]]"`;
+
+exports[`Translators > tuple 186`] = `"[null, unknown, ...null[]]"`;
+
+exports[`Translators > tuple 187`] = `"[unknown, ...null[]]"`;
+
+exports[`Translators > tuple 188`] = `"[null, number, ...null[]]"`;
+
+exports[`Translators > tuple 189`] = `"[number, ...null[]]"`;
+
+exports[`Translators > tuple 190`] = `"[null, \${string}0literalnull, ...null[]]"`;
+
+exports[`Translators > tuple 191`] = `"[\${string}0literalnull, ...null[]]"`;
+
+exports[`Translators > tuple 192`] = `"[null, Date, ...null[]]"`;
+
+exports[`Translators > tuple 193`] = `"[Date, ...null[]]"`;
+
+exports[`Translators > tuple 194`] = `"[null, File, ...null[]]"`;
+
+exports[`Translators > tuple 195`] = `"[File, ...null[]]"`;
+
+exports[`Translators > tuple 196`] = `"[null, number, ...null[]]"`;
+
+exports[`Translators > tuple 197`] = `"[number, ...null[]]"`;
+
+exports[`Translators > tuple 198`] = `"[null]"`;
+
+exports[`Translators > tuple 199`] = `"[undefined, string, ...undefined[]]"`;
+
+exports[`Translators > tuple 200`] = `"[string, ...undefined[]]"`;
+
+exports[`Translators > tuple 201`] = `"[undefined, number, ...undefined[]]"`;
+
+exports[`Translators > tuple 202`] = `"[number, ...undefined[]]"`;
+
+exports[`Translators > tuple 203`] = `"[undefined, boolean, ...undefined[]]"`;
+
+exports[`Translators > tuple 204`] = `"[boolean, ...undefined[]]"`;
+
+exports[`Translators > tuple 205`] = `"[undefined, bigint, ...undefined[]]"`;
+
+exports[`Translators > tuple 206`] = `"[bigint, ...undefined[]]"`;
+
+exports[`Translators > tuple 207`] = `"[undefined, symbol, ...undefined[]]"`;
+
+exports[`Translators > tuple 208`] = `"[symbol, ...undefined[]]"`;
+
+exports[`Translators > tuple 209`] = `"[undefined, null, ...undefined[]]"`;
+
+exports[`Translators > tuple 210`] = `"[null, ...undefined[]]"`;
+
+exports[`Translators > tuple 211`] = `"[undefined, undefined, ...undefined[]]"`;
+
+exports[`Translators > tuple 212`] = `"[undefined, ...undefined[]]"`;
+
+exports[`Translators > tuple 213`] = `"[undefined, void, ...undefined[]]"`;
+
+exports[`Translators > tuple 214`] = `"[void, ...undefined[]]"`;
+
+exports[`Translators > tuple 215`] = `"[undefined, never, ...undefined[]]"`;
+
+exports[`Translators > tuple 216`] = `"[never, ...undefined[]]"`;
+
+exports[`Translators > tuple 217`] = `"[undefined, any, ...undefined[]]"`;
+
+exports[`Translators > tuple 218`] = `"[any, ...undefined[]]"`;
+
+exports[`Translators > tuple 219`] = `"[undefined, unknown, ...undefined[]]"`;
+
+exports[`Translators > tuple 220`] = `"[unknown, ...undefined[]]"`;
+
+exports[`Translators > tuple 221`] = `"[undefined, number, ...undefined[]]"`;
+
+exports[`Translators > tuple 222`] = `"[number, ...undefined[]]"`;
+
+exports[`Translators > tuple 223`] = `"[undefined, \${string}0literalnull, ...undefined[]]"`;
+
+exports[`Translators > tuple 224`] = `"[\${string}0literalnull, ...undefined[]]"`;
+
+exports[`Translators > tuple 225`] = `"[undefined, Date, ...undefined[]]"`;
+
+exports[`Translators > tuple 226`] = `"[Date, ...undefined[]]"`;
+
+exports[`Translators > tuple 227`] = `"[undefined, File, ...undefined[]]"`;
+
+exports[`Translators > tuple 228`] = `"[File, ...undefined[]]"`;
+
+exports[`Translators > tuple 229`] = `"[undefined, number, ...undefined[]]"`;
+
+exports[`Translators > tuple 230`] = `"[number, ...undefined[]]"`;
+
+exports[`Translators > tuple 231`] = `"[undefined]"`;
+
+exports[`Translators > tuple 232`] = `"[void, string, ...void[]]"`;
+
+exports[`Translators > tuple 233`] = `"[string, ...void[]]"`;
+
+exports[`Translators > tuple 234`] = `"[void, number, ...void[]]"`;
+
+exports[`Translators > tuple 235`] = `"[number, ...void[]]"`;
+
+exports[`Translators > tuple 236`] = `"[void, boolean, ...void[]]"`;
+
+exports[`Translators > tuple 237`] = `"[boolean, ...void[]]"`;
+
+exports[`Translators > tuple 238`] = `"[void, bigint, ...void[]]"`;
+
+exports[`Translators > tuple 239`] = `"[bigint, ...void[]]"`;
+
+exports[`Translators > tuple 240`] = `"[void, symbol, ...void[]]"`;
+
+exports[`Translators > tuple 241`] = `"[symbol, ...void[]]"`;
+
+exports[`Translators > tuple 242`] = `"[void, null, ...void[]]"`;
+
+exports[`Translators > tuple 243`] = `"[null, ...void[]]"`;
+
+exports[`Translators > tuple 244`] = `"[void, undefined, ...void[]]"`;
+
+exports[`Translators > tuple 245`] = `"[undefined, ...void[]]"`;
+
+exports[`Translators > tuple 246`] = `"[void, void, ...void[]]"`;
+
+exports[`Translators > tuple 247`] = `"[void, ...void[]]"`;
+
+exports[`Translators > tuple 248`] = `"[void, never, ...void[]]"`;
+
+exports[`Translators > tuple 249`] = `"[never, ...void[]]"`;
+
+exports[`Translators > tuple 250`] = `"[void, any, ...void[]]"`;
+
+exports[`Translators > tuple 251`] = `"[any, ...void[]]"`;
+
+exports[`Translators > tuple 252`] = `"[void, unknown, ...void[]]"`;
+
+exports[`Translators > tuple 253`] = `"[unknown, ...void[]]"`;
+
+exports[`Translators > tuple 254`] = `"[void, number, ...void[]]"`;
+
+exports[`Translators > tuple 255`] = `"[number, ...void[]]"`;
+
+exports[`Translators > tuple 256`] = `"[void, \${string}0literalnull, ...void[]]"`;
+
+exports[`Translators > tuple 257`] = `"[\${string}0literalnull, ...void[]]"`;
+
+exports[`Translators > tuple 258`] = `"[void, Date, ...void[]]"`;
+
+exports[`Translators > tuple 259`] = `"[Date, ...void[]]"`;
+
+exports[`Translators > tuple 260`] = `"[void, File, ...void[]]"`;
+
+exports[`Translators > tuple 261`] = `"[File, ...void[]]"`;
+
+exports[`Translators > tuple 262`] = `"[void, number, ...void[]]"`;
+
+exports[`Translators > tuple 263`] = `"[number, ...void[]]"`;
+
+exports[`Translators > tuple 264`] = `"[void]"`;
+
+exports[`Translators > tuple 265`] = `"[never, string, ...never[]]"`;
+
+exports[`Translators > tuple 266`] = `"[string, ...never[]]"`;
+
+exports[`Translators > tuple 267`] = `"[never, number, ...never[]]"`;
+
+exports[`Translators > tuple 268`] = `"[number, ...never[]]"`;
+
+exports[`Translators > tuple 269`] = `"[never, boolean, ...never[]]"`;
+
+exports[`Translators > tuple 270`] = `"[boolean, ...never[]]"`;
+
+exports[`Translators > tuple 271`] = `"[never, bigint, ...never[]]"`;
+
+exports[`Translators > tuple 272`] = `"[bigint, ...never[]]"`;
+
+exports[`Translators > tuple 273`] = `"[never, symbol, ...never[]]"`;
+
+exports[`Translators > tuple 274`] = `"[symbol, ...never[]]"`;
+
+exports[`Translators > tuple 275`] = `"[never, null, ...never[]]"`;
+
+exports[`Translators > tuple 276`] = `"[null, ...never[]]"`;
+
+exports[`Translators > tuple 277`] = `"[never, undefined, ...never[]]"`;
+
+exports[`Translators > tuple 278`] = `"[undefined, ...never[]]"`;
+
+exports[`Translators > tuple 279`] = `"[never, void, ...never[]]"`;
+
+exports[`Translators > tuple 280`] = `"[void, ...never[]]"`;
+
+exports[`Translators > tuple 281`] = `"[never, never, ...never[]]"`;
+
+exports[`Translators > tuple 282`] = `"[never, ...never[]]"`;
+
+exports[`Translators > tuple 283`] = `"[never, any, ...never[]]"`;
+
+exports[`Translators > tuple 284`] = `"[any, ...never[]]"`;
+
+exports[`Translators > tuple 285`] = `"[never, unknown, ...never[]]"`;
+
+exports[`Translators > tuple 286`] = `"[unknown, ...never[]]"`;
+
+exports[`Translators > tuple 287`] = `"[never, number, ...never[]]"`;
+
+exports[`Translators > tuple 288`] = `"[number, ...never[]]"`;
+
+exports[`Translators > tuple 289`] = `"[never, \${string}0literalnull, ...never[]]"`;
+
+exports[`Translators > tuple 290`] = `"[\${string}0literalnull, ...never[]]"`;
+
+exports[`Translators > tuple 291`] = `"[never, Date, ...never[]]"`;
+
+exports[`Translators > tuple 292`] = `"[Date, ...never[]]"`;
+
+exports[`Translators > tuple 293`] = `"[never, File, ...never[]]"`;
+
+exports[`Translators > tuple 294`] = `"[File, ...never[]]"`;
+
+exports[`Translators > tuple 295`] = `"[never, number, ...never[]]"`;
+
+exports[`Translators > tuple 296`] = `"[number, ...never[]]"`;
+
+exports[`Translators > tuple 297`] = `"[never]"`;
+
+exports[`Translators > tuple 298`] = `"[any, string, ...any[]]"`;
+
+exports[`Translators > tuple 299`] = `"[string, ...any[]]"`;
+
+exports[`Translators > tuple 300`] = `"[any, number, ...any[]]"`;
+
+exports[`Translators > tuple 301`] = `"[number, ...any[]]"`;
+
+exports[`Translators > tuple 302`] = `"[any, boolean, ...any[]]"`;
+
+exports[`Translators > tuple 303`] = `"[boolean, ...any[]]"`;
+
+exports[`Translators > tuple 304`] = `"[any, bigint, ...any[]]"`;
+
+exports[`Translators > tuple 305`] = `"[bigint, ...any[]]"`;
+
+exports[`Translators > tuple 306`] = `"[any, symbol, ...any[]]"`;
+
+exports[`Translators > tuple 307`] = `"[symbol, ...any[]]"`;
+
+exports[`Translators > tuple 308`] = `"[any, null, ...any[]]"`;
+
+exports[`Translators > tuple 309`] = `"[null, ...any[]]"`;
+
+exports[`Translators > tuple 310`] = `"[any, undefined, ...any[]]"`;
+
+exports[`Translators > tuple 311`] = `"[undefined, ...any[]]"`;
+
+exports[`Translators > tuple 312`] = `"[any, void, ...any[]]"`;
+
+exports[`Translators > tuple 313`] = `"[void, ...any[]]"`;
+
+exports[`Translators > tuple 314`] = `"[any, never, ...any[]]"`;
+
+exports[`Translators > tuple 315`] = `"[never, ...any[]]"`;
+
+exports[`Translators > tuple 316`] = `"[any, any, ...any[]]"`;
+
+exports[`Translators > tuple 317`] = `"[any, ...any[]]"`;
+
+exports[`Translators > tuple 318`] = `"[any, unknown, ...any[]]"`;
+
+exports[`Translators > tuple 319`] = `"[unknown, ...any[]]"`;
+
+exports[`Translators > tuple 320`] = `"[any, number, ...any[]]"`;
+
+exports[`Translators > tuple 321`] = `"[number, ...any[]]"`;
+
+exports[`Translators > tuple 322`] = `"[any, \${string}0literalnull, ...any[]]"`;
+
+exports[`Translators > tuple 323`] = `"[\${string}0literalnull, ...any[]]"`;
+
+exports[`Translators > tuple 324`] = `"[any, Date, ...any[]]"`;
+
+exports[`Translators > tuple 325`] = `"[Date, ...any[]]"`;
+
+exports[`Translators > tuple 326`] = `"[any, File, ...any[]]"`;
+
+exports[`Translators > tuple 327`] = `"[File, ...any[]]"`;
+
+exports[`Translators > tuple 328`] = `"[any, number, ...any[]]"`;
+
+exports[`Translators > tuple 329`] = `"[number, ...any[]]"`;
+
+exports[`Translators > tuple 330`] = `"[any]"`;
+
+exports[`Translators > tuple 331`] = `"[unknown, string, ...unknown[]]"`;
+
+exports[`Translators > tuple 332`] = `"[string, ...unknown[]]"`;
+
+exports[`Translators > tuple 333`] = `"[unknown, number, ...unknown[]]"`;
+
+exports[`Translators > tuple 334`] = `"[number, ...unknown[]]"`;
+
+exports[`Translators > tuple 335`] = `"[unknown, boolean, ...unknown[]]"`;
+
+exports[`Translators > tuple 336`] = `"[boolean, ...unknown[]]"`;
+
+exports[`Translators > tuple 337`] = `"[unknown, bigint, ...unknown[]]"`;
+
+exports[`Translators > tuple 338`] = `"[bigint, ...unknown[]]"`;
+
+exports[`Translators > tuple 339`] = `"[unknown, symbol, ...unknown[]]"`;
+
+exports[`Translators > tuple 340`] = `"[symbol, ...unknown[]]"`;
+
+exports[`Translators > tuple 341`] = `"[unknown, null, ...unknown[]]"`;
+
+exports[`Translators > tuple 342`] = `"[null, ...unknown[]]"`;
+
+exports[`Translators > tuple 343`] = `"[unknown, undefined, ...unknown[]]"`;
+
+exports[`Translators > tuple 344`] = `"[undefined, ...unknown[]]"`;
+
+exports[`Translators > tuple 345`] = `"[unknown, void, ...unknown[]]"`;
+
+exports[`Translators > tuple 346`] = `"[void, ...unknown[]]"`;
+
+exports[`Translators > tuple 347`] = `"[unknown, never, ...unknown[]]"`;
+
+exports[`Translators > tuple 348`] = `"[never, ...unknown[]]"`;
+
+exports[`Translators > tuple 349`] = `"[unknown, any, ...unknown[]]"`;
+
+exports[`Translators > tuple 350`] = `"[any, ...unknown[]]"`;
+
+exports[`Translators > tuple 351`] = `"[unknown, unknown, ...unknown[]]"`;
+
+exports[`Translators > tuple 352`] = `"[unknown, ...unknown[]]"`;
+
+exports[`Translators > tuple 353`] = `"[unknown, number, ...unknown[]]"`;
+
+exports[`Translators > tuple 354`] = `"[number, ...unknown[]]"`;
+
+exports[`Translators > tuple 355`] = `"[unknown, \${string}0literalnull, ...unknown[]]"`;
+
+exports[`Translators > tuple 356`] = `"[\${string}0literalnull, ...unknown[]]"`;
+
+exports[`Translators > tuple 357`] = `"[unknown, Date, ...unknown[]]"`;
+
+exports[`Translators > tuple 358`] = `"[Date, ...unknown[]]"`;
+
+exports[`Translators > tuple 359`] = `"[unknown, File, ...unknown[]]"`;
+
+exports[`Translators > tuple 360`] = `"[File, ...unknown[]]"`;
+
+exports[`Translators > tuple 361`] = `"[unknown, number, ...unknown[]]"`;
+
+exports[`Translators > tuple 362`] = `"[number, ...unknown[]]"`;
+
+exports[`Translators > tuple 363`] = `"[unknown]"`;
+
+exports[`Translators > tuple 364`] = `"[number, string, ...number[]]"`;
+
+exports[`Translators > tuple 365`] = `"[string, ...number[]]"`;
+
+exports[`Translators > tuple 366`] = `"[number, number, ...number[]]"`;
+
+exports[`Translators > tuple 367`] = `"[number, ...number[]]"`;
+
+exports[`Translators > tuple 368`] = `"[number, boolean, ...number[]]"`;
+
+exports[`Translators > tuple 369`] = `"[boolean, ...number[]]"`;
+
+exports[`Translators > tuple 370`] = `"[number, bigint, ...number[]]"`;
+
+exports[`Translators > tuple 371`] = `"[bigint, ...number[]]"`;
+
+exports[`Translators > tuple 372`] = `"[number, symbol, ...number[]]"`;
+
+exports[`Translators > tuple 373`] = `"[symbol, ...number[]]"`;
+
+exports[`Translators > tuple 374`] = `"[number, null, ...number[]]"`;
+
+exports[`Translators > tuple 375`] = `"[null, ...number[]]"`;
+
+exports[`Translators > tuple 376`] = `"[number, undefined, ...number[]]"`;
+
+exports[`Translators > tuple 377`] = `"[undefined, ...number[]]"`;
+
+exports[`Translators > tuple 378`] = `"[number, void, ...number[]]"`;
+
+exports[`Translators > tuple 379`] = `"[void, ...number[]]"`;
+
+exports[`Translators > tuple 380`] = `"[number, never, ...number[]]"`;
+
+exports[`Translators > tuple 381`] = `"[never, ...number[]]"`;
+
+exports[`Translators > tuple 382`] = `"[number, any, ...number[]]"`;
+
+exports[`Translators > tuple 383`] = `"[any, ...number[]]"`;
+
+exports[`Translators > tuple 384`] = `"[number, unknown, ...number[]]"`;
+
+exports[`Translators > tuple 385`] = `"[unknown, ...number[]]"`;
+
+exports[`Translators > tuple 386`] = `"[number, number, ...number[]]"`;
+
+exports[`Translators > tuple 387`] = `"[number, ...number[]]"`;
+
+exports[`Translators > tuple 388`] = `"[number, \${string}0literalnull, ...number[]]"`;
+
+exports[`Translators > tuple 389`] = `"[\${string}0literalnull, ...number[]]"`;
+
+exports[`Translators > tuple 390`] = `"[number, Date, ...number[]]"`;
+
+exports[`Translators > tuple 391`] = `"[Date, ...number[]]"`;
+
+exports[`Translators > tuple 392`] = `"[number, File, ...number[]]"`;
+
+exports[`Translators > tuple 393`] = `"[File, ...number[]]"`;
+
+exports[`Translators > tuple 394`] = `"[number, number, ...number[]]"`;
+
+exports[`Translators > tuple 395`] = `"[number, ...number[]]"`;
+
+exports[`Translators > tuple 396`] = `"[number]"`;
+
+exports[`Translators > tuple 397`] = `"[\${string}0literalnull, string, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 398`] = `"[string, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 399`] = `"[\${string}0literalnull, number, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 400`] = `"[number, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 401`] = `"[\${string}0literalnull, boolean, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 402`] = `"[boolean, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 403`] = `"[\${string}0literalnull, bigint, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 404`] = `"[bigint, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 405`] = `"[\${string}0literalnull, symbol, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 406`] = `"[symbol, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 407`] = `"[\${string}0literalnull, null, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 408`] = `"[null, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 409`] = `"[\${string}0literalnull, undefined, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 410`] = `"[undefined, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 411`] = `"[\${string}0literalnull, void, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 412`] = `"[void, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 413`] = `"[\${string}0literalnull, never, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 414`] = `"[never, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 415`] = `"[\${string}0literalnull, any, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 416`] = `"[any, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 417`] = `"[\${string}0literalnull, unknown, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 418`] = `"[unknown, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 419`] = `"[\${string}0literalnull, number, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 420`] = `"[number, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 421`] = `"[\${string}0literalnull, \${string}0literalnull, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 422`] = `"[\${string}0literalnull, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 423`] = `"[\${string}0literalnull, Date, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 424`] = `"[Date, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 425`] = `"[\${string}0literalnull, File, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 426`] = `"[File, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 427`] = `"[\${string}0literalnull, number, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 428`] = `"[number, ...\${string}0literalnull[]]"`;
+
+exports[`Translators > tuple 429`] = `"[\${string}0literalnull]"`;
+
+exports[`Translators > tuple 430`] = `"[Date, string, ...Date[]]"`;
+
+exports[`Translators > tuple 431`] = `"[string, ...Date[]]"`;
+
+exports[`Translators > tuple 432`] = `"[Date, number, ...Date[]]"`;
+
+exports[`Translators > tuple 433`] = `"[number, ...Date[]]"`;
+
+exports[`Translators > tuple 434`] = `"[Date, boolean, ...Date[]]"`;
+
+exports[`Translators > tuple 435`] = `"[boolean, ...Date[]]"`;
+
+exports[`Translators > tuple 436`] = `"[Date, bigint, ...Date[]]"`;
+
+exports[`Translators > tuple 437`] = `"[bigint, ...Date[]]"`;
+
+exports[`Translators > tuple 438`] = `"[Date, symbol, ...Date[]]"`;
+
+exports[`Translators > tuple 439`] = `"[symbol, ...Date[]]"`;
+
+exports[`Translators > tuple 440`] = `"[Date, null, ...Date[]]"`;
+
+exports[`Translators > tuple 441`] = `"[null, ...Date[]]"`;
+
+exports[`Translators > tuple 442`] = `"[Date, undefined, ...Date[]]"`;
+
+exports[`Translators > tuple 443`] = `"[undefined, ...Date[]]"`;
+
+exports[`Translators > tuple 444`] = `"[Date, void, ...Date[]]"`;
+
+exports[`Translators > tuple 445`] = `"[void, ...Date[]]"`;
+
+exports[`Translators > tuple 446`] = `"[Date, never, ...Date[]]"`;
+
+exports[`Translators > tuple 447`] = `"[never, ...Date[]]"`;
+
+exports[`Translators > tuple 448`] = `"[Date, any, ...Date[]]"`;
+
+exports[`Translators > tuple 449`] = `"[any, ...Date[]]"`;
+
+exports[`Translators > tuple 450`] = `"[Date, unknown, ...Date[]]"`;
+
+exports[`Translators > tuple 451`] = `"[unknown, ...Date[]]"`;
+
+exports[`Translators > tuple 452`] = `"[Date, number, ...Date[]]"`;
+
+exports[`Translators > tuple 453`] = `"[number, ...Date[]]"`;
+
+exports[`Translators > tuple 454`] = `"[Date, \${string}0literalnull, ...Date[]]"`;
+
+exports[`Translators > tuple 455`] = `"[\${string}0literalnull, ...Date[]]"`;
+
+exports[`Translators > tuple 456`] = `"[Date, Date, ...Date[]]"`;
+
+exports[`Translators > tuple 457`] = `"[Date, ...Date[]]"`;
+
+exports[`Translators > tuple 458`] = `"[Date, File, ...Date[]]"`;
+
+exports[`Translators > tuple 459`] = `"[File, ...Date[]]"`;
+
+exports[`Translators > tuple 460`] = `"[Date, number, ...Date[]]"`;
+
+exports[`Translators > tuple 461`] = `"[number, ...Date[]]"`;
+
+exports[`Translators > tuple 462`] = `"[Date]"`;
+
+exports[`Translators > tuple 463`] = `"[File, string, ...File[]]"`;
+
+exports[`Translators > tuple 464`] = `"[string, ...File[]]"`;
+
+exports[`Translators > tuple 465`] = `"[File, number, ...File[]]"`;
+
+exports[`Translators > tuple 466`] = `"[number, ...File[]]"`;
+
+exports[`Translators > tuple 467`] = `"[File, boolean, ...File[]]"`;
+
+exports[`Translators > tuple 468`] = `"[boolean, ...File[]]"`;
+
+exports[`Translators > tuple 469`] = `"[File, bigint, ...File[]]"`;
+
+exports[`Translators > tuple 470`] = `"[bigint, ...File[]]"`;
+
+exports[`Translators > tuple 471`] = `"[File, symbol, ...File[]]"`;
+
+exports[`Translators > tuple 472`] = `"[symbol, ...File[]]"`;
+
+exports[`Translators > tuple 473`] = `"[File, null, ...File[]]"`;
+
+exports[`Translators > tuple 474`] = `"[null, ...File[]]"`;
+
+exports[`Translators > tuple 475`] = `"[File, undefined, ...File[]]"`;
+
+exports[`Translators > tuple 476`] = `"[undefined, ...File[]]"`;
+
+exports[`Translators > tuple 477`] = `"[File, void, ...File[]]"`;
+
+exports[`Translators > tuple 478`] = `"[void, ...File[]]"`;
+
+exports[`Translators > tuple 479`] = `"[File, never, ...File[]]"`;
+
+exports[`Translators > tuple 480`] = `"[never, ...File[]]"`;
+
+exports[`Translators > tuple 481`] = `"[File, any, ...File[]]"`;
+
+exports[`Translators > tuple 482`] = `"[any, ...File[]]"`;
+
+exports[`Translators > tuple 483`] = `"[File, unknown, ...File[]]"`;
+
+exports[`Translators > tuple 484`] = `"[unknown, ...File[]]"`;
+
+exports[`Translators > tuple 485`] = `"[File, number, ...File[]]"`;
+
+exports[`Translators > tuple 486`] = `"[number, ...File[]]"`;
+
+exports[`Translators > tuple 487`] = `"[File, \${string}0literalnull, ...File[]]"`;
+
+exports[`Translators > tuple 488`] = `"[\${string}0literalnull, ...File[]]"`;
+
+exports[`Translators > tuple 489`] = `"[File, Date, ...File[]]"`;
+
+exports[`Translators > tuple 490`] = `"[Date, ...File[]]"`;
+
+exports[`Translators > tuple 491`] = `"[File, File, ...File[]]"`;
+
+exports[`Translators > tuple 492`] = `"[File, ...File[]]"`;
+
+exports[`Translators > tuple 493`] = `"[File, number, ...File[]]"`;
+
+exports[`Translators > tuple 494`] = `"[number, ...File[]]"`;
+
+exports[`Translators > tuple 495`] = `"[File]"`;
+
+exports[`Translators > tuple 496`] = `"[number, string, ...number[]]"`;
+
+exports[`Translators > tuple 497`] = `"[string, ...number[]]"`;
+
+exports[`Translators > tuple 498`] = `"[number, number, ...number[]]"`;
+
+exports[`Translators > tuple 499`] = `"[number, ...number[]]"`;
+
+exports[`Translators > tuple 500`] = `"[number, boolean, ...number[]]"`;
+
+exports[`Translators > tuple 501`] = `"[boolean, ...number[]]"`;
+
+exports[`Translators > tuple 502`] = `"[number, bigint, ...number[]]"`;
+
+exports[`Translators > tuple 503`] = `"[bigint, ...number[]]"`;
+
+exports[`Translators > tuple 504`] = `"[number, symbol, ...number[]]"`;
+
+exports[`Translators > tuple 505`] = `"[symbol, ...number[]]"`;
+
+exports[`Translators > tuple 506`] = `"[number, null, ...number[]]"`;
+
+exports[`Translators > tuple 507`] = `"[null, ...number[]]"`;
+
+exports[`Translators > tuple 508`] = `"[number, undefined, ...number[]]"`;
+
+exports[`Translators > tuple 509`] = `"[undefined, ...number[]]"`;
+
+exports[`Translators > tuple 510`] = `"[number, void, ...number[]]"`;
+
+exports[`Translators > tuple 511`] = `"[void, ...number[]]"`;
+
+exports[`Translators > tuple 512`] = `"[number, never, ...number[]]"`;
+
+exports[`Translators > tuple 513`] = `"[never, ...number[]]"`;
+
+exports[`Translators > tuple 514`] = `"[number, any, ...number[]]"`;
+
+exports[`Translators > tuple 515`] = `"[any, ...number[]]"`;
+
+exports[`Translators > tuple 516`] = `"[number, unknown, ...number[]]"`;
+
+exports[`Translators > tuple 517`] = `"[unknown, ...number[]]"`;
+
+exports[`Translators > tuple 518`] = `"[number, number, ...number[]]"`;
+
+exports[`Translators > tuple 519`] = `"[number, ...number[]]"`;
+
+exports[`Translators > tuple 520`] = `"[number, \${string}0literalnull, ...number[]]"`;
+
+exports[`Translators > tuple 521`] = `"[\${string}0literalnull, ...number[]]"`;
+
+exports[`Translators > tuple 522`] = `"[number, Date, ...number[]]"`;
+
+exports[`Translators > tuple 523`] = `"[Date, ...number[]]"`;
+
+exports[`Translators > tuple 524`] = `"[number, File, ...number[]]"`;
+
+exports[`Translators > tuple 525`] = `"[File, ...number[]]"`;
+
+exports[`Translators > tuple 526`] = `"[number, number, ...number[]]"`;
+
+exports[`Translators > tuple 527`] = `"[number, ...number[]]"`;
+
+exports[`Translators > tuple 528`] = `"[number]"`;
+
+exports[`Translators > tuple 529`] = `"[]"`;
+
+exports[`Translators > undefined 1`] = `"undefined"`;
+
+exports[`Translators > union 1`] = `"string | string"`;
+
+exports[`Translators > union 2`] = `"string | number"`;
+
+exports[`Translators > union 3`] = `"string | boolean"`;
+
+exports[`Translators > union 4`] = `"string | bigint"`;
+
+exports[`Translators > union 5`] = `"string | symbol"`;
+
+exports[`Translators > union 6`] = `"string | null"`;
+
+exports[`Translators > union 7`] = `"string | undefined"`;
+
+exports[`Translators > union 8`] = `"string | void"`;
+
+exports[`Translators > union 9`] = `"string | never"`;
+
+exports[`Translators > union 10`] = `"string | any"`;
+
+exports[`Translators > union 11`] = `"string | unknown"`;
+
+exports[`Translators > union 12`] = `"string | number"`;
+
+exports[`Translators > union 13`] = `"string | \${string}0literalnull"`;
+
+exports[`Translators > union 14`] = `"string | Date"`;
+
+exports[`Translators > union 15`] = `"string | File"`;
+
+exports[`Translators > union 16`] = `"string | number"`;
+
+exports[`Translators > union 17`] = `"string"`;
+
+exports[`Translators > union 18`] = `"number | string"`;
+
+exports[`Translators > union 19`] = `"number | number"`;
+
+exports[`Translators > union 20`] = `"number | boolean"`;
+
+exports[`Translators > union 21`] = `"number | bigint"`;
+
+exports[`Translators > union 22`] = `"number | symbol"`;
+
+exports[`Translators > union 23`] = `"number | null"`;
+
+exports[`Translators > union 24`] = `"number | undefined"`;
+
+exports[`Translators > union 25`] = `"number | void"`;
+
+exports[`Translators > union 26`] = `"number | never"`;
+
+exports[`Translators > union 27`] = `"number | any"`;
+
+exports[`Translators > union 28`] = `"number | unknown"`;
+
+exports[`Translators > union 29`] = `"number | number"`;
+
+exports[`Translators > union 30`] = `"number | \${string}0literalnull"`;
+
+exports[`Translators > union 31`] = `"number | Date"`;
+
+exports[`Translators > union 32`] = `"number | File"`;
+
+exports[`Translators > union 33`] = `"number | number"`;
+
+exports[`Translators > union 34`] = `"number"`;
+
+exports[`Translators > union 35`] = `"boolean | string"`;
+
+exports[`Translators > union 36`] = `"boolean | number"`;
+
+exports[`Translators > union 37`] = `"boolean | boolean"`;
+
+exports[`Translators > union 38`] = `"boolean | bigint"`;
+
+exports[`Translators > union 39`] = `"boolean | symbol"`;
+
+exports[`Translators > union 40`] = `"boolean | null"`;
+
+exports[`Translators > union 41`] = `"boolean | undefined"`;
+
+exports[`Translators > union 42`] = `"boolean | void"`;
+
+exports[`Translators > union 43`] = `"boolean | never"`;
+
+exports[`Translators > union 44`] = `"boolean | any"`;
+
+exports[`Translators > union 45`] = `"boolean | unknown"`;
+
+exports[`Translators > union 46`] = `"boolean | number"`;
+
+exports[`Translators > union 47`] = `"boolean | \${string}0literalnull"`;
+
+exports[`Translators > union 48`] = `"boolean | Date"`;
+
+exports[`Translators > union 49`] = `"boolean | File"`;
+
+exports[`Translators > union 50`] = `"boolean | number"`;
+
+exports[`Translators > union 51`] = `"boolean"`;
+
+exports[`Translators > union 52`] = `"bigint | string"`;
+
+exports[`Translators > union 53`] = `"bigint | number"`;
+
+exports[`Translators > union 54`] = `"bigint | boolean"`;
+
+exports[`Translators > union 55`] = `"bigint | bigint"`;
+
+exports[`Translators > union 56`] = `"bigint | symbol"`;
+
+exports[`Translators > union 57`] = `"bigint | null"`;
+
+exports[`Translators > union 58`] = `"bigint | undefined"`;
+
+exports[`Translators > union 59`] = `"bigint | void"`;
+
+exports[`Translators > union 60`] = `"bigint | never"`;
+
+exports[`Translators > union 61`] = `"bigint | any"`;
+
+exports[`Translators > union 62`] = `"bigint | unknown"`;
+
+exports[`Translators > union 63`] = `"bigint | number"`;
+
+exports[`Translators > union 64`] = `"bigint | \${string}0literalnull"`;
+
+exports[`Translators > union 65`] = `"bigint | Date"`;
+
+exports[`Translators > union 66`] = `"bigint | File"`;
+
+exports[`Translators > union 67`] = `"bigint | number"`;
+
+exports[`Translators > union 68`] = `"bigint"`;
+
+exports[`Translators > union 69`] = `"symbol | string"`;
+
+exports[`Translators > union 70`] = `"symbol | number"`;
+
+exports[`Translators > union 71`] = `"symbol | boolean"`;
+
+exports[`Translators > union 72`] = `"symbol | bigint"`;
+
+exports[`Translators > union 73`] = `"symbol | symbol"`;
+
+exports[`Translators > union 74`] = `"symbol | null"`;
+
+exports[`Translators > union 75`] = `"symbol | undefined"`;
+
+exports[`Translators > union 76`] = `"symbol | void"`;
+
+exports[`Translators > union 77`] = `"symbol | never"`;
+
+exports[`Translators > union 78`] = `"symbol | any"`;
+
+exports[`Translators > union 79`] = `"symbol | unknown"`;
+
+exports[`Translators > union 80`] = `"symbol | number"`;
+
+exports[`Translators > union 81`] = `"symbol | \${string}0literalnull"`;
+
+exports[`Translators > union 82`] = `"symbol | Date"`;
+
+exports[`Translators > union 83`] = `"symbol | File"`;
+
+exports[`Translators > union 84`] = `"symbol | number"`;
+
+exports[`Translators > union 85`] = `"symbol"`;
+
+exports[`Translators > union 86`] = `"null | string"`;
+
+exports[`Translators > union 87`] = `"null | number"`;
+
+exports[`Translators > union 88`] = `"null | boolean"`;
+
+exports[`Translators > union 89`] = `"null | bigint"`;
+
+exports[`Translators > union 90`] = `"null | symbol"`;
+
+exports[`Translators > union 91`] = `"null | null"`;
+
+exports[`Translators > union 92`] = `"null | undefined"`;
+
+exports[`Translators > union 93`] = `"null | void"`;
+
+exports[`Translators > union 94`] = `"null | never"`;
+
+exports[`Translators > union 95`] = `"null | any"`;
+
+exports[`Translators > union 96`] = `"null | unknown"`;
+
+exports[`Translators > union 97`] = `"null | number"`;
+
+exports[`Translators > union 98`] = `"null | \${string}0literalnull"`;
+
+exports[`Translators > union 99`] = `"null | Date"`;
+
+exports[`Translators > union 100`] = `"null | File"`;
+
+exports[`Translators > union 101`] = `"null | number"`;
+
+exports[`Translators > union 102`] = `"null"`;
+
+exports[`Translators > union 103`] = `"undefined | string"`;
+
+exports[`Translators > union 104`] = `"undefined | number"`;
+
+exports[`Translators > union 105`] = `"undefined | boolean"`;
+
+exports[`Translators > union 106`] = `"undefined | bigint"`;
+
+exports[`Translators > union 107`] = `"undefined | symbol"`;
+
+exports[`Translators > union 108`] = `"undefined | null"`;
+
+exports[`Translators > union 109`] = `"undefined | undefined"`;
+
+exports[`Translators > union 110`] = `"undefined | void"`;
+
+exports[`Translators > union 111`] = `"undefined | never"`;
+
+exports[`Translators > union 112`] = `"undefined | any"`;
+
+exports[`Translators > union 113`] = `"undefined | unknown"`;
+
+exports[`Translators > union 114`] = `"undefined | number"`;
+
+exports[`Translators > union 115`] = `"undefined | \${string}0literalnull"`;
+
+exports[`Translators > union 116`] = `"undefined | Date"`;
+
+exports[`Translators > union 117`] = `"undefined | File"`;
+
+exports[`Translators > union 118`] = `"undefined | number"`;
+
+exports[`Translators > union 119`] = `"undefined"`;
+
+exports[`Translators > union 120`] = `"void | string"`;
+
+exports[`Translators > union 121`] = `"void | number"`;
+
+exports[`Translators > union 122`] = `"void | boolean"`;
+
+exports[`Translators > union 123`] = `"void | bigint"`;
+
+exports[`Translators > union 124`] = `"void | symbol"`;
+
+exports[`Translators > union 125`] = `"void | null"`;
+
+exports[`Translators > union 126`] = `"void | undefined"`;
+
+exports[`Translators > union 127`] = `"void | void"`;
+
+exports[`Translators > union 128`] = `"void | never"`;
+
+exports[`Translators > union 129`] = `"void | any"`;
+
+exports[`Translators > union 130`] = `"void | unknown"`;
+
+exports[`Translators > union 131`] = `"void | number"`;
+
+exports[`Translators > union 132`] = `"void | \${string}0literalnull"`;
+
+exports[`Translators > union 133`] = `"void | Date"`;
+
+exports[`Translators > union 134`] = `"void | File"`;
+
+exports[`Translators > union 135`] = `"void | number"`;
+
+exports[`Translators > union 136`] = `"void"`;
+
+exports[`Translators > union 137`] = `"never | string"`;
+
+exports[`Translators > union 138`] = `"never | number"`;
+
+exports[`Translators > union 139`] = `"never | boolean"`;
+
+exports[`Translators > union 140`] = `"never | bigint"`;
+
+exports[`Translators > union 141`] = `"never | symbol"`;
+
+exports[`Translators > union 142`] = `"never | null"`;
+
+exports[`Translators > union 143`] = `"never | undefined"`;
+
+exports[`Translators > union 144`] = `"never | void"`;
+
+exports[`Translators > union 145`] = `"never | never"`;
+
+exports[`Translators > union 146`] = `"never | any"`;
+
+exports[`Translators > union 147`] = `"never | unknown"`;
+
+exports[`Translators > union 148`] = `"never | number"`;
+
+exports[`Translators > union 149`] = `"never | \${string}0literalnull"`;
+
+exports[`Translators > union 150`] = `"never | Date"`;
+
+exports[`Translators > union 151`] = `"never | File"`;
+
+exports[`Translators > union 152`] = `"never | number"`;
+
+exports[`Translators > union 153`] = `"never"`;
+
+exports[`Translators > union 154`] = `"any | string"`;
+
+exports[`Translators > union 155`] = `"any | number"`;
+
+exports[`Translators > union 156`] = `"any | boolean"`;
+
+exports[`Translators > union 157`] = `"any | bigint"`;
+
+exports[`Translators > union 158`] = `"any | symbol"`;
+
+exports[`Translators > union 159`] = `"any | null"`;
+
+exports[`Translators > union 160`] = `"any | undefined"`;
+
+exports[`Translators > union 161`] = `"any | void"`;
+
+exports[`Translators > union 162`] = `"any | never"`;
+
+exports[`Translators > union 163`] = `"any | any"`;
+
+exports[`Translators > union 164`] = `"any | unknown"`;
+
+exports[`Translators > union 165`] = `"any | number"`;
+
+exports[`Translators > union 166`] = `"any | \${string}0literalnull"`;
+
+exports[`Translators > union 167`] = `"any | Date"`;
+
+exports[`Translators > union 168`] = `"any | File"`;
+
+exports[`Translators > union 169`] = `"any | number"`;
+
+exports[`Translators > union 170`] = `"any"`;
+
+exports[`Translators > union 171`] = `"unknown | string"`;
+
+exports[`Translators > union 172`] = `"unknown | number"`;
+
+exports[`Translators > union 173`] = `"unknown | boolean"`;
+
+exports[`Translators > union 174`] = `"unknown | bigint"`;
+
+exports[`Translators > union 175`] = `"unknown | symbol"`;
+
+exports[`Translators > union 176`] = `"unknown | null"`;
+
+exports[`Translators > union 177`] = `"unknown | undefined"`;
+
+exports[`Translators > union 178`] = `"unknown | void"`;
+
+exports[`Translators > union 179`] = `"unknown | never"`;
+
+exports[`Translators > union 180`] = `"unknown | any"`;
+
+exports[`Translators > union 181`] = `"unknown | unknown"`;
+
+exports[`Translators > union 182`] = `"unknown | number"`;
+
+exports[`Translators > union 183`] = `"unknown | \${string}0literalnull"`;
+
+exports[`Translators > union 184`] = `"unknown | Date"`;
+
+exports[`Translators > union 185`] = `"unknown | File"`;
+
+exports[`Translators > union 186`] = `"unknown | number"`;
+
+exports[`Translators > union 187`] = `"unknown"`;
+
+exports[`Translators > union 188`] = `"number | string"`;
+
+exports[`Translators > union 189`] = `"number | number"`;
+
+exports[`Translators > union 190`] = `"number | boolean"`;
+
+exports[`Translators > union 191`] = `"number | bigint"`;
+
+exports[`Translators > union 192`] = `"number | symbol"`;
+
+exports[`Translators > union 193`] = `"number | null"`;
+
+exports[`Translators > union 194`] = `"number | undefined"`;
+
+exports[`Translators > union 195`] = `"number | void"`;
+
+exports[`Translators > union 196`] = `"number | never"`;
+
+exports[`Translators > union 197`] = `"number | any"`;
+
+exports[`Translators > union 198`] = `"number | unknown"`;
+
+exports[`Translators > union 199`] = `"number | number"`;
+
+exports[`Translators > union 200`] = `"number | \${string}0literalnull"`;
+
+exports[`Translators > union 201`] = `"number | Date"`;
+
+exports[`Translators > union 202`] = `"number | File"`;
+
+exports[`Translators > union 203`] = `"number | number"`;
+
+exports[`Translators > union 204`] = `"number"`;
+
+exports[`Translators > union 205`] = `"\${string}0literalnull | string"`;
+
+exports[`Translators > union 206`] = `"\${string}0literalnull | number"`;
+
+exports[`Translators > union 207`] = `"\${string}0literalnull | boolean"`;
+
+exports[`Translators > union 208`] = `"\${string}0literalnull | bigint"`;
+
+exports[`Translators > union 209`] = `"\${string}0literalnull | symbol"`;
+
+exports[`Translators > union 210`] = `"\${string}0literalnull | null"`;
+
+exports[`Translators > union 211`] = `"\${string}0literalnull | undefined"`;
+
+exports[`Translators > union 212`] = `"\${string}0literalnull | void"`;
+
+exports[`Translators > union 213`] = `"\${string}0literalnull | never"`;
+
+exports[`Translators > union 214`] = `"\${string}0literalnull | any"`;
+
+exports[`Translators > union 215`] = `"\${string}0literalnull | unknown"`;
+
+exports[`Translators > union 216`] = `"\${string}0literalnull | number"`;
+
+exports[`Translators > union 217`] = `"\${string}0literalnull | \${string}0literalnull"`;
+
+exports[`Translators > union 218`] = `"\${string}0literalnull | Date"`;
+
+exports[`Translators > union 219`] = `"\${string}0literalnull | File"`;
+
+exports[`Translators > union 220`] = `"\${string}0literalnull | number"`;
+
+exports[`Translators > union 221`] = `"\${string}0literalnull"`;
+
+exports[`Translators > union 222`] = `"Date | string"`;
+
+exports[`Translators > union 223`] = `"Date | number"`;
+
+exports[`Translators > union 224`] = `"Date | boolean"`;
+
+exports[`Translators > union 225`] = `"Date | bigint"`;
+
+exports[`Translators > union 226`] = `"Date | symbol"`;
+
+exports[`Translators > union 227`] = `"Date | null"`;
+
+exports[`Translators > union 228`] = `"Date | undefined"`;
+
+exports[`Translators > union 229`] = `"Date | void"`;
+
+exports[`Translators > union 230`] = `"Date | never"`;
+
+exports[`Translators > union 231`] = `"Date | any"`;
+
+exports[`Translators > union 232`] = `"Date | unknown"`;
+
+exports[`Translators > union 233`] = `"Date | number"`;
+
+exports[`Translators > union 234`] = `"Date | \${string}0literalnull"`;
+
+exports[`Translators > union 235`] = `"Date | Date"`;
+
+exports[`Translators > union 236`] = `"Date | File"`;
+
+exports[`Translators > union 237`] = `"Date | number"`;
+
+exports[`Translators > union 238`] = `"Date"`;
+
+exports[`Translators > union 239`] = `"File | string"`;
+
+exports[`Translators > union 240`] = `"File | number"`;
+
+exports[`Translators > union 241`] = `"File | boolean"`;
+
+exports[`Translators > union 242`] = `"File | bigint"`;
+
+exports[`Translators > union 243`] = `"File | symbol"`;
+
+exports[`Translators > union 244`] = `"File | null"`;
+
+exports[`Translators > union 245`] = `"File | undefined"`;
+
+exports[`Translators > union 246`] = `"File | void"`;
+
+exports[`Translators > union 247`] = `"File | never"`;
+
+exports[`Translators > union 248`] = `"File | any"`;
+
+exports[`Translators > union 249`] = `"File | unknown"`;
+
+exports[`Translators > union 250`] = `"File | number"`;
+
+exports[`Translators > union 251`] = `"File | \${string}0literalnull"`;
+
+exports[`Translators > union 252`] = `"File | Date"`;
+
+exports[`Translators > union 253`] = `"File | File"`;
+
+exports[`Translators > union 254`] = `"File | number"`;
+
+exports[`Translators > union 255`] = `"File"`;
+
+exports[`Translators > union 256`] = `"number | string"`;
+
+exports[`Translators > union 257`] = `"number | number"`;
+
+exports[`Translators > union 258`] = `"number | boolean"`;
+
+exports[`Translators > union 259`] = `"number | bigint"`;
+
+exports[`Translators > union 260`] = `"number | symbol"`;
+
+exports[`Translators > union 261`] = `"number | null"`;
+
+exports[`Translators > union 262`] = `"number | undefined"`;
+
+exports[`Translators > union 263`] = `"number | void"`;
+
+exports[`Translators > union 264`] = `"number | never"`;
+
+exports[`Translators > union 265`] = `"number | any"`;
+
+exports[`Translators > union 266`] = `"number | unknown"`;
+
+exports[`Translators > union 267`] = `"number | number"`;
+
+exports[`Translators > union 268`] = `"number | \${string}0literalnull"`;
+
+exports[`Translators > union 269`] = `"number | Date"`;
+
+exports[`Translators > union 270`] = `"number | File"`;
+
+exports[`Translators > union 271`] = `"number | number"`;
+
+exports[`Translators > union 272`] = `"number"`;
+
+exports[`Translators > union 273`] = `""`;
+
+exports[`Translators > unknown 1`] = `"unknown"`;
+
+exports[`Translators > void 1`] = `"void"`;

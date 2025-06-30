@@ -10,12 +10,9 @@ Convert [Zod v4](https://github.com/colinhacks/zod) schemas into TypeScript type
 </div>
 
 <p align="center">
-  <!-- <a href="https://www.npmjs.com/package/zod4-to-ts">
+  <a href="https://www.npmjs.com/package/zod4-to-ts">
     <img src="https://img.shields.io/npm/v/zod4-to-ts?color=blue" alt="npm version" />
   </a>
-  <a href="https://www.npmjs.com/package/zod4-to-ts">
-    <img src="https://img.shields.io/npm/dm/zod4-to-ts.svg?label=downloads&color=green" alt="npm downloads" />
-  </a> -->
   <img src="https://img.shields.io/badge/coverage-100%25-brightgreen.svg" alt="100% test coverage" />
   <img src="https://img.shields.io/badge/types-TypeScript-blue.svg" alt="TypeScript" />
 </p>
@@ -160,48 +157,3 @@ MIT © 2025 [Emanuele Scarsella](https://github.com/emanuele-scarsella)
 Made with ❤️ and [Zod](https://github.com/colinhacks/zod).
 
 ---
-
-
-<!--
-// string: string;
-// number: number;
-// boolean: boolean;
-// bigint: bigint;
-// symbol: symbol;
-// null: null;
-// undefined: undefined;
-// void: void;
-// never: never;
-// any: any;
-// unknown: unknown;
-
-// int: number; // int is an alias for number
-// template_literal: string; // template_literal is an alias for string
-// date: Date; // date is an alias for Date
-// file: File; // file is an alias for File
-// nan: 'number'; // yep... it's a number
-
-// object: ...; // Recursively calls `zodToTs` on `value.def.shape` keys
-// 	 	array: Array<>; // The generic takes the type from `value.def.innerType`
-// 		nullable: innerType | null; // The generic takes the type from `value.def.innerType`
-// 	 	optional: innerType | undefined; // The generic takes the type from `value.def.innerType`
-// 		default: innerType | undefined; // The generic takes the type from `value.def.innerType`
-// 		prefault: innerType | undefined; // The generic takes the type from `value.def.innerType`
-// 		catch: innerType | undefined; // The generic takes the type from `value.def.innerType`
-// 		promise: Promise<>; // The generic takes the type from `value.def.innerType`
-// 		readonly: ; // Takes the type from `value.def.innerType`
-// 		nonoptional: ; // Takes the type from `value.def.innerType`
-// 		success: ; // Takes the type from `value.def.innerType`
-// 		lazy: ; // Takes the type from `value.unwrap()`
-// 			tuple: [items[0], items[1] (...) , ...rest[]]; // Where `items` and `rest` are the type from `value.def.items` and `value.def.rest`
-// 			union: options[0] | options[1] (...) ; // Where `options` is the type from `value.def.options`
-// 			enum: values[0] | values[1] (...); // Where `values` are the values from `Object.values(value.def.entries)`
-// 			literal: values[0] | values[1] (...); // Where `values` is THE ARRAY (actual literal values) from `value.def.values`
-// 			intersection: left & right; // Where `left` and `right` are the types from `value.def.left` and `value.def.right`
-// 				record: Record<>; // Takes the types from `value.def.keyType` and `value.def.valueType`
-// 	 			map: Map<>; // Takes the types from `value.def.keyType` and `value.def.valueType`
-// 					set: Set<>; // Takes the type from `value.def.valueType`
-
-// transform: transform; // UNSUPPORTED
-// pipe: pipe; // UNSUPPORTED
-// custom: custom; // UNSUPPORTED -->

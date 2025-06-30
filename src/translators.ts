@@ -41,7 +41,7 @@ export const translators = {
     prefault: (value: ZodOptimisticType) => `${zodToTs(value.def.innerType)} | undefined`,
     catch: (value: ZodOptimisticType) => `${zodToTs(value.def.innerType)} | undefined`,
     // SPECIAL
-    template_literal: (value: ZodOptimisticType) => value.def.parts.map(translateTemplatePart).join(''),
+    template_literal: (value: ZodOptimisticType) => `\`${value.def.parts.map(translateTemplatePart).join('')}\``,
     tuple: (value: ZodOptimisticType) => `[${value.def.items.map(zodToTs).join(', ')}${value.def.rest ? `, ...${zodToTs(value.def.rest)}[]` : ''}]`,
     union: (value: ZodOptimisticType) => `${value.def.options.map(zodToTs).join(' | ')}`,
     enum: (value: ZodOptimisticType) => `${Object.values(value.def.entries).map(sanitizeLiteral).join(' | ')}`,
@@ -56,7 +56,7 @@ export const translators = {
 };
 
 function sanitizeLiteral(literal: string) {
-    return `'${literal.replace(/`/g, '\\`')}'`;
+    return `'${literal.replace(/'/g, "\\'")}'`;
 }
 
 function translateTemplatePart(part: string | number | bigint | boolean | ZodType | null | undefined) {

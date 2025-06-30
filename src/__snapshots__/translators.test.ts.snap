@@ -26,7 +26,7 @@ exports[`Translators > array 11`] = `"Array<unknown>"`;
 
 exports[`Translators > array 12`] = `"Array<number>"`;
 
-exports[`Translators > array 13`] = `"Array<\${string}0literalnull>"`;
+exports[`Translators > array 13`] = `"Array<\`\${string}0literalnull\`>"`;
 
 exports[`Translators > array 14`] = `"Array<Date>"`;
 
@@ -62,7 +62,7 @@ exports[`Translators > catch 11`] = `"unknown | undefined"`;
 
 exports[`Translators > catch 12`] = `"number | undefined"`;
 
-exports[`Translators > catch 13`] = `"\${string}0literalnull | undefined"`;
+exports[`Translators > catch 13`] = `"\`\${string}0literalnull\` | undefined"`;
 
 exports[`Translators > catch 14`] = `"Date | undefined"`;
 
@@ -96,7 +96,7 @@ exports[`Translators > default 11`] = `"unknown | undefined"`;
 
 exports[`Translators > default 12`] = `"number | undefined"`;
 
-exports[`Translators > default 13`] = `"\${string}0literalnull | undefined"`;
+exports[`Translators > default 13`] = `"\`\${string}0literalnull\` | undefined"`;
 
 exports[`Translators > default 14`] = `"Date | undefined"`;
 
@@ -378,17 +378,17 @@ exports[`Translators > intersection 48`] = `
 }"
 `;
 
-exports[`Translators > intersection 49`] = `"string & \${string}0literalnull"`;
+exports[`Translators > intersection 49`] = `"string & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 50`] = `
 "{
     a: string;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 51`] = `
 "string & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -396,7 +396,7 @@ exports[`Translators > intersection 52`] = `
 "{
     a: string;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -730,17 +730,17 @@ exports[`Translators > intersection 112`] = `
 }"
 `;
 
-exports[`Translators > intersection 113`] = `"number & \${string}0literalnull"`;
+exports[`Translators > intersection 113`] = `"number & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 114`] = `
 "{
     a: number;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 115`] = `
 "number & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -748,7 +748,7 @@ exports[`Translators > intersection 116`] = `
 "{
     a: number;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -1082,17 +1082,17 @@ exports[`Translators > intersection 176`] = `
 }"
 `;
 
-exports[`Translators > intersection 177`] = `"boolean & \${string}0literalnull"`;
+exports[`Translators > intersection 177`] = `"boolean & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 178`] = `
 "{
     a: boolean;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 179`] = `
 "boolean & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -1100,7 +1100,7 @@ exports[`Translators > intersection 180`] = `
 "{
     a: boolean;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -1434,17 +1434,17 @@ exports[`Translators > intersection 240`] = `
 }"
 `;
 
-exports[`Translators > intersection 241`] = `"bigint & \${string}0literalnull"`;
+exports[`Translators > intersection 241`] = `"bigint & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 242`] = `
 "{
     a: bigint;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 243`] = `
 "bigint & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -1452,7 +1452,7 @@ exports[`Translators > intersection 244`] = `
 "{
     a: bigint;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -1786,17 +1786,17 @@ exports[`Translators > intersection 304`] = `
 }"
 `;
 
-exports[`Translators > intersection 305`] = `"symbol & \${string}0literalnull"`;
+exports[`Translators > intersection 305`] = `"symbol & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 306`] = `
 "{
     a: symbol;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 307`] = `
 "symbol & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -1804,7 +1804,7 @@ exports[`Translators > intersection 308`] = `
 "{
     a: symbol;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -2138,17 +2138,17 @@ exports[`Translators > intersection 368`] = `
 }"
 `;
 
-exports[`Translators > intersection 369`] = `"null & \${string}0literalnull"`;
+exports[`Translators > intersection 369`] = `"null & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 370`] = `
 "{
     a: null;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 371`] = `
 "null & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -2156,7 +2156,7 @@ exports[`Translators > intersection 372`] = `
 "{
     a: null;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -2490,17 +2490,17 @@ exports[`Translators > intersection 432`] = `
 }"
 `;
 
-exports[`Translators > intersection 433`] = `"undefined & \${string}0literalnull"`;
+exports[`Translators > intersection 433`] = `"undefined & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 434`] = `
 "{
     a: undefined;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 435`] = `
 "undefined & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -2508,7 +2508,7 @@ exports[`Translators > intersection 436`] = `
 "{
     a: undefined;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -2842,17 +2842,17 @@ exports[`Translators > intersection 496`] = `
 }"
 `;
 
-exports[`Translators > intersection 497`] = `"void & \${string}0literalnull"`;
+exports[`Translators > intersection 497`] = `"void & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 498`] = `
 "{
     a: void;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 499`] = `
 "void & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -2860,7 +2860,7 @@ exports[`Translators > intersection 500`] = `
 "{
     a: void;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -3194,17 +3194,17 @@ exports[`Translators > intersection 560`] = `
 }"
 `;
 
-exports[`Translators > intersection 561`] = `"never & \${string}0literalnull"`;
+exports[`Translators > intersection 561`] = `"never & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 562`] = `
 "{
     a: never;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 563`] = `
 "never & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -3212,7 +3212,7 @@ exports[`Translators > intersection 564`] = `
 "{
     a: never;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -3546,17 +3546,17 @@ exports[`Translators > intersection 624`] = `
 }"
 `;
 
-exports[`Translators > intersection 625`] = `"any & \${string}0literalnull"`;
+exports[`Translators > intersection 625`] = `"any & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 626`] = `
 "{
     a: any;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 627`] = `
 "any & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -3564,7 +3564,7 @@ exports[`Translators > intersection 628`] = `
 "{
     a: any;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -3898,17 +3898,17 @@ exports[`Translators > intersection 688`] = `
 }"
 `;
 
-exports[`Translators > intersection 689`] = `"unknown & \${string}0literalnull"`;
+exports[`Translators > intersection 689`] = `"unknown & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 690`] = `
 "{
     a: unknown;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 691`] = `
 "unknown & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -3916,7 +3916,7 @@ exports[`Translators > intersection 692`] = `
 "{
     a: unknown;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -4250,17 +4250,17 @@ exports[`Translators > intersection 752`] = `
 }"
 `;
 
-exports[`Translators > intersection 753`] = `"number & \${string}0literalnull"`;
+exports[`Translators > intersection 753`] = `"number & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 754`] = `
 "{
     a: number;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 755`] = `
 "number & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -4268,7 +4268,7 @@ exports[`Translators > intersection 756`] = `
 "{
     a: number;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -4338,353 +4338,353 @@ exports[`Translators > intersection 768`] = `
 }"
 `;
 
-exports[`Translators > intersection 769`] = `"\${string}0literalnull & string"`;
+exports[`Translators > intersection 769`] = `"\`\${string}0literalnull\` & string"`;
 
 exports[`Translators > intersection 770`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & string"
 `;
 
 exports[`Translators > intersection 771`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: string;
 }"
 `;
 
 exports[`Translators > intersection 772`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: string;
 }"
 `;
 
-exports[`Translators > intersection 773`] = `"\${string}0literalnull & number"`;
+exports[`Translators > intersection 773`] = `"\`\${string}0literalnull\` & number"`;
 
 exports[`Translators > intersection 774`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & number"
 `;
 
 exports[`Translators > intersection 775`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: number;
 }"
 `;
 
 exports[`Translators > intersection 776`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: number;
 }"
 `;
 
-exports[`Translators > intersection 777`] = `"\${string}0literalnull & boolean"`;
+exports[`Translators > intersection 777`] = `"\`\${string}0literalnull\` & boolean"`;
 
 exports[`Translators > intersection 778`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & boolean"
 `;
 
 exports[`Translators > intersection 779`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: boolean;
 }"
 `;
 
 exports[`Translators > intersection 780`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: boolean;
 }"
 `;
 
-exports[`Translators > intersection 781`] = `"\${string}0literalnull & bigint"`;
+exports[`Translators > intersection 781`] = `"\`\${string}0literalnull\` & bigint"`;
 
 exports[`Translators > intersection 782`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & bigint"
 `;
 
 exports[`Translators > intersection 783`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: bigint;
 }"
 `;
 
 exports[`Translators > intersection 784`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: bigint;
 }"
 `;
 
-exports[`Translators > intersection 785`] = `"\${string}0literalnull & symbol"`;
+exports[`Translators > intersection 785`] = `"\`\${string}0literalnull\` & symbol"`;
 
 exports[`Translators > intersection 786`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & symbol"
 `;
 
 exports[`Translators > intersection 787`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: symbol;
 }"
 `;
 
 exports[`Translators > intersection 788`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: symbol;
 }"
 `;
 
-exports[`Translators > intersection 789`] = `"\${string}0literalnull & null"`;
+exports[`Translators > intersection 789`] = `"\`\${string}0literalnull\` & null"`;
 
 exports[`Translators > intersection 790`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & null"
 `;
 
 exports[`Translators > intersection 791`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: null;
 }"
 `;
 
 exports[`Translators > intersection 792`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: null;
 }"
 `;
 
-exports[`Translators > intersection 793`] = `"\${string}0literalnull & undefined"`;
+exports[`Translators > intersection 793`] = `"\`\${string}0literalnull\` & undefined"`;
 
 exports[`Translators > intersection 794`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & undefined"
 `;
 
 exports[`Translators > intersection 795`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: undefined;
 }"
 `;
 
 exports[`Translators > intersection 796`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: undefined;
 }"
 `;
 
-exports[`Translators > intersection 797`] = `"\${string}0literalnull & void"`;
+exports[`Translators > intersection 797`] = `"\`\${string}0literalnull\` & void"`;
 
 exports[`Translators > intersection 798`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & void"
 `;
 
 exports[`Translators > intersection 799`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: void;
 }"
 `;
 
 exports[`Translators > intersection 800`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: void;
 }"
 `;
 
-exports[`Translators > intersection 801`] = `"\${string}0literalnull & never"`;
+exports[`Translators > intersection 801`] = `"\`\${string}0literalnull\` & never"`;
 
 exports[`Translators > intersection 802`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & never"
 `;
 
 exports[`Translators > intersection 803`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: never;
 }"
 `;
 
 exports[`Translators > intersection 804`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: never;
 }"
 `;
 
-exports[`Translators > intersection 805`] = `"\${string}0literalnull & any"`;
+exports[`Translators > intersection 805`] = `"\`\${string}0literalnull\` & any"`;
 
 exports[`Translators > intersection 806`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & any"
 `;
 
 exports[`Translators > intersection 807`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: any;
 }"
 `;
 
 exports[`Translators > intersection 808`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: any;
 }"
 `;
 
-exports[`Translators > intersection 809`] = `"\${string}0literalnull & unknown"`;
+exports[`Translators > intersection 809`] = `"\`\${string}0literalnull\` & unknown"`;
 
 exports[`Translators > intersection 810`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & unknown"
 `;
 
 exports[`Translators > intersection 811`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: unknown;
 }"
 `;
 
 exports[`Translators > intersection 812`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: unknown;
 }"
 `;
 
-exports[`Translators > intersection 813`] = `"\${string}0literalnull & number"`;
+exports[`Translators > intersection 813`] = `"\`\${string}0literalnull\` & number"`;
 
 exports[`Translators > intersection 814`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & number"
 `;
 
 exports[`Translators > intersection 815`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: number;
 }"
 `;
 
 exports[`Translators > intersection 816`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: number;
 }"
 `;
 
-exports[`Translators > intersection 817`] = `"\${string}0literalnull & \${string}0literalnull"`;
+exports[`Translators > intersection 817`] = `"\`\${string}0literalnull\` & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 818`] = `
 "{
-    a: \${string}0literalnull;
-} & \${string}0literalnull"
+    a: \`\${string}0literalnull\`;
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 819`] = `
-"\${string}0literalnull & {
-    b: \${string}0literalnull;
+"\`\${string}0literalnull\` & {
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
 exports[`Translators > intersection 820`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
-exports[`Translators > intersection 821`] = `"\${string}0literalnull & Date"`;
+exports[`Translators > intersection 821`] = `"\`\${string}0literalnull\` & Date"`;
 
 exports[`Translators > intersection 822`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & Date"
 `;
 
 exports[`Translators > intersection 823`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: Date;
 }"
 `;
 
 exports[`Translators > intersection 824`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: Date;
 }"
 `;
 
-exports[`Translators > intersection 825`] = `"\${string}0literalnull & File"`;
+exports[`Translators > intersection 825`] = `"\`\${string}0literalnull\` & File"`;
 
 exports[`Translators > intersection 826`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & File"
 `;
 
 exports[`Translators > intersection 827`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: File;
 }"
 `;
 
 exports[`Translators > intersection 828`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: File;
 }"
 `;
 
-exports[`Translators > intersection 829`] = `"\${string}0literalnull & number"`;
+exports[`Translators > intersection 829`] = `"\`\${string}0literalnull\` & number"`;
 
 exports[`Translators > intersection 830`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & number"
 `;
 
 exports[`Translators > intersection 831`] = `
-"\${string}0literalnull & {
+"\`\${string}0literalnull\` & {
     b: number;
 }"
 `;
 
 exports[`Translators > intersection 832`] = `
 "{
-    a: \${string}0literalnull;
+    a: \`\${string}0literalnull\`;
 } & {
     b: number;
 }"
@@ -4954,17 +4954,17 @@ exports[`Translators > intersection 880`] = `
 }"
 `;
 
-exports[`Translators > intersection 881`] = `"Date & \${string}0literalnull"`;
+exports[`Translators > intersection 881`] = `"Date & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 882`] = `
 "{
     a: Date;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 883`] = `
 "Date & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -4972,7 +4972,7 @@ exports[`Translators > intersection 884`] = `
 "{
     a: Date;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -5306,17 +5306,17 @@ exports[`Translators > intersection 944`] = `
 }"
 `;
 
-exports[`Translators > intersection 945`] = `"File & \${string}0literalnull"`;
+exports[`Translators > intersection 945`] = `"File & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 946`] = `
 "{
     a: File;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 947`] = `
 "File & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -5324,7 +5324,7 @@ exports[`Translators > intersection 948`] = `
 "{
     a: File;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -5658,17 +5658,17 @@ exports[`Translators > intersection 1008`] = `
 }"
 `;
 
-exports[`Translators > intersection 1009`] = `"number & \${string}0literalnull"`;
+exports[`Translators > intersection 1009`] = `"number & \`\${string}0literalnull\`"`;
 
 exports[`Translators > intersection 1010`] = `
 "{
     a: number;
-} & \${string}0literalnull"
+} & \`\${string}0literalnull\`"
 `;
 
 exports[`Translators > intersection 1011`] = `
 "number & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -5676,7 +5676,7 @@ exports[`Translators > intersection 1012`] = `
 "{
     a: number;
 } & {
-    b: \${string}0literalnull;
+    b: \`\${string}0literalnull\`;
 }"
 `;
 
@@ -5770,7 +5770,7 @@ exports[`Translators > lazy 11`] = `"unknown"`;
 
 exports[`Translators > lazy 12`] = `"number"`;
 
-exports[`Translators > lazy 13`] = `"\${string}0literalnull"`;
+exports[`Translators > lazy 13`] = `"\`\${string}0literalnull\`"`;
 
 exports[`Translators > lazy 14`] = `"Date"`;
 
@@ -5850,11 +5850,11 @@ exports[`Translators > map 35`] = `"Map<number, number>"`;
 
 exports[`Translators > map 36`] = `"Map<number, number>"`;
 
-exports[`Translators > map 37`] = `"Map<string, \${string}0literalnull>"`;
+exports[`Translators > map 37`] = `"Map<string, \`\${string}0literalnull\`>"`;
 
-exports[`Translators > map 38`] = `"Map<number, \${string}0literalnull>"`;
+exports[`Translators > map 38`] = `"Map<number, \`\${string}0literalnull\`>"`;
 
-exports[`Translators > map 39`] = `"Map<number, \${string}0literalnull>"`;
+exports[`Translators > map 39`] = `"Map<number, \`\${string}0literalnull\`>"`;
 
 exports[`Translators > map 40`] = `"Map<string, Date>"`;
 
@@ -5902,7 +5902,7 @@ exports[`Translators > nonoptional 11`] = `"unknown"`;
 
 exports[`Translators > nonoptional 12`] = `"number"`;
 
-exports[`Translators > nonoptional 13`] = `"\${string}0literalnull"`;
+exports[`Translators > nonoptional 13`] = `"\`\${string}0literalnull\`"`;
 
 exports[`Translators > nonoptional 14`] = `"Date"`;
 
@@ -5936,7 +5936,7 @@ exports[`Translators > nullable 11`] = `"unknown | null"`;
 
 exports[`Translators > nullable 12`] = `"number | null"`;
 
-exports[`Translators > nullable 13`] = `"\${string}0literalnull | null"`;
+exports[`Translators > nullable 13`] = `"\`\${string}0literalnull\` | null"`;
 
 exports[`Translators > nullable 14`] = `"Date | null"`;
 
@@ -6128,17 +6128,17 @@ exports[`Translators > object 24`] = `
 
 exports[`Translators > object 25`] = `
 "{
-    test1: \${string}0literalnull;
+    test1: \`\${string}0literalnull\`;
 }"
 `;
 
 exports[`Translators > object 26`] = `
 "{
-    test1: \${string}0literalnull;
+    test1: \`\${string}0literalnull\`;
     test2: {
-        'test-quoted-key': \${string}0literalnull;
+        'test-quoted-key': \`\${string}0literalnull\`;
     };
-} & { [key: string]: \${string}0literalnull }"
+} & { [key: string]: \`\${string}0literalnull\` }"
 `;
 
 exports[`Translators > object 27`] = `
@@ -6210,7 +6210,7 @@ exports[`Translators > optional 11`] = `"unknown | undefined"`;
 
 exports[`Translators > optional 12`] = `"number | undefined"`;
 
-exports[`Translators > optional 13`] = `"\${string}0literalnull | undefined"`;
+exports[`Translators > optional 13`] = `"\`\${string}0literalnull\` | undefined"`;
 
 exports[`Translators > optional 14`] = `"Date | undefined"`;
 
@@ -6242,7 +6242,7 @@ exports[`Translators > prefault 11`] = `"unknown | undefined"`;
 
 exports[`Translators > prefault 12`] = `"number | undefined"`;
 
-exports[`Translators > prefault 13`] = `"\${string}0literalnull | undefined"`;
+exports[`Translators > prefault 13`] = `"\`\${string}0literalnull\` | undefined"`;
 
 exports[`Translators > prefault 14`] = `"Date | undefined"`;
 
@@ -6274,7 +6274,7 @@ exports[`Translators > promise 11`] = `"Promise<unknown>"`;
 
 exports[`Translators > promise 12`] = `"Promise<number>"`;
 
-exports[`Translators > promise 13`] = `"Promise<\${string}0literalnull>"`;
+exports[`Translators > promise 13`] = `"Promise<\`\${string}0literalnull\`>"`;
 
 exports[`Translators > promise 14`] = `"Promise<Date>"`;
 
@@ -6306,7 +6306,7 @@ exports[`Translators > readonly 11`] = `"unknown"`;
 
 exports[`Translators > readonly 12`] = `"number"`;
 
-exports[`Translators > readonly 13`] = `"\${string}0literalnull"`;
+exports[`Translators > readonly 13`] = `"\`\${string}0literalnull\`"`;
 
 exports[`Translators > readonly 14`] = `"Date"`;
 
@@ -6386,11 +6386,11 @@ exports[`Translators > record 35`] = `"Record<number, number>"`;
 
 exports[`Translators > record 36`] = `"Record<number, number>"`;
 
-exports[`Translators > record 37`] = `"Record<string, \${string}0literalnull>"`;
+exports[`Translators > record 37`] = `"Record<string, \`\${string}0literalnull\`>"`;
 
-exports[`Translators > record 38`] = `"Record<number, \${string}0literalnull>"`;
+exports[`Translators > record 38`] = `"Record<number, \`\${string}0literalnull\`>"`;
 
-exports[`Translators > record 39`] = `"Record<number, \${string}0literalnull>"`;
+exports[`Translators > record 39`] = `"Record<number, \`\${string}0literalnull\`>"`;
 
 exports[`Translators > record 40`] = `"Record<string, Date>"`;
 
@@ -6434,7 +6434,7 @@ exports[`Translators > set 11`] = `"Set<unknown>"`;
 
 exports[`Translators > set 12`] = `"Set<number>"`;
 
-exports[`Translators > set 13`] = `"Set<\${string}0literalnull>"`;
+exports[`Translators > set 13`] = `"Set<\`\${string}0literalnull\`>"`;
 
 exports[`Translators > set 14`] = `"Set<Date>"`;
 
@@ -6468,7 +6468,7 @@ exports[`Translators > success 11`] = `"unknown"`;
 
 exports[`Translators > success 12`] = `"number"`;
 
-exports[`Translators > success 13`] = `"\${string}0literalnull"`;
+exports[`Translators > success 13`] = `"\`\${string}0literalnull\`"`;
 
 exports[`Translators > success 14`] = `"Date"`;
 
@@ -6478,7 +6478,7 @@ exports[`Translators > success 16`] = `"number"`;
 
 exports[`Translators > symbol 1`] = `"symbol"`;
 
-exports[`Translators > template_literal 1`] = `"\${string}\${number}literal\${null}"`;
+exports[`Translators > template_literal 1`] = `"\`\${string}\${number}literal\${null}\`"`;
 
 exports[`Translators > tuple 1`] = `"[string, string, ...string[]]"`;
 
@@ -6528,9 +6528,9 @@ exports[`Translators > tuple 23`] = `"[string, number, ...string[]]"`;
 
 exports[`Translators > tuple 24`] = `"[number, ...string[]]"`;
 
-exports[`Translators > tuple 25`] = `"[string, \${string}0literalnull, ...string[]]"`;
+exports[`Translators > tuple 25`] = `"[string, \`\${string}0literalnull\`, ...string[]]"`;
 
-exports[`Translators > tuple 26`] = `"[\${string}0literalnull, ...string[]]"`;
+exports[`Translators > tuple 26`] = `"[\`\${string}0literalnull\`, ...string[]]"`;
 
 exports[`Translators > tuple 27`] = `"[string, Date, ...string[]]"`;
 
@@ -6594,9 +6594,9 @@ exports[`Translators > tuple 56`] = `"[number, number, ...number[]]"`;
 
 exports[`Translators > tuple 57`] = `"[number, ...number[]]"`;
 
-exports[`Translators > tuple 58`] = `"[number, \${string}0literalnull, ...number[]]"`;
+exports[`Translators > tuple 58`] = `"[number, \`\${string}0literalnull\`, ...number[]]"`;
 
-exports[`Translators > tuple 59`] = `"[\${string}0literalnull, ...number[]]"`;
+exports[`Translators > tuple 59`] = `"[\`\${string}0literalnull\`, ...number[]]"`;
 
 exports[`Translators > tuple 60`] = `"[number, Date, ...number[]]"`;
 
@@ -6660,9 +6660,9 @@ exports[`Translators > tuple 89`] = `"[boolean, number, ...boolean[]]"`;
 
 exports[`Translators > tuple 90`] = `"[number, ...boolean[]]"`;
 
-exports[`Translators > tuple 91`] = `"[boolean, \${string}0literalnull, ...boolean[]]"`;
+exports[`Translators > tuple 91`] = `"[boolean, \`\${string}0literalnull\`, ...boolean[]]"`;
 
-exports[`Translators > tuple 92`] = `"[\${string}0literalnull, ...boolean[]]"`;
+exports[`Translators > tuple 92`] = `"[\`\${string}0literalnull\`, ...boolean[]]"`;
 
 exports[`Translators > tuple 93`] = `"[boolean, Date, ...boolean[]]"`;
 
@@ -6726,9 +6726,9 @@ exports[`Translators > tuple 122`] = `"[bigint, number, ...bigint[]]"`;
 
 exports[`Translators > tuple 123`] = `"[number, ...bigint[]]"`;
 
-exports[`Translators > tuple 124`] = `"[bigint, \${string}0literalnull, ...bigint[]]"`;
+exports[`Translators > tuple 124`] = `"[bigint, \`\${string}0literalnull\`, ...bigint[]]"`;
 
-exports[`Translators > tuple 125`] = `"[\${string}0literalnull, ...bigint[]]"`;
+exports[`Translators > tuple 125`] = `"[\`\${string}0literalnull\`, ...bigint[]]"`;
 
 exports[`Translators > tuple 126`] = `"[bigint, Date, ...bigint[]]"`;
 
@@ -6792,9 +6792,9 @@ exports[`Translators > tuple 155`] = `"[symbol, number, ...symbol[]]"`;
 
 exports[`Translators > tuple 156`] = `"[number, ...symbol[]]"`;
 
-exports[`Translators > tuple 157`] = `"[symbol, \${string}0literalnull, ...symbol[]]"`;
+exports[`Translators > tuple 157`] = `"[symbol, \`\${string}0literalnull\`, ...symbol[]]"`;
 
-exports[`Translators > tuple 158`] = `"[\${string}0literalnull, ...symbol[]]"`;
+exports[`Translators > tuple 158`] = `"[\`\${string}0literalnull\`, ...symbol[]]"`;
 
 exports[`Translators > tuple 159`] = `"[symbol, Date, ...symbol[]]"`;
 
@@ -6858,9 +6858,9 @@ exports[`Translators > tuple 188`] = `"[null, number, ...null[]]"`;
 
 exports[`Translators > tuple 189`] = `"[number, ...null[]]"`;
 
-exports[`Translators > tuple 190`] = `"[null, \${string}0literalnull, ...null[]]"`;
+exports[`Translators > tuple 190`] = `"[null, \`\${string}0literalnull\`, ...null[]]"`;
 
-exports[`Translators > tuple 191`] = `"[\${string}0literalnull, ...null[]]"`;
+exports[`Translators > tuple 191`] = `"[\`\${string}0literalnull\`, ...null[]]"`;
 
 exports[`Translators > tuple 192`] = `"[null, Date, ...null[]]"`;
 
@@ -6924,9 +6924,9 @@ exports[`Translators > tuple 221`] = `"[undefined, number, ...undefined[]]"`;
 
 exports[`Translators > tuple 222`] = `"[number, ...undefined[]]"`;
 
-exports[`Translators > tuple 223`] = `"[undefined, \${string}0literalnull, ...undefined[]]"`;
+exports[`Translators > tuple 223`] = `"[undefined, \`\${string}0literalnull\`, ...undefined[]]"`;
 
-exports[`Translators > tuple 224`] = `"[\${string}0literalnull, ...undefined[]]"`;
+exports[`Translators > tuple 224`] = `"[\`\${string}0literalnull\`, ...undefined[]]"`;
 
 exports[`Translators > tuple 225`] = `"[undefined, Date, ...undefined[]]"`;
 
@@ -6990,9 +6990,9 @@ exports[`Translators > tuple 254`] = `"[void, number, ...void[]]"`;
 
 exports[`Translators > tuple 255`] = `"[number, ...void[]]"`;
 
-exports[`Translators > tuple 256`] = `"[void, \${string}0literalnull, ...void[]]"`;
+exports[`Translators > tuple 256`] = `"[void, \`\${string}0literalnull\`, ...void[]]"`;
 
-exports[`Translators > tuple 257`] = `"[\${string}0literalnull, ...void[]]"`;
+exports[`Translators > tuple 257`] = `"[\`\${string}0literalnull\`, ...void[]]"`;
 
 exports[`Translators > tuple 258`] = `"[void, Date, ...void[]]"`;
 
@@ -7056,9 +7056,9 @@ exports[`Translators > tuple 287`] = `"[never, number, ...never[]]"`;
 
 exports[`Translators > tuple 288`] = `"[number, ...never[]]"`;
 
-exports[`Translators > tuple 289`] = `"[never, \${string}0literalnull, ...never[]]"`;
+exports[`Translators > tuple 289`] = `"[never, \`\${string}0literalnull\`, ...never[]]"`;
 
-exports[`Translators > tuple 290`] = `"[\${string}0literalnull, ...never[]]"`;
+exports[`Translators > tuple 290`] = `"[\`\${string}0literalnull\`, ...never[]]"`;
 
 exports[`Translators > tuple 291`] = `"[never, Date, ...never[]]"`;
 
@@ -7122,9 +7122,9 @@ exports[`Translators > tuple 320`] = `"[any, number, ...any[]]"`;
 
 exports[`Translators > tuple 321`] = `"[number, ...any[]]"`;
 
-exports[`Translators > tuple 322`] = `"[any, \${string}0literalnull, ...any[]]"`;
+exports[`Translators > tuple 322`] = `"[any, \`\${string}0literalnull\`, ...any[]]"`;
 
-exports[`Translators > tuple 323`] = `"[\${string}0literalnull, ...any[]]"`;
+exports[`Translators > tuple 323`] = `"[\`\${string}0literalnull\`, ...any[]]"`;
 
 exports[`Translators > tuple 324`] = `"[any, Date, ...any[]]"`;
 
@@ -7188,9 +7188,9 @@ exports[`Translators > tuple 353`] = `"[unknown, number, ...unknown[]]"`;
 
 exports[`Translators > tuple 354`] = `"[number, ...unknown[]]"`;
 
-exports[`Translators > tuple 355`] = `"[unknown, \${string}0literalnull, ...unknown[]]"`;
+exports[`Translators > tuple 355`] = `"[unknown, \`\${string}0literalnull\`, ...unknown[]]"`;
 
-exports[`Translators > tuple 356`] = `"[\${string}0literalnull, ...unknown[]]"`;
+exports[`Translators > tuple 356`] = `"[\`\${string}0literalnull\`, ...unknown[]]"`;
 
 exports[`Translators > tuple 357`] = `"[unknown, Date, ...unknown[]]"`;
 
@@ -7254,9 +7254,9 @@ exports[`Translators > tuple 386`] = `"[number, number, ...number[]]"`;
 
 exports[`Translators > tuple 387`] = `"[number, ...number[]]"`;
 
-exports[`Translators > tuple 388`] = `"[number, \${string}0literalnull, ...number[]]"`;
+exports[`Translators > tuple 388`] = `"[number, \`\${string}0literalnull\`, ...number[]]"`;
 
-exports[`Translators > tuple 389`] = `"[\${string}0literalnull, ...number[]]"`;
+exports[`Translators > tuple 389`] = `"[\`\${string}0literalnull\`, ...number[]]"`;
 
 exports[`Translators > tuple 390`] = `"[number, Date, ...number[]]"`;
 
@@ -7272,71 +7272,71 @@ exports[`Translators > tuple 395`] = `"[number, ...number[]]"`;
 
 exports[`Translators > tuple 396`] = `"[number]"`;
 
-exports[`Translators > tuple 397`] = `"[\${string}0literalnull, string, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 397`] = `"[\`\${string}0literalnull\`, string, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 398`] = `"[string, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 398`] = `"[string, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 399`] = `"[\${string}0literalnull, number, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 399`] = `"[\`\${string}0literalnull\`, number, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 400`] = `"[number, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 400`] = `"[number, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 401`] = `"[\${string}0literalnull, boolean, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 401`] = `"[\`\${string}0literalnull\`, boolean, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 402`] = `"[boolean, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 402`] = `"[boolean, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 403`] = `"[\${string}0literalnull, bigint, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 403`] = `"[\`\${string}0literalnull\`, bigint, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 404`] = `"[bigint, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 404`] = `"[bigint, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 405`] = `"[\${string}0literalnull, symbol, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 405`] = `"[\`\${string}0literalnull\`, symbol, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 406`] = `"[symbol, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 406`] = `"[symbol, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 407`] = `"[\${string}0literalnull, null, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 407`] = `"[\`\${string}0literalnull\`, null, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 408`] = `"[null, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 408`] = `"[null, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 409`] = `"[\${string}0literalnull, undefined, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 409`] = `"[\`\${string}0literalnull\`, undefined, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 410`] = `"[undefined, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 410`] = `"[undefined, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 411`] = `"[\${string}0literalnull, void, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 411`] = `"[\`\${string}0literalnull\`, void, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 412`] = `"[void, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 412`] = `"[void, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 413`] = `"[\${string}0literalnull, never, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 413`] = `"[\`\${string}0literalnull\`, never, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 414`] = `"[never, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 414`] = `"[never, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 415`] = `"[\${string}0literalnull, any, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 415`] = `"[\`\${string}0literalnull\`, any, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 416`] = `"[any, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 416`] = `"[any, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 417`] = `"[\${string}0literalnull, unknown, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 417`] = `"[\`\${string}0literalnull\`, unknown, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 418`] = `"[unknown, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 418`] = `"[unknown, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 419`] = `"[\${string}0literalnull, number, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 419`] = `"[\`\${string}0literalnull\`, number, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 420`] = `"[number, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 420`] = `"[number, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 421`] = `"[\${string}0literalnull, \${string}0literalnull, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 421`] = `"[\`\${string}0literalnull\`, \`\${string}0literalnull\`, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 422`] = `"[\${string}0literalnull, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 422`] = `"[\`\${string}0literalnull\`, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 423`] = `"[\${string}0literalnull, Date, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 423`] = `"[\`\${string}0literalnull\`, Date, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 424`] = `"[Date, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 424`] = `"[Date, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 425`] = `"[\${string}0literalnull, File, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 425`] = `"[\`\${string}0literalnull\`, File, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 426`] = `"[File, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 426`] = `"[File, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 427`] = `"[\${string}0literalnull, number, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 427`] = `"[\`\${string}0literalnull\`, number, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 428`] = `"[number, ...\${string}0literalnull[]]"`;
+exports[`Translators > tuple 428`] = `"[number, ...\`\${string}0literalnull\`[]]"`;
 
-exports[`Translators > tuple 429`] = `"[\${string}0literalnull]"`;
+exports[`Translators > tuple 429`] = `"[\`\${string}0literalnull\`]"`;
 
 exports[`Translators > tuple 430`] = `"[Date, string, ...Date[]]"`;
 
@@ -7386,9 +7386,9 @@ exports[`Translators > tuple 452`] = `"[Date, number, ...Date[]]"`;
 
 exports[`Translators > tuple 453`] = `"[number, ...Date[]]"`;
 
-exports[`Translators > tuple 454`] = `"[Date, \${string}0literalnull, ...Date[]]"`;
+exports[`Translators > tuple 454`] = `"[Date, \`\${string}0literalnull\`, ...Date[]]"`;
 
-exports[`Translators > tuple 455`] = `"[\${string}0literalnull, ...Date[]]"`;
+exports[`Translators > tuple 455`] = `"[\`\${string}0literalnull\`, ...Date[]]"`;
 
 exports[`Translators > tuple 456`] = `"[Date, Date, ...Date[]]"`;
 
@@ -7452,9 +7452,9 @@ exports[`Translators > tuple 485`] = `"[File, number, ...File[]]"`;
 
 exports[`Translators > tuple 486`] = `"[number, ...File[]]"`;
 
-exports[`Translators > tuple 487`] = `"[File, \${string}0literalnull, ...File[]]"`;
+exports[`Translators > tuple 487`] = `"[File, \`\${string}0literalnull\`, ...File[]]"`;
 
-exports[`Translators > tuple 488`] = `"[\${string}0literalnull, ...File[]]"`;
+exports[`Translators > tuple 488`] = `"[\`\${string}0literalnull\`, ...File[]]"`;
 
 exports[`Translators > tuple 489`] = `"[File, Date, ...File[]]"`;
 
@@ -7518,9 +7518,9 @@ exports[`Translators > tuple 518`] = `"[number, number, ...number[]]"`;
 
 exports[`Translators > tuple 519`] = `"[number, ...number[]]"`;
 
-exports[`Translators > tuple 520`] = `"[number, \${string}0literalnull, ...number[]]"`;
+exports[`Translators > tuple 520`] = `"[number, \`\${string}0literalnull\`, ...number[]]"`;
 
-exports[`Translators > tuple 521`] = `"[\${string}0literalnull, ...number[]]"`;
+exports[`Translators > tuple 521`] = `"[\`\${string}0literalnull\`, ...number[]]"`;
 
 exports[`Translators > tuple 522`] = `"[number, Date, ...number[]]"`;
 
@@ -7564,7 +7564,7 @@ exports[`Translators > union 11`] = `"string | unknown"`;
 
 exports[`Translators > union 12`] = `"string | number"`;
 
-exports[`Translators > union 13`] = `"string | \${string}0literalnull"`;
+exports[`Translators > union 13`] = `"string | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 14`] = `"string | Date"`;
 
@@ -7598,7 +7598,7 @@ exports[`Translators > union 28`] = `"number | unknown"`;
 
 exports[`Translators > union 29`] = `"number | number"`;
 
-exports[`Translators > union 30`] = `"number | \${string}0literalnull"`;
+exports[`Translators > union 30`] = `"number | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 31`] = `"number | Date"`;
 
@@ -7632,7 +7632,7 @@ exports[`Translators > union 45`] = `"boolean | unknown"`;
 
 exports[`Translators > union 46`] = `"boolean | number"`;
 
-exports[`Translators > union 47`] = `"boolean | \${string}0literalnull"`;
+exports[`Translators > union 47`] = `"boolean | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 48`] = `"boolean | Date"`;
 
@@ -7666,7 +7666,7 @@ exports[`Translators > union 62`] = `"bigint | unknown"`;
 
 exports[`Translators > union 63`] = `"bigint | number"`;
 
-exports[`Translators > union 64`] = `"bigint | \${string}0literalnull"`;
+exports[`Translators > union 64`] = `"bigint | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 65`] = `"bigint | Date"`;
 
@@ -7700,7 +7700,7 @@ exports[`Translators > union 79`] = `"symbol | unknown"`;
 
 exports[`Translators > union 80`] = `"symbol | number"`;
 
-exports[`Translators > union 81`] = `"symbol | \${string}0literalnull"`;
+exports[`Translators > union 81`] = `"symbol | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 82`] = `"symbol | Date"`;
 
@@ -7734,7 +7734,7 @@ exports[`Translators > union 96`] = `"null | unknown"`;
 
 exports[`Translators > union 97`] = `"null | number"`;
 
-exports[`Translators > union 98`] = `"null | \${string}0literalnull"`;
+exports[`Translators > union 98`] = `"null | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 99`] = `"null | Date"`;
 
@@ -7768,7 +7768,7 @@ exports[`Translators > union 113`] = `"undefined | unknown"`;
 
 exports[`Translators > union 114`] = `"undefined | number"`;
 
-exports[`Translators > union 115`] = `"undefined | \${string}0literalnull"`;
+exports[`Translators > union 115`] = `"undefined | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 116`] = `"undefined | Date"`;
 
@@ -7802,7 +7802,7 @@ exports[`Translators > union 130`] = `"void | unknown"`;
 
 exports[`Translators > union 131`] = `"void | number"`;
 
-exports[`Translators > union 132`] = `"void | \${string}0literalnull"`;
+exports[`Translators > union 132`] = `"void | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 133`] = `"void | Date"`;
 
@@ -7836,7 +7836,7 @@ exports[`Translators > union 147`] = `"never | unknown"`;
 
 exports[`Translators > union 148`] = `"never | number"`;
 
-exports[`Translators > union 149`] = `"never | \${string}0literalnull"`;
+exports[`Translators > union 149`] = `"never | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 150`] = `"never | Date"`;
 
@@ -7870,7 +7870,7 @@ exports[`Translators > union 164`] = `"any | unknown"`;
 
 exports[`Translators > union 165`] = `"any | number"`;
 
-exports[`Translators > union 166`] = `"any | \${string}0literalnull"`;
+exports[`Translators > union 166`] = `"any | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 167`] = `"any | Date"`;
 
@@ -7904,7 +7904,7 @@ exports[`Translators > union 181`] = `"unknown | unknown"`;
 
 exports[`Translators > union 182`] = `"unknown | number"`;
 
-exports[`Translators > union 183`] = `"unknown | \${string}0literalnull"`;
+exports[`Translators > union 183`] = `"unknown | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 184`] = `"unknown | Date"`;
 
@@ -7938,7 +7938,7 @@ exports[`Translators > union 198`] = `"number | unknown"`;
 
 exports[`Translators > union 199`] = `"number | number"`;
 
-exports[`Translators > union 200`] = `"number | \${string}0literalnull"`;
+exports[`Translators > union 200`] = `"number | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 201`] = `"number | Date"`;
 
@@ -7948,39 +7948,39 @@ exports[`Translators > union 203`] = `"number | number"`;
 
 exports[`Translators > union 204`] = `"number"`;
 
-exports[`Translators > union 205`] = `"\${string}0literalnull | string"`;
+exports[`Translators > union 205`] = `"\`\${string}0literalnull\` | string"`;
 
-exports[`Translators > union 206`] = `"\${string}0literalnull | number"`;
+exports[`Translators > union 206`] = `"\`\${string}0literalnull\` | number"`;
 
-exports[`Translators > union 207`] = `"\${string}0literalnull | boolean"`;
+exports[`Translators > union 207`] = `"\`\${string}0literalnull\` | boolean"`;
 
-exports[`Translators > union 208`] = `"\${string}0literalnull | bigint"`;
+exports[`Translators > union 208`] = `"\`\${string}0literalnull\` | bigint"`;
 
-exports[`Translators > union 209`] = `"\${string}0literalnull | symbol"`;
+exports[`Translators > union 209`] = `"\`\${string}0literalnull\` | symbol"`;
 
-exports[`Translators > union 210`] = `"\${string}0literalnull | null"`;
+exports[`Translators > union 210`] = `"\`\${string}0literalnull\` | null"`;
 
-exports[`Translators > union 211`] = `"\${string}0literalnull | undefined"`;
+exports[`Translators > union 211`] = `"\`\${string}0literalnull\` | undefined"`;
 
-exports[`Translators > union 212`] = `"\${string}0literalnull | void"`;
+exports[`Translators > union 212`] = `"\`\${string}0literalnull\` | void"`;
 
-exports[`Translators > union 213`] = `"\${string}0literalnull | never"`;
+exports[`Translators > union 213`] = `"\`\${string}0literalnull\` | never"`;
 
-exports[`Translators > union 214`] = `"\${string}0literalnull | any"`;
+exports[`Translators > union 214`] = `"\`\${string}0literalnull\` | any"`;
 
-exports[`Translators > union 215`] = `"\${string}0literalnull | unknown"`;
+exports[`Translators > union 215`] = `"\`\${string}0literalnull\` | unknown"`;
 
-exports[`Translators > union 216`] = `"\${string}0literalnull | number"`;
+exports[`Translators > union 216`] = `"\`\${string}0literalnull\` | number"`;
 
-exports[`Translators > union 217`] = `"\${string}0literalnull | \${string}0literalnull"`;
+exports[`Translators > union 217`] = `"\`\${string}0literalnull\` | \`\${string}0literalnull\`"`;
 
-exports[`Translators > union 218`] = `"\${string}0literalnull | Date"`;
+exports[`Translators > union 218`] = `"\`\${string}0literalnull\` | Date"`;
 
-exports[`Translators > union 219`] = `"\${string}0literalnull | File"`;
+exports[`Translators > union 219`] = `"\`\${string}0literalnull\` | File"`;
 
-exports[`Translators > union 220`] = `"\${string}0literalnull | number"`;
+exports[`Translators > union 220`] = `"\`\${string}0literalnull\` | number"`;
 
-exports[`Translators > union 221`] = `"\${string}0literalnull"`;
+exports[`Translators > union 221`] = `"\`\${string}0literalnull\`"`;
 
 exports[`Translators > union 222`] = `"Date | string"`;
 
@@ -8006,7 +8006,7 @@ exports[`Translators > union 232`] = `"Date | unknown"`;
 
 exports[`Translators > union 233`] = `"Date | number"`;
 
-exports[`Translators > union 234`] = `"Date | \${string}0literalnull"`;
+exports[`Translators > union 234`] = `"Date | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 235`] = `"Date | Date"`;
 
@@ -8040,7 +8040,7 @@ exports[`Translators > union 249`] = `"File | unknown"`;
 
 exports[`Translators > union 250`] = `"File | number"`;
 
-exports[`Translators > union 251`] = `"File | \${string}0literalnull"`;
+exports[`Translators > union 251`] = `"File | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 252`] = `"File | Date"`;
 
@@ -8074,7 +8074,7 @@ exports[`Translators > union 266`] = `"number | unknown"`;
 
 exports[`Translators > union 267`] = `"number | number"`;
 
-exports[`Translators > union 268`] = `"number | \${string}0literalnull"`;
+exports[`Translators > union 268`] = `"number | \`\${string}0literalnull\`"`;
 
 exports[`Translators > union 269`] = `"number | Date"`;
 

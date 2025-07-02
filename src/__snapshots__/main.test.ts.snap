@@ -38,9 +38,7 @@ exports[`Main test > Full scale test 1`] = `
         object: {
             object: {
                 object: {
-                    object: {
-                    
-                    };
+                    object: {};
                     notEmpty: {
                         string: string;
                     };

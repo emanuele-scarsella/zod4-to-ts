@@ -6,6 +6,7 @@ import { translators } from './translators';
 function TsDefinitionToString(definition: ObjectDefinition | string): string {
     if (typeof definition === 'string') return definition;
     const result = Object.entries(definition).map(([key, value]) => TsEntryToString(key, value));
+    if (result.length === 0) return '{}';
     return `{\n${result.join('\n')}\n}`;
 }
 

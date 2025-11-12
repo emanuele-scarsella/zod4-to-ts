@@ -202,7 +202,10 @@ describe('Translators', () => {
             }
             expect(zodToTs(z.union([type]))).matchSnapshot();
         }
-        expect(zodToTs(z.union([]))).matchSnapshot();
+        // NOTE:
+        // Up until zod@3.25.76 it was possible to create an empty union and zodToTs handled this case.
+        // Starting from zod@4.0.0 this is no longer the case and zod.union throws an error when called with an empty array.
+        // expect(zodToTs(z.union([]))).matchSnapshot();
     });
     // enum
     test('enum', async () => {

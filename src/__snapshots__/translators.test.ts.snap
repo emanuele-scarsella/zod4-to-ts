@@ -8084,8 +8084,6 @@ exports[`Translators > union 271`] = `"number | number"`;
 
 exports[`Translators > union 272`] = `"number"`;
 
-exports[`Translators > union 273`] = `""`;
-
 exports[`Translators > unknown 1`] = `"unknown"`;
 
 exports[`Translators > void 1`] = `"void"`;

@@ -18,7 +18,7 @@ export type ZodOptimisticType = ZodType & {
         options: ZodType[];
         rest?: ZodType;
         entries: Record<string, string>;
-        values: string[];
+        values: (string | number | bigint | boolean)[];
         left: ZodType;
         right: ZodType;
         parts: (ZodType | string | number | bigint | boolean | null | undefined)[];

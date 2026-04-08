@@ -217,6 +217,12 @@ describe('Translators', () => {
     test('literal', async () => {
         const randomString = Math.random().toString(36).substring(2, 15);
         expect(zodToTs(z.literal(randomString))).toBe(`'${randomString.replace(/'/g, "\\'")}'`);
+        const randomNumber = Math.floor(Math.random() * 100);
+        expect(zodToTs(z.literal(randomNumber))).toBe(`${randomNumber}`);
+        const randomBigInt = BigInt(Math.floor(Math.random() * 100));
+        expect(zodToTs(z.literal(randomBigInt))).toBe(`${randomBigInt}`);
+        expect(zodToTs(z.literal(true))).toBe('true');
+        expect(zodToTs(z.literal(false))).toBe('false');
     });
     // intersection
     test('intersection', async () => {

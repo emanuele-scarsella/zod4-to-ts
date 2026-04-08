@@ -55,8 +55,9 @@ export const translators = {
      */
 };
 
-function sanitizeLiteral(literal: string) {
-    return `'${literal.replace(/'/g, "\\'")}'`;
+function sanitizeLiteral(literal: string | number | bigint | boolean) {
+    if (typeof literal === 'string') return `'${literal.replace(/'/g, "\\'")}'`;
+    return `${literal}`;
 }
 
 function translateTemplatePart(part: string | number | bigint | boolean | ZodType | null | undefined) {
